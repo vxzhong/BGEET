@@ -16,3 +16,11 @@
 
 1. 先在mod/mods.toml模仿已有的mod定义，支持两种下载方式：wget和git，执行download.py下载
 2. 在mod/install_order.txt里添加组件，执行install.py安装
+
+## 说明
+
+我的安装顺序bug众多，推荐直接去[博德之门贴吧](http://c.tieba.baidu.com/p/9085661589)下载[刘酒](https://github.com/Lzw104522773)的整合版，BUG少、稳定。
+
+## 感谢
+
+感谢[刘酒](https://github.com/Lzw104522773)、[MephistoSatanDevil](https://github.com/MephistoSatanDevil)等人的辛苦付出，让我们能玩到如此多的mod。
