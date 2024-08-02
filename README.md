@@ -23,4 +23,4 @@
 
 ## 感谢
 
-感谢[刘酒](https://github.com/Lzw104522773)、[MephistoSatanDevil](https://github.com/MephistoSatanDevil)等人的辛苦付出，让我们能玩到如此多的mod。
+感谢[刘酒](https://github.com/Lzw104522773)、[MephistoSatanDevil](https://github.com/MephistoSatanDevil)等人的辛苦付出，汉化了如此多的mod，让我们重回费伦大陆。
