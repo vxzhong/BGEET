@@ -748,8 +748,8 @@ tra.CN = 8
 name = "SwordCoastStratagems"
 description = "Sword Coast Stratagems"
 down = "https://github.com/Gibberlings3/SwordCoastStratagems.git"
-version = "5e97f7351300f97dae1860dcee471b9c8666bb19"
-tra.CN = 8
+version = "fb8078747146fe6eca33714b1750f16c941a0f87"
+# tra.CN = 8
 
 [song_and_silence]
 name = "SongAndSilence"

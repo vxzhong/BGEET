@@ -19,9 +19,10 @@ from utils import install_mod, uninstall_mod, unzip
 def extract_bgt_zip(filepath):
     if os.path.exists(install_dir):
         print(f"目录 '{install_dir}' 已存在，跳过解压")
-        return
+        return False
 
     unzip(filepath, install_dir)
+    return True
 
 
 def parse_mods_toml(toml_path):
@@ -63,6 +64,29 @@ def parse_install_order(toml_config, installed, order_file):
                 # 已经安装
                 print(f"模组 {mod_name}:{component} 已安装，跳过")
                 continue
+
+            if installed_key == "stratagems_1500":
+                shutil.copy(
+                    os.path.join(install_dir, "override", "bgee.lua"),
+                    os.path.join(install_dir, "override", "bgee.lua.1500"),
+                )
+                if installed.get("stratagems_1510"):
+                    # 恢复 1500 之前的bgee.lua，因为 1510或者1500的rebuild_spells只能调用一次
+                    shutil.copy(
+                        os.path.join(install_dir, "override", "bgee.lua.1510"),
+                        os.path.join(install_dir, "override", "bgee.lua"),
+                    )
+
+            if installed_key == "stratagems_1510":
+                shutil.copy(
+                    os.path.join(install_dir, "override", "bgee.lua"),
+                    os.path.join(install_dir, "override", "bgee.lua.1510"),
+                )
+                if installed.get("stratagems_1500"):
+                    shutil.copy(
+                        os.path.join(install_dir, "override", "bgee.lua.1500"),
+                        os.path.join(install_dir, "override", "bgee.lua"),
+                    )
 
             if mod_name.lower() == "eet_gui" or mod_name.lower() == "eet_end":
                 if install:
@@ -112,7 +136,7 @@ def uninstall_mods_order(
     if all:
         mod_names = list(toml_config.keys())
         mod_names.reverse()
-        mod_names.append("EET_gui")
+        # mod_names.append("EET_end")
     for mod_name in mod_names:
         uninstall_mod(install_dir, mod_name, mod_component)
         if mod_component:
@@ -126,7 +150,7 @@ def uninstall_mods_order(
                     installed.pop(i)
 
 
-extract_bgt_zip(bgt_path)
+first = extract_bgt_zip(bgt_path)
 toml_config = parse_mods_toml(mods_toml_path)
 installed_json_path = os.path.join(install_dir, "installed.json")
 try:
@@ -134,6 +158,22 @@ try:
         installed = json.load(f)
 except FileNotFoundError:
     installed = {}
+
+if first:
+    uninstall_mods_order(toml_config, installed, mod_name="EET_end")
+    # rename bgee.lua
+    if os.path.exists(os.path.join(install_dir, "override", "BGEE.LUA")):
+        os.rename(
+            os.path.join(install_dir, "override", "BGEE.LUA"),
+            os.path.join(install_dir, "override", "bgee.lua"),
+        )
+        # copy backup bgee.lua
+        if os.path.exists(os.path.join(install_dir, "override", "bgee.lua")):
+            shutil.copy(
+                os.path.join(install_dir, "override", "bgee.lua"),
+                os.path.join(install_dir, "override", "bgee.lua.bak"),
+            )
+
 
 try:
     if len(sys.argv) > 1:

@@ -1,4 +1,5 @@
 STD;DarkHorizons;0;03;0001;
+STD;DarkHorizons;0;03;0001;
 STD;BP_in_BG;100;03;0001;
 STD;EEex;0;01;1111;
 STD;EEex;1;01;0000;
@@ -6,7 +7,8 @@ STD;EEex;2;01;1111;
 STD;EEex;3;01;1111;
 STD;EEex;4;01;1111;
 STD;EEex;5;01;1111;
-STD;EEex;6;01;1111;
+#Timer module - Show contingencies，关掉，一直出现
+STD;EEex;6;01;0000;
 STD;EEex;7;01;1111;
 STD;EEex;8;01;1111;
 STD;EEex;9;01;0000;
@@ -66,7 +68,8 @@ STD;ntotsc;10;03;0001;
 STD;ntotsc;11;03;0001;
 STD;ntotsc;12;03;0001;
 STD;ntotsc;14;03;0001;
-STD;ntotsc;15;03;0001;
+#法术卷轴 -> 修订版本（6级法术）
+STD;ntotsc;15;03;0000;
 STD;bgqe;0;03;1111;
 STD;bgqe;1;03;1111;
 STD;bgqe;2;03;1111;
@@ -118,6 +121,7 @@ STD;Ascension;1300;15;0011;
 STD;Ascension;1400;15;0011;
 STD;Ascension;1500;15;0011;
 STD;Ascension;2000;21;1111;
+#颠峰之战肖像：巴萨札
 STD;Ascension;2100;21;0000;
 STD;Ascension;2200;14;0111;
 STD;Ascension;2300;21;1111;
@@ -356,7 +360,8 @@ STD;wildmage;5;16;0001;
 STD;RR;7;17;1111;
 STD;RR;8;17;1111;
 STD;iwdification;60;17;0001;
-STD;iwdification;140;17;0001;
+#敌人装备随机化 -> 添加高质量物品
+STD;iwdification;140;17;0000;
 STD;stratagems;1500;16;0001;
 STD;stratagems;1510;16;0001;
 STD;stratagems;1520;16;0001;
@@ -370,11 +375,11 @@ STD;iwd2_eet;0;10;0001;
 STD;NWNForBG;0;10;0001;
 STD;NWNForBG;10;10;0001;
 STD;NWNForBG;20;10;0001;
-#STD;A7-TotLM-BG2EE;0;09;0111;
-#STD;A7-TotLM-BG2EE;20;09;0111;
-#STD;A7-TotLM-BG2EE;31;09;0111;
+STD;A7-TotLM-BG2EE;0;09;0111;
+STD;A7-TotLM-BG2EE;20;09;0111;
+STD;A7-TotLM-BG2EE;31;09;0111;
 #允许在开始冒险前与霍巴进行交易
-#STD;A7-TotLM-BG2EE;40;09;0000;
+STD;A7-TotLM-BG2EE;40;09;0000;
 STD;cdtweaks;70;16;0111;
 STD;cdtweaks;2250;16;1111;
 STD;cdtweaks;2260;16;1000;
@@ -420,6 +425,16 @@ STD;RR;5;19;1111;
 #吟游诗人法术升级列表修订
 STD;RR;6;16;0000;
 STD;wsr;100;19;1111;
+STD;FairyLandExplorer;0;19;1111;
+STD;ArcaneCaster;0;19;1111;
+STD;SoulLight;0;19;1111;
+STD;NatureWizard;0;19;1111;
+STD;FariryLandSor;0;19;1111;
+STD;XiuDao;0;19;1111;
+STD;ContemplativeFavoredSoul;0;19;1111;
+STD;Voyagers;0;19;1111;
+STD;PhantomAssassin;0;19;1111;
+STD;FairyLandRanger;0;19;1111;
 STD;improvedmonk;1;19;1111;
 STD;d2ama;0;19;1111;
 STD;d2asn;0;19;1111;
@@ -433,22 +448,13 @@ STD;d2sor;0;19;1111;
 STD;d2item;0;19;1111;
 #允许暗黑2野蛮人单手使用双手剑
 STD;d2bar;2;19;0001;
-STD;FairyLandExplorer;0;19;1111;
-STD;ArcaneCaster;0;19;1111;
-STD;SoulLight;0;19;1111;
-STD;NatureWizard;0;19;1111;
-STD;FariryLandSor;0;19;1111;
-STD;XiuDao;0;19;1111;
-STD;ContemplativeFavoredSoul;0;19;1111;
-STD;Voyagers;0;19;1111;
-STD;PhantomAssassin;0;19;1111;
-STD;FairyLandRanger;0;19;1111;
 STD;cdtweaks;10;21;0001;
 STD;cdtweaks;60;16;1111;
 #去除装备在人物头像上添加的图标
-STD;cdtweaks;90;16;0000;
+STD;cdtweaks;90;16;0001;
 STD;cdtweaks;100;21;0111;
 STD;cdtweaks;110;17;1111;
+#对话时自动暂停游戏
 STD;cdtweaks;130;20;1111;
 STD;cdtweaks;140;21;1111;
 STD;cdtweaks;150;17;1111;
@@ -462,7 +468,7 @@ STD;cdtweaks;191;16;0000;
 STD;cdtweaks;200;21;0011;
 STD;cdtweaks;2010;16;1111;
 #辅助功能的白色法术图标轮廓
-STD;cdtweaks;240;16;0000;
+STD;cdtweaks;240;16;0001;
 STD;cdtweaks;1010;16;1111;
 STD;cdtweaks;1020;16;1111;
 STD;cdtweaks;1030;16;0001;
@@ -733,11 +739,13 @@ STD;subrace;100;16;0111;
 STD;wsr;200;19;1111;
 #法师杀手道具限制修订 -> 适中的改动
 STD;wsr;302;19;0001;
-STD;wsr;999;19;1111;
+#法师杀手宗派修订使用BG2风格的图标
+STD;wsr;999;19;0000;
 STD;RelieveWizardSlayer;0;19;1111;
 STD;RR;11;15;0011;
 STD;RR;12;15;0011;
-STD;RR;999;21;1111;
+#BG2风格的RR图标
+STD;RR;999;21;0000;
 STD;aTweaks;100;16;1111;
 STD;aTweaks;101;16;1111;
 #将灵锤改为远程武器
@@ -810,7 +818,8 @@ STD;aTweaks;315;16;1111;
 #稍微增加容器的容量 -> 将容量值设为 999（推荐）
 STD;aTweaks;500;16;0000;
 STD;aTweaks;510;16;1111;
-STD;aTweaks;999;16;1111;
+#让 aTweaks 使用博德之门2风格的图标
+STD;aTweaks;999;16;0000;
 #总经验值上限 -> 禁用
 STD;EET_Tweaks;2002;16;0000;
 #杀死生物的经验值 -> 降低到75%
