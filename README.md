@@ -21,6 +21,8 @@
 
 我的安装顺序bug众多，推荐直接去[博德之门贴吧](http://c.tieba.baidu.com/p/9085661589)下载[刘酒](https://github.com/Lzw104522773)的整合版，BUG少、稳定。
 
+log/WeiDU0517.log, log/WeiDU0605.txt是[刘酒](https://github.com/Lzw104522773)整合的版本的log。
+
 ## 感谢
 
 感谢[刘酒](https://github.com/Lzw104522773)、[MephistoSatanDevil](https://github.com/MephistoSatanDevil)等人的辛苦付出，汉化了如此多的mod，让我们重回费伦大陆。

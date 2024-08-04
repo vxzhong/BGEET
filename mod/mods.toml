@@ -1,7 +1,7 @@
 [DarkHorizons]
 name = "DarkHorizons"
 down = "https://github.com/The-Gate-Project/DarkHorizons.git"
-version = "e0ee01b754d5db0b20e3b69716d8a44799866ef8"
+version = "4c4caf21ad1620db20db16ba8f438de696c0b177"
 tra.CN = 7
 
 [BP_in_BG]
@@ -288,7 +288,7 @@ tra.CN = 5
 [BloodiedStingsOfBarovia]
 name = "BloodiedStingsOfBarovia"
 description = "巴洛维亚的血腥骗局"
-down = "hhttps://downloads.weaselmods.net/download/the-bloodied-stings-of-barovia/?wpdmdl=711"
+down = "https://downloads.weaselmods.net/download/the-bloodied-stings-of-barovia/?wpdmdl=711"
 version = "2.2"
 save = "BloodiedStingsOfBarovia v2.2.zip"
 tra.CN = 1
@@ -366,7 +366,7 @@ tra.CN = 1
 name = "TangledIsle"
 description = "缠绕橡树岛：阿斯卡特拉的新地区"
 down = "https://downloads.weaselmods.net/download/tangled-oak-isle/?wpdmdl=317"
-save = "SouthernEdge v5.1.zip"
+save = "TangledIsle v4.3.zip"
 version = "4.3"
 tra.CN = 2
 
@@ -420,8 +420,8 @@ tra.CN = 1
 name = "JuniperAndTheStoneLeech"
 description = "恐怖故事：杜松与石水蛭"
 down = "https://downloads.weaselmods.net/download/juniper-and-the-stone-leech/?wpdmdl=683"
-save = "JuniperAndTheStoneLeech v1.5.zip"
-version = "1.5"
+save = "JuniperAndTheStoneLeech v1.7.zip"
+version = "1.7"
 tra.CN = 1
 
 [SotSC]
@@ -642,7 +642,7 @@ tra.CN = 6
 name = "A7-GolemConstruction"
 description = "A mod for BG:EE and BG2:EE that allows spellcasters to build their own golems"
 down = "https://github.com/Argent77/A7-GolemConstruction.git"
-version = "0f2867d5a65083fe3e0543bf85b42c2b07fa5c13"
+version = "9a9e2e36eeab1717c05745d32239c37afe844409"
 tra.CN = 6
 
 [A7-MagicStore]
@@ -679,7 +679,7 @@ tra.CN = 4
 name = "CowledMenace"
 description = "蒙面法师的威胁"
 down = "https://github.com/Gibberlings3/CowledMenace.git" # fork
-version = "c59d016d3d9310bc5217fa2529678c4c2acd761c"
+version = "72ccd67bbaaa7f0754c608a1c5ed4a3cbe539f4d"
 tra.CN = 2
 
 [wildmage]
@@ -761,6 +761,7 @@ tra.CN = 6
 [tactics-remix]
 name = "Tactics-Remix"
 description = "战术"
+link = "https://www.morpheus-mart.com/tactics-remix"
 save = "Tactics-Remix.zip"
 version = "0.8-beta"
 tra.CN = 2

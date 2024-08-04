@@ -740,12 +740,12 @@ STD;wsr;200;19;1111;
 #法师杀手道具限制修订 -> 适中的改动
 STD;wsr;302;19;0001;
 #法师杀手宗派修订使用BG2风格的图标
-STD;wsr;999;19;0000;
+STD;wsr;999;19;1111;
 STD;RelieveWizardSlayer;0;19;1111;
 STD;RR;11;15;0011;
 STD;RR;12;15;0011;
 #BG2风格的RR图标
-STD;RR;999;21;0000;
+STD;RR;999;21;1111;
 STD;aTweaks;100;16;1111;
 STD;aTweaks;101;16;1111;
 #将灵锤改为远程武器
@@ -819,7 +819,7 @@ STD;aTweaks;315;16;1111;
 STD;aTweaks;500;16;0000;
 STD;aTweaks;510;16;1111;
 #让 aTweaks 使用博德之门2风格的图标
-STD;aTweaks;999;16;0000;
+STD;aTweaks;999;16;1111;
 #总经验值上限 -> 禁用
 STD;EET_Tweaks;2002;16;0000;
 #杀死生物的经验值 -> 降低到75%
@@ -856,6 +856,7 @@ STD;HiddenGameplayOptions;34;20;1111;
 STD;HiddenGameplayOptions;35;20;1111;
 STD;HiddenGameplayOptions;36;20;1111;
 STD;HiddenGameplayOptions;37;20;1111;
+STD;HiddenGameplayOptions;38;20;1111;
 STD;HiddenGameplayOptions;39;20;1111;
 STD;HiddenGameplayOptions;103;20;1111;
 STD;HiddenGameplayOptions;200;20;1111;

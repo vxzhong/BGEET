@@ -7,6 +7,7 @@ import tomllib
 
 from env import (
     bgt_path,
+    current_directory,
     downloads_dir,
     install_dir,
     install_order_file_path,
@@ -174,10 +175,15 @@ if first:
                 os.path.join(install_dir, "override", "bgee.lua.bak"),
             )
 
-
 try:
     if len(sys.argv) > 1:
-        if sys.argv[1] == "ua":
+        if sys.argv[1] == "p":
+            # patch ZOMBIEW.CRE, 修复僵尸农场不能完成任务的问题
+            shutil.copy(
+                os.path.join(current_directory, "patch", "ZOMBIEW.CRE"),
+                os.path.join(install_dir, "override", "ZOMBIEW.CRE"),
+            )
+        elif sys.argv[1] == "ua":
             uninstall_mods_order(toml_config, installed, all=True)
         elif sys.argv[1] == "u":
             uninstall_mods_order(toml_config, installed, all=False)
