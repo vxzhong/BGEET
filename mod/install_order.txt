@@ -1,5 +1,18 @@
+#STD;soa;0;03;0001;
 STD;DarkHorizons;0;03;0001;
-STD;DarkHorizons;0;03;0001;
+STD;drizztsaga;0;03;0001;
+#崔斯特推迟到完成杜拉格塔之后再出现
+STD;drizztsaga;3;03;0000;
+STD;drizztsaga;4;03;0001;
+STD;drizztsaga;5;03;0001;
+STD;drizztsaga;6;03;0001;
+STD;TDDz;0;09;0001;
+STD;TDDz;1;09;0000;
+STD;TDDz;2;09;0000;
+STD;TDDz;3;09;0000;
+STD;TDDz;4;09;0000;
+STD;TDDz;5;09;0000;
+STD;TDDz;6;09;0000;
 STD;BP_in_BG;100;03;0001;
 STD;EEex;0;01;1111;
 STD;EEex;1;01;0000;
@@ -163,6 +176,7 @@ STD;ub;24;14;0000;
 STD;ub;25;10;1111;
 STD;Vaulteet;0;03;0001;
 STD;Vaulteet;1;03;0001;
+STD;BonehillEET;0;03;0001;
 STD;arestorationp;0;16;1111;
 STD;arestorationp;1;16;1111;
 STD;arestorationp;2;16;1111;
@@ -170,6 +184,7 @@ STD;arestorationp;3;16;1111;
 STD;arestorationp;4;16;1111;
 STD;arestorationp;5;16;1111;
 STD;arestorationp;6;16;1111;
+#随机遭遇战补全
 STD;arestorationp;7;16;0001;
 STD;arestorationp;8;16;1111;
 STD;arestorationp;11;16;1111;
@@ -295,8 +310,6 @@ STD;SkieCost;2;14;1111;
 STD;SkieCost;3;14;1111;
 STD;SkieCost;4;14;1111;
 STD;SkieCost;5;14;1111;
-STD;SkieCost;5;14;1111;
-STD;SkieCost;5;14;1111;
 STD;amber;0;14;0011;
 STD;amber;1;14;0011;
 STD;BanterPack;0;14;1111;
@@ -311,6 +324,7 @@ STD;thecalling;20;03;0001;
 STD;thecalling;40;17;0001;
 STD;slandor;0;11;1111;
 STD;dc;0;10;0001;
+STD;gorgon;0;10;0001;
 STD;alternatives;0;10;1111;
 STD;fadingpromises;0;10;1111;
 STD;BridgesBlock;0;10;0001;
@@ -451,7 +465,7 @@ STD;d2bar;2;19;0001;
 STD;cdtweaks;10;21;0001;
 STD;cdtweaks;60;16;1111;
 #去除装备在人物头像上添加的图标
-STD;cdtweaks;90;16;0001;
+STD;cdtweaks;90;16;0000;
 STD;cdtweaks;100;21;0111;
 STD;cdtweaks;110;17;1111;
 #对话时自动暂停游戏
@@ -463,7 +477,7 @@ STD;cdtweaks;160;16;0000;
 STD;cdtweaks;170;17;1111;
 STD;cdtweaks;181;17;1111;
 #使用人物配色取代物品配色
-STD;cdtweaks;191;16;0000;
+STD;cdtweaks;191;16;0001;
 #移除装备中令人厌烦的视觉效果
 STD;cdtweaks;200;21;0011;
 STD;cdtweaks;2010;16;1111;
@@ -595,6 +609,7 @@ STD;cdtweaks;3190;16;0001;
 STD;cdtweaks;3191;16;0000;
 STD;cdtweaks;3200;17;1111;
 STD;cdtweaks;3205;17;1111;
+STD;cdtweaks;3280;00;1111;
 STD;cdtweaks;3290;00;0001;
 STD;cdtweaks;3300;16;0001;
 STD;cdtweaks;3320;16;0001;
@@ -689,11 +704,11 @@ STD;stratagems;8170;15;0011;
 STD;stratagems;8180;15;0011;
 #前面的时间过长，下面的调整放这里，方便后面调整
 #移动或修改过强的魔法物品
-STD;stratagems;2900;17;0000;
+STD;stratagems;2900;17;0001;
 #将+1的箭支改换为普通的精良版本
 STD;stratagems;3010;17;0000;
 #恢复游戏原有的超级强效医疗药水
-STD;stratagems;3015;17;0000;
+STD;stratagems;3015;17;0001;
 #把多种+1的附魔武器替换为无附魔的精制武器 -> 精制武器不受铁矿危机的影响
 STD;stratagems;3021;17;0000;
 #减少商店中破魔箭的数量 -> 商店出售的破魔箭最大数量只有5支
@@ -704,13 +719,13 @@ STD;stratagems;3541;16;0000;
 STD;stratagems;4000;16;1111;
 STD;stratagems;4020;16;1111;
 #强化变形术
-STD;stratagems;4030;16;0000;
+STD;stratagems;4030;16;0001;
 #降低声望值的提升速度 -> 声望提升速度是原版的4093 -> 1/4, 4052 -> 1/3
-STD;stratagems;4093;16;0001;
+STD;stratagems;4052;16;0001;
 #盗贼将以五倍的水平分配技能点
-STD;stratagems;4115;16;0000;
+STD;stratagems;4115;16;0001;
 #修改了对死亡效果的处理，如解体、石化和监禁（被解体的队员可以复活；被监禁或石化的角色自动重新加入队伍；如果主角被石化或监禁，游戏不会结束）
-STD;stratagems;4130;16;0000;
+STD;stratagems;4130;16;0001;
 #修改后的旅馆房间：更贵，更有益
 STD;stratagems;4140;16;0001;
 #跳过烛堡的教程部分 -> 移除烛堡中的教程非玩家角色

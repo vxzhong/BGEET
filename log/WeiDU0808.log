@@ -1,0 +1,641 @@
+// Log of Currently Installed WeiDU Mods
+// The top of the file is the 'oldest' mod
+// ~TP2_File~ #language_number #component_number // [Subcomponent Name -> ] Component Name [ : Version]
+~EET/EET.TP2~ #7 #0 // EET核心组件（资源导入）: V13.4
+~DARKHORIZONS/SETUP-DARKHORIZONS.TP2~ #7 #0 // 黑暗地平线: 3.0
+~TDDZ/SETUP-TDDZ.TP2~ #7 #0 // 最黑暗的一天 - 核心: v1.7
+~BP_IN_BG/BP_IN_BG.TP2~ #2 #100 // 在BGEE/EET中添加访问“死斗黑坑”: 1.0
+~EEEX/EEEX.TP2~ #0 #0 // EEex: v0.10.2.1-alpha
+~EEEX/EEEX.TP2~ #0 #2 // Enable effect menu module - LShift-on-hover to view spells affecting creature: v0.10.2.1-alpha
+~EEEX/EEEX.TP2~ #0 #3 // Enable empty container module - Highlight empty containers in gray instead of cyan: v0.10.2.1-alpha
+~EEEX/EEEX.TP2~ #0 #4 // Enable timer module - Visual indicators for modal actions, contingencies, and spell/item cooldowns: v0.10.2.1-alpha
+~EEEX/EEEX.TP2~ #0 #5 // Timer module - Show modal actions (red bar): v0.10.2.1-alpha
+~EEEX/EEEX.TP2~ #0 #7 // Timer module - Show spell/item cooldowns (cyan bar): v0.10.2.1-alpha
+~EEEX/EEEX.TP2~ #0 #8 // Enable time step module - Advance 1 game tick on keypress: v0.10.2.1-alpha
+~EET_GUI/EET_GUI.TP2~ #7 #0 // EET GUI替代方案 -> 龙矛围攻
+~BUBB_SPELL_MENU_EXTENDED/BUBB_SPELL_MENU_EXTENDED.TP2~ #0 #0 // Bubb's Spell Menu Extended: v5.0.3
+~EEUITWEAKS/EEUITWEAKS.TP2~ #0 #1000 // Mods Options: 4.0.6
+~EEUITWEAKS/EEUITWEAKS.TP2~ #0 #1080 // Portrait Selectors -> lefreut's Portrait Picker: 4.0.6
+~EEUITWEAKS/EEUITWEAKS.TP2~ #0 #1070 // Faydark's Abilities Auto-Roller/GrimLefourbe's BG2 UI: 4.0.6
+~EEUITWEAKS/EEUITWEAKS.TP2~ #0 #1100 // Display max proficiency limits: 4.0.6
+~EEUITWEAKS/EEUITWEAKS.TP2~ #0 #2000 // Transparent Sidebars: 4.0.6
+~EEUITWEAKS/EEUITWEAKS.TP2~ #0 #2044 // lefreut's Better Level Up Indicators -> lefreut's Level Up Buttons: 4.0.6
+~EEUITWEAKS/EEUITWEAKS.TP2~ #0 #2900 // lefreut's Improved Record Screen: 4.0.6
+~EEUITWEAKS/EEUITWEAKS.TP2~ #0 #3000 // Leveling Progress Bars Tweaks: 4.0.6
+~EEUITWEAKS/EEUITWEAKS.TP2~ #0 #3010 // Leveling Progress Bars Options: 4.0.6
+~EEUITWEAKS/EEUITWEAKS.TP2~ #0 #3024 // Journal Fixes and Tweaks -> lefreut's Journal (quests collapsed by default): 4.0.6
+~EEUITWEAKS/EEUITWEAKS.TP2~ #0 #3051 // lefreut's Improved Inventory Screen -> Without Item Comparison: 4.0.6
+~SETUP-TGC1E.TP2~ #8 #0 // 暗灰帮三部曲第一部：烛光 BGT-WeiDU/EET/BG:EE 版本 v1.9 -> 普通版本: v1.9
+~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #8 #0 // 无尽的BG1：主要组件（必需）: 19
+~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #8 #1 // 给博德之门的英雄增添更多风味（包括PC在宫殿内的住所）: 19
+~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #8 #2 // 简短的公共英雄致敬: 19
+~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #8 #3 // 沙洛佛克的独特物品: 19
+~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #8 #4 // 沙洛佛克的剑: 19
+~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #8 #5 // 爱蒙和詹纳斯大公（爱蒙在宫殿内有住所）: 19
+~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #8 #6 // 伊尔坦公爵在宫殿内: 19
+~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #8 #7 // 最终战斗后的焰拳: 19
+~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #8 #8 // 伊尔明斯特露面 -> Jastey的版本: 19
+~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #8 #10 // 第一批难民来到博德之门: 19
+~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #8 #11 // 财务官欧菲利斯在宫殿地牢内: 19
+~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #8 #12 // 丹考德在盗贼公会评论沙洛佛克的死亡: 19
+~C#ENDLESSBG1/C#ENDLESSBG1.TP2~ #8 #13 // 在沙洛佛克死后跳过盗贼迷宫一次: 19
+~DSOTSC/DSOTSC.TP2~ #6 #0 // Dark Side of the Sword Coast (DSotSC): v4.2
+~DSOTSC/DSOTSC.TP2~ #6 #3 // More common encounters in vanilla areas: v4.2
+~DSOTSC/DSOTSC.TP2~ #6 #4 // Distribute DSotSC items also in vanilla content: v4.2
+~NTOTSC/NTOTSC.TP2~ #7 #0 // 北部剑湾: 5.0.0
+~NTOTSC/NTOTSC.TP2~ #7 #1 // 根据游戏难度减少怪物数量: 5.0.0
+~NTOTSC/NTOTSC.TP2~ #7 #2 // 侏儒克勒: 5.0.0
+~NTOTSC/NTOTSC.TP2~ #7 #3 // 林德林的幸运箭: 5.0.0
+~NTOTSC/NTOTSC.TP2~ #7 #5 // 派拉和盖德哈尔: 5.0.0
+~NTOTSC/NTOTSC.TP2~ #7 #7 // 威尔 奥哈拉 NPC: 5.0.0
+~NTOTSC/NTOTSC.TP2~ #7 #8 // 威尔·奥哈拉安装英语语音: 5.0.0
+~NTOTSC/NTOTSC.TP2~ #7 #9 // 战斗遭遇: 5.0.0
+~NTOTSC/NTOTSC.TP2~ #7 #10 // 增强的小恶魔: 5.0.0
+~NTOTSC/NTOTSC.TP2~ #7 #11 // 增强的希勃尔: 5.0.0
+~NTOTSC/NTOTSC.TP2~ #7 #12 // 增强的高特尔: 5.0.0
+~NTOTSC/NTOTSC.TP2~ #7 #14 // 减少萨满斗篷的数量 -> 不再掉落斗篷: 5.0.0
+~BGQE/SETUP-BGQE.TP2~ #7 #0 // 贝尔苟斯特的果冻怪: 27
+~BGQE/SETUP-BGQE.TP2~ #7 #1 // 贝尔苟斯特的家庭: 27
+~BGQE/SETUP-BGQE.TP2~ #7 #2 // 临时保姆与嘉年华的遭遇: 27
+~BGQE/SETUP-BGQE.TP2~ #7 #3 // 那西凯的怪物: 27
+~BGQE/SETUP-BGQE.TP2~ #7 #4 // 堕落的圣武士: 27
+~BGQE/SETUP-BGQE.TP2~ #7 #5 // 不朽的爱情: 27
+~BGQE/SETUP-BGQE.TP2~ #7 #6 // 陷入苦恋的半兽人: 27
+~BGQE/SETUP-BGQE.TP2~ #7 #7 // 意想不到的帮助: 27
+~BGQE/SETUP-BGQE.TP2~ #7 #8 // 许多只小爪子: 27
+~BGQE/SETUP-BGQE.TP2~ #7 #9 // 贝尔苟斯特神殿附近的醉鬼: 27
+~BGQE/SETUP-BGQE.TP2~ #7 #10 // 努波的温柔乡: 27
+~BGQE/SETUP-BGQE.TP2~ #7 #11 // 布雷吉的剑: 27
+~BGQE/SETUP-BGQE.TP2~ #7 #12 // 合法的海图来源: 27
+~BGQE/SETUP-BGQE.TP2~ #7 #13 // 女神大殿与贱后神殿的扩展: 27
+~BGQE/SETUP-BGQE.TP2~ #7 #14 // 一位担忧的农夫: 27
+~BGQE/SETUP-BGQE.TP2~ #7 #15 // 理由正当的尸体: 27
+~BGQE/SETUP-BGQE.TP2~ #7 #16 // 不用杀死水妖精就可以完成柯达的任务: 27
+~BG1NPC/BG1NPC.TP2~ #7 #0 // BG1 NPC 计划：必要组件: v32
+~BG1NPC/BG1NPC.TP2~ #7 #10 // BG1 NPC 计划：交谈、任务及插话: v32
+~BG1NPC/BG1NPC.TP2~ #7 #22 // BG1 NPC 计划：阿詹提斯罗曼史核心内容（青少年内容） -> 速度：恋爱对话最小间隔为真实时间30分钟: v32
+~BG1NPC/BG1NPC.TP2~ #7 #32 // BG1 NPC 计划：布朗温罗曼史核心内容（青少年内容） -> 速度：恋爱对话最小间隔为真实时间30分钟: v32
+~BG1NPC/BG1NPC.TP2~ #7 #42 // BG1 NPC 计划：科朗罗曼史核心内容（成人内容） -> 速度：恋爱对话最小间隔为真实时间30分钟: v32
+~BG1NPC/BG1NPC.TP2~ #7 #52 // BG1 NPC 计划：戴娜黑罗曼史核心内容（青少年内容） -> 速度：恋爱对话最小间隔为真实时间30分钟: v32
+~BG1NPC/BG1NPC.TP2~ #7 #62 // BG1 NPC 计划：莎儿-蒂尔关系核心内容（成人内容） -> 速度：恋爱对话最小间隔为真实时间30分钟: v32
+~BG1NPC/BG1NPC.TP2~ #7 #72 // BG1 NPC 计划：撒恩罗曼史核心内容（青少年内容） -> 速度：恋爱对话最小间隔为真实时间30分钟: v32
+~BG1NPC/BG1NPC.TP2~ #7 #80 // BG1 NPC 计划：女性罗曼史挑战，阿詹提斯 vs 撒恩 vs 科朗: v32
+~BG1NPC/BG1NPC.TP2~ #7 #90 // BG1 NPC 计划：可要求 NPC 前往旅馆等待: v32
+~BG1NPC/BG1NPC.TP2~ #7 #110 // BGEE插话时间修改 -> 标准插话时间: v32
+~BG1NPC/BG1NPC.TP2~ #7 #120 // BG1 NPC 计划：吟游诗人声望调整: v32
+~BG1NPC/BG1NPC.TP2~ #7 #130 // BG1 NPC 计划：沙洛佛克日记调整 -> SixofSpades 的扩展版沙洛佛克日记: v32
+~BG1NPC/BG1NPC.TP2~ #7 #150 // BG1 NPC 计划：齐冯使用“齐冯和黛芮安娜”的肖像: v32
+~BG1NPC/BG1NPC.TP2~ #7 #155 // BG1 NPC 计划：科朗使用“博德之门杀手”的肖像: v32
+~BG1NPC/BG1NPC.TP2~ #7 #240 // BG1 NPC 计划：齐冯的武器熟练度 -> 给矛加两点: v32
+~BG1NPC/BG1NPC.TP2~ #7 #160 // BG1 NPC 计划：在任务及对话中为无法加入的 NPC 添加肖像: v32
+~BG1NPC/BG1NPC.TP2~ #7 #200 // BG1 NPC 计划：玩家发起的对话: v32
+~AJANTISBG1/SETUP-AJANTISBG1.TP2~ #3 #0 // 阿詹提斯BG1扩展包: 20
+~AJANTISBG1/SETUP-AJANTISBG1.TP2~ #3 #1 // 为阿詹提斯家族盾牌安装BG:EE独有的BAM: 20
+~ASCENSION/ASCENSION.TP2~ #4 #0 // 重写巴尔王座的最终章: 2.0.28
+~ASCENSION/ASCENSION.TP2~ #4 #10 // 巴萨札可以被救赎: 2.0.28
+~ASCENSION/ASCENSION.TP2~ #4 #20 // 增强沙洛佛克与玩家的互动: 2.0.28
+~ASCENSION/ASCENSION.TP2~ #4 #30 // 增强爱蒙在巴尔王座中与玩家的互动: 2.0.28
+~ASCENSION/ASCENSION.TP2~ #4 #40 // 还原巴尔之子的能力: 2.0.28
+~ASCENSION/ASCENSION.TP2~ #4 #50 // 增强杀戮者的变形: 2.0.28
+~ASCENSION/ASCENSION.TP2~ #4 #61 // 扩展原版 Bioware NPC 的结局 -> Shawne 的原版 Bioware NPC 结局: 2.0.28
+~ASCENSION/ASCENSION.TP2~ #4 #1000 // 更强的阿巴济戈: 2.0.28
+~ASCENSION/ASCENSION.TP2~ #4 #1100 // 更强的巴萨札: 2.0.28
+~ASCENSION/ASCENSION.TP2~ #4 #1200 // 更强的狄摩高根: 2.0.28
+~ASCENSION/ASCENSION.TP2~ #4 #1300 // 更强的葛罗姆尼尔: 2.0.28
+~ASCENSION/ASCENSION.TP2~ #4 #1400 // 更强的伊菈赛菈: 2.0.28
+~ASCENSION/ASCENSION.TP2~ #4 #1500 // 更强的雅加苏拉: 2.0.28
+~ASCENSION/ASCENSION.TP2~ #4 #2000 // 巅峰之战肖像：芭荻: 2.0.28
+~ASCENSION/ASCENSION.TP2~ #4 #2200 // Shawne 的增强版 Beamdog NPC 结局: 2.0.28
+~ASCENSION/ASCENSION.TP2~ #4 #2300 // 为增强版提供更清晰的格罗姆尼尔与阿巴济戈头像: 2.0.28
+~ASCENSION/ASCENSION.TP2~ #4 #2400 // 稍微增强过场动画: 2.0.28
+~WHEELS/SETUP-WHEELS.TP2~ #2 #0 // 预言之轮: v8.5
+~SIRINESCALL/SETUP-SIRINESCALL.TP2~ #7 #0 // 海妖女的呼唤: v16.4
+~SIRINESCALL/SETUP-SIRINESCALL.TP2~ #7 #1 // 扩展的灯塔地区: v16.4
+~BGGO/BGGO.TP2~ #0 #0 // BGGO for EET, BGT, BGEE, BG2EE, ToB and Tutu: v3.1
+~THALAN/THALAN.TP2~ #7 #0 // 泰蓝提尔物品升级: v4.5.1
+~UB/SETUP-UB.TP2~ #7 #0 // 被诱拐的小布: v29
+~UB/SETUP-UB.TP2~ #7 #1 // 恢复苏娜·塞妮与瓦里格的关系: v29
+~UB/SETUP-UB.TP2~ #7 #2 // 卡拉和他许下的愿望: v29
+~UB/SETUP-UB.TP2~ #7 #3 // “猫和老鼠”（芭荻在禁魔监狱中追杀你）: v29
+~UB/SETUP-UB.TP2~ #7 #4 // 高杰·希尔达克与扩充的伊利希银任务: v29
+~UB/SETUP-UB.TP2~ #7 #5 // 派娜与灭蛛剑: v29
+~UB/SETUP-UB.TP2~ #7 #6 // 复原弯颈鹤旅店: v29
+~UB/SETUP-UB.TP2~ #7 #7 // 恢复遭遇战: v29
+~UB/SETUP-UB.TP2~ #7 #8 // 阿提密斯·恩崔立出现在芭荻巢穴: v29
+~UB/SETUP-UB.TP2~ #7 #9 // 修正“萨尔的造物”: v29
+~UB/SETUP-UB.TP2~ #7 #10 // 恢复地狱中艾瑞尼卡斯之战的喽罗: v29
+~UB/SETUP-UB.TP2~ #7 #12 // 物品恢复: v29
+~UB/SETUP-UB.TP2~ #7 #15 // NPC头像恢复: v29
+~UB/SETUP-UB.TP2~ #7 #17 // 正确的人物名称和特性: v29
+~UB/SETUP-UB.TP2~ #7 #18 // 少量对话恢复: v29
+~UB/SETUP-UB.TP2~ #7 #20 // 扩展ToB的物品描述: v29
+~UB/SETUP-UB.TP2~ #7 #21 // ToB附加修正: v29
+~UB/SETUP-UB.TP2~ #7 #25 // 艾克顿·巴西斯谋杀案 作者：Kulyok: v29
+~VAULTEET/SETUP-VAULTEET.TP2~ #6 #0 // 地窟: v8.3
+~VAULTEET/SETUP-VAULTEET.TP2~ #6 #1 // 物品可以升级: v8.3
+~BONEHILLEET/SETUP-BONEHILLEET.TP2~ #6 #0 // 埋骨丘的秘密v2.10 (需要BGT-Weidu或Tutu): v33
+~ARESTORATIONP/ARESTORATIONP.TP2~ #6 #0 // 区域补全(作者:Almateria. 汉化:c4_angel v8.0.2): v10.0
+~ARESTORATIONP/ARESTORATIONP.TP2~ #6 #1 // 生物及对话补全: v10.0
+~ARESTORATIONP/ARESTORATIONP.TP2~ #6 #2 // 声音补全: v10.0
+~ARESTORATIONP/ARESTORATIONP.TP2~ #6 #3 // 物品补全: v10.0
+~ARESTORATIONP/ARESTORATIONP.TP2~ #6 #4 // 许愿术条目补全: v10.0
+~ARESTORATIONP/ARESTORATIONP.TP2~ #6 #5 // 经验值细节补全: v10.0
+~ARESTORATIONP/ARESTORATIONP.TP2~ #6 #6 // 巫妖德瑞尔: v10.0
+~ARESTORATIONP/ARESTORATIONP.TP2~ #6 #7 // 随机遭遇战补全: v10.0
+~ARESTORATIONP/ARESTORATIONP.TP2~ #6 #8 // 细节补全: v10.0
+~ARESTORATIONP/ARESTORATIONP.TP2~ #6 #11 // 杀戮者梦境补全: v10.0
+~ARESTORATIONP/ARESTORATIONP.TP2~ #6 #12 // 杀戮者变身调整: v10.0
+~ARESTORATIONP/ARESTORATIONP.TP2~ #6 #13 // 渥金商场动画补全: v10.0
+~AC_QUEST/AC_QUEST.TP2~ #6 #0 // 一份报酬丰厚的工作: 5.2
+~AC_QUEST/AC_QUEST.TP2~ #6 #1 // 地精的盛宴: 5.2
+~AC_QUEST/AC_QUEST.TP2~ #6 #3 // “蹦蹦” -> 兼容性替代方案：乌格和“蹦蹦”在外部。: 5.2
+~AC_QUEST/AC_QUEST.TP2~ #6 #4 // 失踪的儿子: 5.2
+~AC_QUEST/AC_QUEST.TP2~ #6 #5 // 狼与人 -> 任务使用位于高篱堡附近的小屋。: 5.2
+~AC_QUEST/AC_QUEST.TP2~ #6 #7 // 伟大的卡尔里尼: 5.2
+~AC_QUEST/AC_QUEST.TP2~ #6 #8 // 为狂猿找一个家: 5.2
+~AC_QUEST/AC_QUEST.TP2~ #6 #9 // 狂热女粉丝: 5.2
+~AC_QUEST/AC_QUEST.TP2~ #6 #11 // 阿巴索的蛇人 -> 调整版本：任务可以在BG1中完成。: 5.2
+~C#SODBOABRI/C#SODBOABRI.TP2~ #7 #0 // 为巴里斯凯尔桥过场动画添加NPC反应: v7
+~C#SODBOABRI/C#SODBOABRI.TP2~ #7 #1 // 为原版巴里斯凯尔桥过场动画添加描述文本: v7
+~C#SODBOABRI/C#SODBOABRI.TP2~ #7 #2 // 为巴里斯凯尔桥过场动画添加不同选择: v7
+~C#SODBOABRI/C#SODBOABRI.TP2~ #7 #3 // 为大桥动画的选择添加属性变化: v7
+~C#SODTWEAKS/SETUP-C#SODTWEAKS.TP2~ #6 #1 // 结局独立于主角的回应: v13
+~C#SODTWEAKS/SETUP-C#SODTWEAKS.TP2~ #6 #3 // 无法错过的NPC与主角间的对话 -> 激活所有NPC与主角间的对话: v13
+~C#SODTWEAKS/SETUP-C#SODTWEAKS.TP2~ #6 #5 // 更多的对话选项，并防止对话出现死路: v13
+~C#SODTWEAKS/SETUP-C#SODTWEAKS.TP2~ #6 #12 // SoD结局：jastey的调整 -> 修改的完全版本: v13
+~C#SODTWEAKS/SETUP-C#SODTWEAKS.TP2~ #6 #20 // 可从龙矛堡关闭传送门（奥恩·白银始终活着）: v13
+~C#SODTWEAKS/SETUP-C#SODTWEAKS.TP2~ #6 #21 // 海夫南拿着龙矛金库的钥匙: v13
+~C#SB_SILBER/SETUP-C#SB_SILBER.TP2~ #8 #0 // ����¡֮Ѫ - ����֮��2���޸� by Gandalf the white: 15
+~TOD/TOD.TP2~ #8 #0 // 欺骗之塔: v4.0.8
+~TOD/TOD.TP2~ #8 #1 // 强化星界碎片守卫: v4.0.8
+~TOD/TOD.TP2~ #8 #2 // 遭遇乌斯崔恩: v4.0.8
+~A7-TESTYOURMETTLE/A7-TESTYOURMETTLE.TP2~ #4 #0 // 勇气挑战！: 1.5
+~A7-TESTYOURMETTLE/A7-TESTYOURMETTLE.TP2~ #4 #12 // 降低杀怪经验 -> 降低75%（推荐）: 1.5
+~A7-TESTYOURMETTLE/A7-TESTYOURMETTLE.TP2~ #4 #20 // 使“空间扭曲”可在商店购买: 1.5
+~ASSASSINATIONS/ASSASSINATIONS.TP2~ #7 #0 // 刺杀合约: v19
+~GBTHFKP/GBTHFKP.TP2~ #6 #0 // 盗贼据点扩展: v3.0.0
+~ROT/SETUP-ROT.TP2~ #4 #0 // 恐怖区域: v5.0
+~ROT/SETUP-ROT.TP2~ #4 #3 // 替代版马里伯尔区域: v5.0
+~SOS/SOS.TP2~ #5 #0 // 笼罩梭巴的阴影: 2.1.2
+~SOS/SOS.TP2~ #5 #4 // 备选梭巴区域（by Cuttooth）: 2.1.2
+~SOS/SOS.TP2~ #5 #1 // 在贫民窟与盖兰会面后瑟乐丝抵达渥金大道: 2.1.2
+~BLOODIEDSTINGSOFBAROVIA/BLOODIEDSTINGSOFBAROVIA.TP2~ #1 #0 // 巴洛维亚的血腥骗局——适用于博德之门2增强版的黑暗魔域冒险: v2.2
+~GODCALL/SETUP-GODCALL.TP2~ #2 #0 // Call Of The Lost Goddess V 1.2
+~GODCALL/SETUP-GODCALL.TP2~ #2 #50 // Install portraits for the major NPCs of the mod
+~GODCALL/SETUP-GODCALL.TP2~ #2 #200 // Install AI voiceover for major NPCs of the mod (mostly in English)
+~BACKBRYNNLAW/BACKBRYNNLAW.TP2~ #3 #0 // 重返布林罗岛: v9
+~SELLSWORDS/SELLSWORDS.TP2~ #3 #0 // 佣兵生涯: v9.1
+~REUNION/REUNION.TP2~ #2 #0 // 再度重聚: v7
+~TOTDG/TOTDG.TP2~ #7 #0 // 无限颜色系列：深渊庭院的传说 -> 是的，但不要修改存档文件: 12.91
+~EXTRAEXPANDEDENHANCEDENCOUNTERS/EXTRAEXPANDEDENHANCEDENCOUNTERS.TP2~ #3 #0 // EEEE：美利亚·快夜，十字路口: 4.3
+~EXTRAEXPANDEDENHANCEDENCOUNTERS/EXTRAEXPANDEDENHANCEDENCOUNTERS.TP2~ #3 #1 // EEEE：比米的烦人强盗: 4.3
+~EXTRAEXPANDEDENHANCEDENCOUNTERS/EXTRAEXPANDEDENHANCEDENCOUNTERS.TP2~ #3 #2 // EEEE：增强的豺狼人要塞: 4.3
+~EXTRAEXPANDEDENHANCEDENCOUNTERS/EXTRAEXPANDEDENHANCEDENCOUNTERS.TP2~ #3 #3 // EEEE：豺狼人要塞附近熊遭遇战: 4.3
+~EXTRAEXPANDEDENHANCEDENCOUNTERS/EXTRAEXPANDEDENHANCEDENCOUNTERS.TP2~ #3 #4 // EEEE：撒恩的新物品（木拉山洞里的新物品）: 4.3
+~EXTRAEXPANDEDENHANCEDENCOUNTERS/EXTRAEXPANDEDENHANCEDENCOUNTERS.TP2~ #3 #5 // EEEE：丹妮的桥头强盗: 4.3
+~EXTRAEXPANDEDENHANCEDENCOUNTERS/EXTRAEXPANDEDENHANCEDENCOUNTERS.TP2~ #3 #6 // EEEE：翼龙山洞里的火龙: 4.3
+~EXTRAEXPANDEDENHANCEDENCOUNTERS/EXTRAEXPANDEDENHANCEDENCOUNTERS.TP2~ #3 #7 // EEEE：地下城市岩浆堡垒遭遇战：红骷髅 - （U.M.B.E.R.S.）: 4.3
+~BLACKHEARTS/SETUP-BLACKHEARTS.TP2~ #1 #1 // 在BGEE或EET中安装 黑心: v1.1
+~INNERSHADE/SETUP-INNERSHADE.TP2~ #1 #0 // Couleurs de l'Infini : Innershade -> Oui, mais sans corriger les sauvegardes de jeu existantes: 11.11
+~WHITEQUEEN/WHITEQUEEN.TP2~ #6 #0 // 无限颜色系列：洁白女王 -> 是的，但不要修改存档文件: 7.2
+~SOUTHERNEDGE/SOUTHERNEDGE.TP2~ #2 #0 // 市郊区：阿斯卡特拉的新地区 -> 是的，但不要修改存档文件: 5.1
+~TANGLEDISLE/TANGLEDISLE.TP2~ #2 #0 // 缠绕橡树岛：阿斯卡特拉的新地区 -> 是的，但不要修改存档文件: v4.3
+~ISNF/ISNF.TP2~ #5 #0 // 无限颜色系列：矢志不渝的爱: 6.2
+~EILISTRAEE/SETUP-EILISTRAEE.TP2~ #6 #0 // 伊莉丝翠之歌 -> 是的，但不要修改存档文件: 7.4
+~TIDINGS/SETUP-TIDINGS.TP2~ #4 #0 // Dark Tidings: 2.2
+~COM_ENCOUNTERS/SETUP-COM_ENCOUNTERS.TP2~ #7 #0 // 蜜斯特拉选民遭遇战（需要巴尔王座）: v1.22
+~COM_ENCOUNTERS/SETUP-COM_ENCOUNTERS.TP2~ #7 #1 // 安装改进的德鲁伊遭遇战？: v1.22
+~COM_ENCOUNTERS/SETUP-COM_ENCOUNTERS.TP2~ #7 #2 // 安装改进的夏格贝格遭遇吗？: v1.22
+~FISHINGFORTROUBLE/FISHINGFORTROUBLE.TP2~ #2 #0 // 找麻烦，作者：Yovaneth，译者：Archenemy，补充更新：Yoshimo0417: v3.2.10
+~FISHINGFORTROUBLE/FISHINGFORTROUBLE.TP2~ #2 #1 // 找麻烦：主要人物肖像: v3.2.10
+~INLOVEUNDEATH/INLOVEUNDEATH.TP2~ #1 #0 // 恐怖故事：爱与不朽 - BG2EE的新任务和新伙伴 -> 是的，但不要修改存档文件: v1.7
+~INLOVEUNDEATH/INLOVEUNDEATH.TP2~ #1 #2 // 克斯莱：玩家发起的对话: v1.7
+~JUNIPERANDTHESTONELEECH/JUNIPERANDTHESTONELEECH.TP2~ #1 #0 // 恐怖故事：杜松与石水蛭 - BG2EE ToB的同伴和任务Mod: v1.7
+~JUNIPERANDTHESTONELEECH/JUNIPERANDTHESTONELEECH.TP2~ #1 #1 // 恐怖故事：杜松和石水蛭 - 杜松的玩家发起对话: v1.7
+~SOTSC/SOTSC.TP2~ #7 #0 // 剑湾之影 —— 博德之门增强版扩展包: v8.7
+~WHINHILL/WHINHILL.TP2~ #1 #0 // 惠恩山之旅 - BG2：EE任务 -> 是的，但不要修改存档文件: v1.3
+~WHINHILL/WHINHILL.TP2~ #1 #2 // 惠恩山之旅：添加可选的可加入的小伙伴 - 阿福·祖维: v1.3
+~WHINHILL/WHINHILL.TP2~ #1 #3 // 惠恩山之旅：为可选的伙伴增加玩家发起的对话 - 阿福·祖维: v1.3
+~DARRON/DARRON.TP2~ #6 #0 // 达伦商店: v2.0.0
+~ROLLES/ROLLES.TP2~ #5 #0 // 洛斯·萨佛的商店: v5.0.5
+~ROLLES/ROLLES.TP2~ #5 #10 // 艾瑞尼卡斯地牢的次元袋: v5.0.5
+~RUAD/RUAD.TP2~ #6 #0 // 罗德物品升级（SoA）: v29.4.0
+~RUAD/RUAD.TP2~ #6 #10 // 罗德物品升级（ToB）: v29.4.0
+~ABYSTORE/ABYSTORE.TP2~ #4 #0 // Negozio delle Insolite Stranezze: 5.0
+~HEARTWOOD/HEARTWOOD.TP2~ #5 #0 // 森林之心: 7.0.0
+~ITEMUPGRADE/ITEMUPGRADE.TP2~ #7 #10 // 安姆阴影物品强化 -> 修订版本（以人物对话形式呈现新增物品强化）: v52
+~ITEMUPGRADE/ITEMUPGRADE.TP2~ #7 #11 // 巴尔王座物品强化 -> 修订版本（以人物对话形式呈现新增物品强化）: v52
+~BOLSA/BOLSA.TP2~ #4 #0 // 博尔萨商店: v6.0.0
+~DSR/DSR.TP2~ #5 #0 // 恶魔召唤秘仪: v8.0.0
+~SOD2BG2_IU/SOD2BG2_IU.TP2~ #1 #0 // SoD to BG2:EE Item upgrade by Daeros_Trollkiller: v2.0.5
+~SOD2BG2_IU/SOD2BG2_IU.TP2~ #1 #8 // 强制所有可导入的龙矛围攻物品在其正常位置可用 ****需要开始新游戏**** -> 所有可导入项目以及随机虚空之剑+3或虚空之锤+3: v2.0.5
+~SOD2BG2_IU/SOD2BG2_IU.TP2~ #1 #9 // 更改克伦威尔的装备，使其更符合他的锻造技能: v2.0.5
+~IEPBANTERS/IEPBANTERS.TP2~ #4 #0 // 扩展安姆阴影中NPC之间的插话: v5.9
+~IEPBANTERS/IEPBANTERS.TP2~ #4 #1 // 巴尔王座中明斯克与艾黎之间的插话: v5.9
+~IEPBANTERS/IEPBANTERS.TP2~ #4 #2 // 爱蒙在巴尔王座中的“追忆”: v5.9
+~IEPBANTERS/IEPBANTERS.TP2~ #4 #3 // 阿诺门罗曼史中的“一夜醒来”对话: v5.9
+~IEPBANTERS/IEPBANTERS.TP2~ #4 #4 // NPC冲突修订: v5.9
+~IEPBANTERS/IEPBANTERS.TP2~ #4 #5 // 恢复艾黎、贾希拉、阿诺门在幽暗地域的插话: v5.9
+~SAERILETH/SETUP-SAERILETH.TP2~ #6 #0 // Saerileth mod: v23
+~EDWINROMANCE/EDWINROMANCE.TP2~ #6 #0 // 艾德温罗曼史: v4.0
+~EDWINROMANCE/EDWINROMANCE.TP2~ #6 #2 // 艾德温调情包: v4.0
+~EDWINROMANCE/EDWINROMANCE.TP2~ #6 #3 // 维康妮亚罗曼史 新的结局 by Laufey: v4.0
+~EDWINROMANCE/EDWINROMANCE.TP2~ #6 #4 // Give Edwina a Portrait: v4.0
+~MAZZY/MAZZY.TP2~ #3 #0 // 玛兹友谊插话包: v3.5
+~VICONIA/VICONIA.TP2~ #3 #0 // 维康妮亚友谊插话包: v4.5
+~YOSHIMO/YOSHIMO.TP2~ #3 #0 // 攸旭摩友谊插话包: v5.0
+~IMOENFRIENDSHIP/IMOENFRIENDSHIP.TP2~ #5 #0 // 爱蒙友谊插话包: v3.6
+~SAREVOKFRIENDSHIP/SAREVOKFRIENDSHIP.TP2~ #3 #0 // 沙洛佛克友谊插话包: v2.7
+~WINGS/SETUP-WINGS.TP2~ #2 #0 // Wings for BG2:EE
+~SKIECOST/SKIECOST.TP2~ #2 #0 // 史姬：少女灵魂的代价: v6.2
+~SKIECOST/SKIECOST.TP2~ #2 #1 // 允许史姬成为可加入队伍的NPC: v6.2
+~SKIECOST/SKIECOST.TP2~ #2 #2 // 史姬：少女灵魂的代价 - 为史姬增加玩家发起的对话: v6.2
+~SKIECOST/SKIECOST.TP2~ #2 #3 // 史姬：少女灵魂的代价 - 艾德达德·银盾归来（任务和可加入的NPC）: v6.2
+~SKIECOST/SKIECOST.TP2~ #2 #4 // 史姬：少女灵魂的代价 - 为艾德达德增加玩家发起的对话: v6.2
+~SKIECOST/SKIECOST.TP2~ #2 #5 // 将龙矛围城中的独特物品引入博德之门2: v6.2
+~AMBER/AMBER.TP2~ #3 #0 // ����: v9
+~AMBER/AMBER.TP2~ #3 #1 // ���������Ϸ-��������: v9
+~BANTERPACK/SETUP-BANTERPACK.TP2~ #8 #0 // 安姆阴影插话包: v18
+~BANTERPACK/SETUP-BANTERPACK.TP2~ #8 #1 // 安装安姆阴影插话提速脚本？: v18
+~BANTERPACK/SETUP-BANTERPACK.TP2~ #8 #2 // 巴尔王座插话包: v18
+~BANTERPACK/SETUP-BANTERPACK.TP2~ #8 #3 // 安装巴尔王座插话提速脚本？: v18
+~LUCY/LUCY.TP2~ #7 #0 // 翼龙露西: v5.0
+~THECALLING/THECALLING.TP2~ #9 #0 // 召唤: v5
+~THECALLING/THECALLING.TP2~ #9 #20 // 和平的狼人岛解决方案: v5
+~THECALLING/THECALLING.TP2~ #9 #40 // 珍奇的物品: v5
+~SLANDOR/SLANDOR.TP2~ #7 #0 // 牛头人和利拉寇尔: 2.1
+~DC/DC.TP2~ #5 #0 // 地城爬行者: v13.1
+~GORGON/SETUP-GORGON.TP2~ #1 #0 // 安装戈尔贡之眼: v4.5
+~ALTERNATIVES/SETUP-ALTERNATIVES.TP2~ #4 #0 // G3: Alternatives���ṩ�����µĳ���·�ߣ� ������c4_angel Э������������: v15
+~FADINGPROMISES/SETUP-FADINGPROMISES.TP2~ #6 #0 // 褪色的承诺 汉化：Archenemy: v9
+~BRIDGESBLOCK/BRIDGESBLOCK.TP2~ #7 #0 // 阿斯卡特拉新地区：大桥街区: 2.0
+~SODRTD/SODRTD.TP2~ #6 #80 // 龙矛围攻（SoD）——依靠追踪系统发掘真相及来自Lauriel's Themed Tweaks Mod的任务选项: 4.1pre
+~SODRTD/SODRTD.TP2~ #6 #0 // 核心组件：追踪系统: 4.1pre
+~SODRTD/SODRTD.TP2~ #6 #10 // 修改游戏对话统一性: 4.1pre
+~SODRTD/SODRTD.TP2~ #6 #20 // 让联军官员知情: 4.1pre
+~SODRTD/SODRTD.TP2~ #6 #30 // 为玩家提供知情回复选项: 4.1pre
+~SODRTD/SODRTD.TP2~ #6 #40 // 玩家可以告知联军官员: 4.1pre
+~SODRTD/SODRTD.TP2~ #6 #50 // 为联军官员添加反应: 4.1pre
+~SODRTD/SODRTD.TP2~ #6 #60 // 补充信息要素: 4.1pre
+~SODRTD/SODRTD.TP2~ #6 #70 // 增加与联军官员的额外对话: 4.1pre
+~A7-GOLEMCONSTRUCTION/A7-GOLEMCONSTRUCTION.TP2~ #6 #0 // 施法者建造魔像能力: 6.4
+~A7-GOLEMCONSTRUCTION/A7-GOLEMCONSTRUCTION.TP2~ #6 #10 // 替换原始魔像手册: 6.4
+~A7-GOLEMCONSTRUCTION/A7-GOLEMCONSTRUCTION.TP2~ #6 #15 // 提高敌对施法者AI: 6.4
+~A7-GOLEMCONSTRUCTION/A7-GOLEMCONSTRUCTION.TP2~ #6 #20 // 敌对施法者的魔像: 6.4
+~A7-GOLEMCONSTRUCTION/A7-GOLEMCONSTRUCTION.TP2~ #6 #25 // 更多种类的敌对魔像: 6.4
+~A7-GOLEMCONSTRUCTION/A7-GOLEMCONSTRUCTION.TP2~ #6 #30 // 战士据点的魔像可能会继续为你服务: 6.4
+~A7-GOLEMCONSTRUCTION/A7-GOLEMCONSTRUCTION.TP2~ #6 #35 // 使魔像对特定法术效果敏感: 6.4
+~A7-GOLEMCONSTRUCTION/A7-GOLEMCONSTRUCTION.TP2~ #6 #40 // 减少建造的魔像的武器免疫和抗性: 6.4
+~A7-GOLEMCONSTRUCTION/A7-GOLEMCONSTRUCTION.TP2~ #6 #50 // 为魔像添加“传送”能力: 6.4
+~A7-MAGICSTORE/A7-MAGICSTORE.TP2~ #5 #1 // 维加丹的魔法商店 -> 需要费用: 4.1
+~DJINNICOMPANION/DJINNICOMPANION.TP2~ #3 #0 // 阿法克 - 风巨灵同伴 -> 完整版本（包括任务、插话及其他）: v2.10
+~DJINNICOMPANION/DJINNICOMPANION.TP2~ #3 #103 // 改变插话频率（只影响风巨灵，默认：60分钟） -> 45 分钟: v2.10
+~WEASELS!/WEASELS!.TP2~ #4 #0 // 黄鼬！更多的黄鼬！: 3.4
+~COWLEDMENACE/SETUP-COWLEDMENACE.TP2~ #2 #1000 // 主要组件: 1.0.2
+~COWLEDMENACE/SETUP-COWLEDMENACE.TP2~ #2 #2100 // 适合高级别法师的合适物品: 1.0.2
+~COWLEDMENACE/SETUP-COWLEDMENACE.TP2~ #2 #3000 // 法师们远离自己施放的传送门: 1.0.2
+~COWLEDMENACE/SETUP-COWLEDMENACE.TP2~ #2 #3020 // 使用增强版之前的法术偏转结界（仅限增强版） -> 推荐用于所有使用该动画的法术（推荐）: 1.0.2
+~WILDMAGE/WILDMAGE.TP2~ #7 #0 // 新的狂魔法法术 -> 铁人: v2.3
+~WILDMAGE/WILDMAGE.TP2~ #7 #2 // 保留瑞奥托的物品: v2.3
+~WILDMAGE/WILDMAGE.TP2~ #7 #3 // 塑形师宗派 -> 原版化身: v2.3
+~WILDMAGE/WILDMAGE.TP2~ #7 #5 // 杂项法术修改: v2.3
+~RR/SETUP-RR.TP2~ #8 #7 // 额外的盗贼和吟游诗人专用装备: v4.92
+~RR/SETUP-RR.TP2~ #8 #8 // 可升级装备: v4.92
+~IWDIFICATION/SETUP-IWDIFICATION.TP2~ #4 #60 // 双手斧物品包: v5
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #1500 // 包括冰风谷增强版中的法师法术: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #1510 // 包括冰风谷增强版中的牧师神术: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #1520 // 包括冰风谷：增强版的吟游诗人战歌: 35.18
+~CTB/SETUP-CTB.TP2~ #6 #0 // Check The Bodies: 3.0
+~CTB/SETUP-CTB.TP2~ #6 #1 // Candlekeep Chores: 3.0
+~CTB/SETUP-CTB.TP2~ #6 #2 // Candlekeep Chores Fast Forward (for CtB v2.2 or later): 3.0
+~CTB/SETUP-CTB.TP2~ #6 #3 // Other Improvements: 3.0
+~IWD1_EET/SETUP-IWD1_EET.TP2~ #5 #0 // Use <CHARNAME> instead of <GABBER> etc.
+~IWD1_EET/SETUP-IWD1_EET.TP2~ #5 #1 // Icewind Dale: Heart of Winter in Baldur's Gate Enhanced Edition Trilogy
+~IWD2_EET/SETUP-IWD2_EET.TP2~ #4 #0 // Icewind Dale 2 in Baldur's Gate Enhanced Edition Trilogy
+~NWNFORBG/SETUP-NWNFORBG.TP2~ #7 #0 // NWN For BG: 0.98
+~NWNFORBG/SETUP-NWNFORBG.TP2~ #7 #10 // NWN For BG - Worldmap select (EE-games only) -> Place NWN locations on BP-BGT Worldmap: 0.98
+~NWNFORBG/SETUP-NWNFORBG.TP2~ #7 #20 // Install NWN as a dedicated campaign: 0.98
+~A7-TOTLM-BG2EE/A7-TOTLM-BG2EE.TP2~ #8 #0 // 用于《博德之门》的《谜语大师的试炼》: 4.3
+~A7-TOTLM-BG2EE/A7-TOTLM-BG2EE.TP2~ #8 #20 // 再平衡武器和装备: 4.3
+~A7-TOTLM-BG2EE/A7-TOTLM-BG2EE.TP2~ #8 #31 // 减少怪物和任务的经验 -> 减少50%: 4.3
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #70 // 冰风谷施法动画 [Andyr]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2250 // 未削弱的术士法术升级表: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2260 // 改变法师法术升级表 -> 未削弱的设置[Blucher]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2270 // 改变吟游诗人法术升级表 -> 未削弱的设置[Blucher]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2280 // 改变牧师法术升级表 -> 未削弱的设置[Blucher]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2290 // 改变德鲁伊法术和等级升级表 -> 不改变等级升级表，只使用未削弱的德鲁伊法术设置[Blucher]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2581 // 改变基于智慧的神术奖励法术列表 -> 使用 BG/BG2/IWD 列表: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2390 // 改变圣武士法术升级表 -> 圣武士使用冰风之谷-寒冬之心的法术升级表 [grogerson]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2400 // 改变游侠法术升级表 -> 游侠使用冰风之谷-寒冬之心的法术升级表 [grogerson]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2090 // 更改经验上限 -> 去掉经验上限: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2300 // 更改战法盗和战牧法的高等级能表: v16
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #6 #0 // 对于纯职吟游诗人和盗贼以及官方宗派的更改（基础组件）: v18
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #6 #1 // 增加新的吟游诗人商店与盗贼物品: v18
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #6 #2 // 安装杂耍吟游诗人宗派: v18
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #6 #3 // 安装行吟圣歌颂者宗派: v18
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #6 #4 // 安装挽歌诗人宗派: v18
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #6 #5 // 安装吉普赛吟游诗人宗派: v18
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #6 #6 // 安装盗贼探险者宗派: v18
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #6 #7 // 安装窃贼盗贼宗派: v18
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #6 #8 // 安装灵魂之刃盗贼宗派: v18
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #6 #9 // 安装利刃射手盗贼宗派: v18
+~TACTICS-REMIX/TACTICS-REMIX.TP2~ #2 #1 // The Ritual: v0.8-beta
+~TACTICS-REMIX/TACTICS-REMIX.TP2~ #2 #2 // "Kuroisan", the Acid Kensai: v0.8-beta
+~TACTICS-REMIX/TACTICS-REMIX.TP2~ #2 #3 // "Red Badge" Poison-Based Encounter: v0.8-beta
+~TACTICS-REMIX/TACTICS-REMIX.TP2~ #2 #4 // Gebhard Blucher's Lich in the Docks: v0.8-beta
+~TACTICS-REMIX/TACTICS-REMIX.TP2~ #2 #5 // Kensai Ryu's Gnome Fighter/Illusionist in the Docks: v0.8-beta
+~A7#IMPROVEDARCHER/A7#IMPROVEDARCHER.TP2~ #7 #0 // 改良的弓箭手宗派: v4.3
+~A7#IMPROVEDARCHER/A7#IMPROVEDARCHER.TP2~ #7 #10 // 新增战士宗派：神射手: v4.3
+~A7#IMPROVEDARCHER/A7#IMPROVEDARCHER.TP2~ #7 #20 // 新增圣骑士宗派：弓骑士: v4.3
+~A7#IMPROVEDARCHER/A7#IMPROVEDARCHER.TP2~ #7 #30 // 新增盗贼宗派：狙击手: v4.3
+~A7#IMPROVEDARCHER/A7#IMPROVEDARCHER.TP2~ #7 #100 // 在游戏中添加+4的箭、矢以及强大的弓: v4.3
+~RR/SETUP-RR.TP2~ #8 #0 // 允许盗贼和吟游诗人学习三星双武器风格: v4.92
+~RR/SETUP-RR.TP2~ #8 #1 // 盗贼职业修订: v4.92
+~RR/SETUP-RR.TP2~ #8 #2 // 盗贼高阶技能修订: v4.92
+~RR/SETUP-RR.TP2~ #8 #3 // 调整种族对盗贼技能的影响: v4.92
+~RR/SETUP-RR.TP2~ #8 #4 // 吟游诗人职业修订: v4.92
+~RR/SETUP-RR.TP2~ #8 #5 // 吟游诗人高阶技能修订: v4.92
+~WSR/WSR.TP2~ #3 #100 // 法师杀手宗派修订: v1.14
+~FAIRYLANDEXPLORER/SETUP-FAIRYLANDEXPLORER.TP2~ #0 #0 // �龳̽����: v1.2
+~ARCANECASTER/SETUP-ARCANECASTER.TP2~ #0 #0 // ���ܴ�ʦ: v1.31
+~SOULLIGHT/SETUP-SOULLIGHT.TP2~ #0 #0 // ����ػ���: v3.06
+~NATUREWIZARD/SETUP-NATUREWIZARD.TP2~ #0 #0 // ��Ȼ��ʦ: v1.36
+~FARIRYLANDSOR/SETUP-FARIRYLANDSOR.TP2~ #0 #0 // �龳��ʿ: v0.5
+~XIUDAO/SETUP-XIUDAO.TP2~ #0 #0 // �޵���: v3.21
+~CONTEMPLATIVEFAVOREDSOUL/SETUP-CONTEMPLATIVEFAVOREDSOUL.TP2~ #0 #0 // ���������: v0.7
+~VOYAGERS/SETUP-VOYAGERS.TP2~ #0 #0 // ����ӽ��: v1.10
+~PHANTOMASSASSIN/SETUP-PHANTOMASSASSIN.TP2~ #0 #0 // ��Ӱ�̿�: v0.1
+~FAIRYLANDRANGER/SETUP-FAIRYLANDRANGER.TP2~ #0 #0 // �龳����: v1.2
+~IMPROVEDMONK/SETUP-IMPROVEDMONK.TP2~ #1 #1 // 强化僧侣补丁 -> 强化所有僧侣宗派（包括已安装的宗派MOD）: v1.3
+~D2AMA/SETUP-D2AMA.TP2~ #1 #0 // 暗黑破坏神2亚马逊宗派: v0.7
+~D2ASN/SETUP-D2ASN.TP2~ #1 #0 // 暗黑破坏神2刺客宗派: v0.4
+~D2ASN/SETUP-D2ASN.TP2~ #1 #1 // 死亡陷阱的尸爆等级限制从20级扩展到32级: v0.4
+~D2BAR/SETUP-D2BAR.TP2~ #1 #0 // 暗黑破坏神2野蛮人宗派: v1.3
+~D2BAR/SETUP-D2BAR.TP2~ #1 #1 // 嘲弄和狂嗥的等级限制扩展到32级: v1.3
+~D2DRU/SETUP-D2DRU.TP2~ #1 #0 // 暗黑破坏神2德鲁伊宗派: v0.6
+~D2NEC/SETUP-D2NEC.TP2~ #1 #0 // 暗黑破坏神2死灵师宗派: v0.8
+~D2PAL/SETUP-D2PAL.TP2~ #1 #0 // 暗黑破坏神2圣骑士宗派: v1.1
+~D2SOR/SETUP-D2SOR.TP2~ #1 #0 // 暗黑破坏神2巫师宗派: v0.5
+~D2ITEM/SETUP-D2ITEM.TP2~ #1 #0 // Jamella的暗黑2装备库] [(本MOD可以和暗黑2宗派MOD互动。 建议安装顺序： 所有暗黑2宗派MOD（暂不安装暗黑2野蛮人的单手使用双手剑模块）->暗黑2装备库以及其它物品MOD->暗黑2野蛮人的单手使用双手剑模块): v2.0
+~D2BAR/SETUP-D2BAR.TP2~ #1 #2 // 允许暗黑2野蛮人单手使用双手剑（强烈建议在安装所有物品MOD之后，再安装本模块！）: v1.3
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #10 // 取消头盔的形象: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #60 // 武器动画调整: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #100 // 平民的衣服变为土褐色: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #110 // 图标的改善: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #130 // 对话时自动暂停游戏: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #140 // 修正布布的叫声: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #150 // 从独特物品的名称中删除“+x”: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #170 // 独特的图标 [Lava] -> 仅替换不独特的图标: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #181 // 独特的容器[Miloch] -> 只有独特的图标: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #200 // 移除装备中令人厌烦的视觉效果 -> 移除物品的朦胧特效，例如--位移斗篷: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2010 // 防护火焰和寒冷的图标显示成两个不同的图标 [Angel]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #240 // 辅助功能的白色法术图标轮廓 -> 增加黑色轮廓: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #1010 // 更多的插话: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #1020 // 更改NPC受伤对话的触发条件: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #1030 // 在第六章之前显示野外地区: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #1035 // 在完成强盗营地任务前打开斗篷森林地区 -> 只有第一个地区: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #1040 // 增强阿斯卡特拉城的警卫: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #1060 // 可毁坏的铁制非魔法盾牌、头盔和装甲: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #1070 // 改进多人游戏的队友离队时的对话: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #1075 // 将游戏NPC送往旅馆 [DavidW/Zed Nocear]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #1080 // 增加储物袋: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #1100 // 进入地区时显示城市地图: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #1120 // 商店出售更大捆的物品: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #1160 // 多个据点 [Sabre, Baldurdash, Weimer] -> 无限制: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #1180 // 女性爱德温 [Davide Carte, Wendy Yung, Weimer]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #1220 // 允许克伦威尔升级观察者堡垒的物品: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #1225 // 调整克伦威尔铸造物品的时间 -> 立刻完成 （原版BG2默认）: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #1230 // 允许塞斯潘纳升级克伦威尔的配方: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2040 // 通用棍棒: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2060 // 武器模式通用: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2140 // 扩展的转职: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2150 // 装备多个魔法保护物品 -> PnP限制: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2192 // 限制店主鉴定物品的能力 -> 混合以上两种方法: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2200 // 兼职武器熟练度五星 [Weimer]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2220 // 魔法创造的武器重量为0: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2240 // 未削弱的零级命中率设置: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2320 // 取消陷阱的个数限制 [Ardanis/GeN1e]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2330 // 取消魔法陷阱的延迟 [Ardanis/GeN1e]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2339 // 取消召唤普通生物的个数限制 [Ardanis/GeN1e]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2340 // 取消召唤异界神侍的个数限制 [Ardanis/GeN1e]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2357 // 改变兼职限制 -> 安装第一和第二项（所有种族都可使用任意兼职组合）: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2360 // 移除单一职业种族限制: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2371 // 改变转职限制 -> 允许非人类转职: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2552 // 改变侏儒法师宗派/兼职选项 -> 通用法师兼职，为单职业启用所有宗派: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2380 // 移除宗派的种族限制: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2410 // 德鲁伊使用3E的阵营限制: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2420 // 放宽兼职或转职牧师的装备限制: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2440 // 任意职业都可从武器专精获得每轮攻击次数奖励 [subtledoctor]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2500 // 负重超重限制改变 [sarevok57]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2510 // 等级锁定法术卷轴 [Angel]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2620 // 使某些生物免疫背刺/偷袭 [Luke]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2630 // 改进的治疗/造成伤害 [Luke]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2999 // 等级1时获得HP最大值: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3000 // 升级时获得更多的HP -> 最大值: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3008 // 生命骰得到的加值可以一直到20级 [Angel]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3031 // 简单的法术学习 -> 100%学会法术且无数量限制: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3040 // 储物袋的容量无限: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3050 // 施展复原术后不会疲劳: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3060 // 让“你必须集合你的队伍……”这句话住口 [Weimer]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3070 // 改变声望对价格的影响 -> 低声望时商店折扣修正 [Sabre]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3083 // 提高弹药堆叠数量 -> 每组120: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3093 // 提高宝石和珠宝堆叠数量 -> 每组120: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3103 // 提高药剂堆叠数量 -> 每组120: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3113 // 提高卷轴堆叠数量 -> 每组120: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3121 // 快乐补丁（队伍中的NPC不会打架或抱怨声望） -> NPC会对声望不满，但不会离开队伍 [Salk]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3125 // 中立阵营的人物在声望中等时会有高兴的议论 [Luiz]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3176 // 延长/缩短罗曼史对话触发间隔: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3183 // 罗曼史作弊补丁: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3190 // 可在任何地方休息 [japheth]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3200 // 可贩卖的物品 [icelus]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3205 // 商店购买所有类型的物品: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3290 // 个性化自动存档文件名 -> 使用 000000000-CHARNAME-Save-Name 格式: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3300 // 显示主角死亡镜头: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3320 // 禁用商店收购价打折: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3330 // 队友不易成为无法复活状态: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3341 // 提高队伍在战斗以外的移动速度和/后施法法速度 [argent77] -> 移动速度提高100%: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3354 // 创建存档时间间隔 [argent77] -> 间隔15分钟（四个存档文件循环使用）: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3380 // 旅行时合理的再生: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3390 // 自动使用游侠的追踪技能: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #4000 // 调整可加入邪恶NPC的反应掷骰: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #4025 // 允许成对的队友分开（例如贾希拉和卡立德，戴娜黑和明斯克，萨尔和蒙塔罗等）: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #4031 // 属性一致的艾德温 -> 使用BG2属性: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #4041 // 属性一致的贾希拉 -> 使用BG2属性: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #4061 // 属性一致的明斯克 -> 使用BG2属性: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #4071 // 属性一致的维康妮亚 -> 使用BG2属性: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #4110 // 凯根的体质变为19: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #4120 // 柯朗的敏捷变为19: v16
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #2000 // 安装所有的法术调整（如果你不选择这个，你将有机会按类别进行选择）: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #2500 // 增加9个新奥术: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #2510 // 增加6个新神术 （有些是从Divine Remix借用的）: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #2520 // 修订元素和元素召唤: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #5900 // 初始化 AI 组件（其他战术或 AI 组件的必备前置组件）: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #6000 // 更聪明的普通 AI: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #6010 // 更好的呼救系统: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #6030 // 更聪明的法师: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #6040 // 更聪明的牧师: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #6100 // 给 NPC 配备药剂: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #6200 // 强化蜘蛛: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #6300 // 更聪明的海妖女和树精: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #6310 // 稍微聪明的食腐虫: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #6320 // 更聪明的石化蜥蜴: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #6500 // 强化魔像: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #6510 // 强化恶魔和神使: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #6520 // 更聪明的巨灵: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #6540 // 更聪明的龙类: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #6550 // 更聪明的眼魔: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #6560 // 更聪明的灵吸怪: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #6570 // 更聪明的吉斯洋基人: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #6580 // 强化吸血鬼: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #6590 // 更聪明的巴尔王座最终战: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #6800 // 更聪明的伊菈赛菈: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #6810 // 更聪明的葛罗姆尼尔: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #6820 // 更聪明的雅加苏拉: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #6830 // 更聪明的阿巴济戈: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #6840 // Ascension 版本的艾瑞尼卡斯和仙黛使用 SCS 中的能力和 AI: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #6850 // Ascension 版本的恶魔使用 SCS 中的能力和 AI: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #7000 // 强化变形怪: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #7010 // 强化黑爪兵团和铁王座守卫: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #7020 // 强化刺杀小队出现的部署: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #7030 // 强化狗头人: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #7040 // 重新分配赏金猎人的位置: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #7050 // 强化巫尔卡斯特: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #7060 // 强化博德安之岛: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #7070 // 强化杜拉格之塔: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #7080 // 强化恶魔信徒: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #7090 // 强化斗篷森林德鲁伊: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #7100 // 强化巴西勒斯: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #7110 // 强化德拉萨斯小队: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #7130 // 强化红袍法师: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #7140 // 强化古代城市小队: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #7150 // 增强卡莎/喀尔可的交互: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #7200 // 更难的第二章最终战: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #7210 // 更难的第三章最终战: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #7220 // 更难的第四章最终战: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #7230 // 更难的第五章最终战: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #7250 // 更难的最终战: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #7900 // 强化小型遭遇战: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #8190 // 强化小型遭遇战: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #8000 // 稍微提高序章地牢的难度: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #8010 // 强化暗影之王: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #8020 // 半巫妖施法调整: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #8040 // 难度关联等级的怪物也关联游戏难度选项: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #8050 // 强化随机遭遇战: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #8060 // 强化德阿尼斯堡（“Tactics Remix”）: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #8070 // 强化盲目之眼: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #8080 // 强化芭荻: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #8085 // 让 Ascension 版本中的芭荻使用 SCS “强化芭荻”组件中的能力: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #8100 // 提高禁魔监狱中艾瑞尼卡斯战役的难度: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #8110 // 强化鲨化鱼人: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #8120 // 强化眼魔巢穴: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #8130 // 再平衡巨魔的再生能力: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #8140 // 强化黑暗精灵: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #8150 // 强化观察者堡垒: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #8160 // 强化火巨人神殿: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #8170 // 强化仙黛的巢穴: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #8180 // 强化阿巴济戈的巢穴: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #3505 // 扩展随机卷轴的覆盖范围: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #4000 // 速度更合适的熊: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #4020 // 行为更真实的狼与野狗: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #4093 // 降低声望值的提升速度 -> 声望提升速度是原版的1/4: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #4140 // 修改后的旅馆房间：更贵，更有益: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #4150 // 使蒙面法师可以侦测阿斯卡特拉大部分室内区域的施法状况: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #4161 // 提高阿斯卡特拉施法许可证的价格 -> 许可证花费15000枚金币: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #4171 // 增加盖兰·贝尔的要价 -> 盖兰要价60000枚金币: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #5000 // 安逸队伍 AI: 35.18
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #5080 // 增强BG的章节过场: 35.18
+~SUBRACE/SUBRACE.TP2~ #3 #100 //  用博德之门增强版（BG1，BG：SOD，BG2，EET）的子种族扩展包 ->  更改子种族颜色（头发和皮肤）: 0.3.1
+~WSR/WSR.TP2~ #3 #200 // 法师杀手高阶技能修订: v1.14
+~WSR/WSR.TP2~ #3 #302 // 法师杀手道具限制修订 -> 适中的改动: v1.14
+~WSR/WSR.TP2~ #3 #999 // 法师杀手宗派修订使用BG2风格的图标: v1.14
+~RELIEVEWIZARDSLAYER/RELIEVEWIZARDSLAYER.TP2~ #0 #0 // Relieve Wizard Slayer: 1.7
+~RR/SETUP-RR.TP2~ #8 #11 // 希瑞克选民遭遇战: v4.92
+~RR/SETUP-RR.TP2~ #8 #12 // 增强影贼公会: v4.92
+~RR/SETUP-RR.TP2~ #8 #999 // BG2风格的RR图标: v4.92
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #100 // 恢复半兽人角色天生的夜视能力: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #101 // 使骷髅和非实体形态的亡灵生物不受灵吸怪的噬脑术攻击的影响: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #104 // PnP 七彩喷射: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #105 // PnP 任意门: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #115 // 允许法师把记忆中的法术抄写到卷轴上 -> 可以随处抄写卷轴: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #120 // 恢复圣骑士天生的疾病免疫能力: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #125 // 游侠的动物通灵能力伴随等级提升: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #130 // 额外的矮人种族特性: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #140 // 额外的侏儒种族特性: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #150 // PnP 恶魔 -> Mod 中的恶魔不受影响: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #154 // 修订恶魔召唤: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #155 // 进一步修订召唤恶魔: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #156 // 恶魔之门: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #160 // PnP 亡灵: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #180 // PnP 魔蝠: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #185 // PnP 精类生物: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #186 // 修订召唤林地生物术: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #190 // PnP 元素: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #191 // 提高元素王子的生命骰数: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #200 // 让破解术能够破坏由物品获得的石肤术效果: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #201 // 无法打断战士系职业施展的技能: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #218 // 在巴尔王座剧情中能够重新获得巴尔之力: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #213 // 矮人、侏儒和半身人能够从体质上获得更多的豁免加成: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #216 // 已经隐身的吟游诗人在吟唱时会显形 -> 只有小丑在吟唱时会显形: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #270 // 更公正的任务报酬: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #301 // 改变寇萨拉家传之甲的外观: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #302 // 改变维克纳之袍的外观: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #310 // 独特的生物外观着色: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #315 // 独特的生物声音集: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #510 // 多样化的神殿服务: v4.53_TotoR
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #7 #999 // 让 aTweaks 使用博德之门2风格的图标: v4.53_TotoR
+~EET_TWEAKS/EET_TWEAKS.TP2~ #4 #4040 // 导入团队物品到SoA中: 1.12
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #10 // 增加选项-开启作弊模式: 4.7
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #11 // 增加选项-开启界面编辑模式: 4.7
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #12 // 增加选项-显示字符串序号: 4.7
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #13 // 增加选项-在工具栏显示快捷键: 4.7
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #14 // 增加选项-Tab键显示更多互动图标: 4.7
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #16 // 增加选项-游侠/牧师受限的德鲁伊神术: 4.7
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #17 // 增加选项-3E版本背刺: 4.7
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #18 // 增加选项-致命一击时屏幕摇晃: 4.7
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #19 // 增加选项-显示额外战斗信息: 4.7
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #20 // 增加选项-暂停时显示游戏数据和时间: 4.7
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #22 // 增加选项-反转鼠标滚轮缩放: 4.7
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #23 // 增加选项-在打开地图时暂停游戏: 4.7
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #24 // 增加选项-开启战争迷雾: 4.7
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #25 // 增加选项-禁止显示影片: 4.7
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #27 // 增加选项-噩梦难度提供额外经验值: 4.7
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #28 // 增加选项-开启角色长期站立的无聊语音: 4.7
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #29 // 增加选项-调节帧率: 4.7
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #30 // 增加选项-动作反馈: 4.7
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #32 // 增加选项-施法范围可视化: 4.7
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #33 // 增加选项-增强寻路: 4.7
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #34 // 增加选项-陷阱的高亮显示终止: 4.7
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #35 // 增加选项-显示可学习法术: 4.7
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #36 // 增加选项-显示探索地图: 4.7
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #37 // 增加选项-显示动态探索地图: 4.7
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #38 // 增加选项-控制间隔存档（需要安装Tweak Anthology）: 4.7
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #39 // 增加选项-强制对话暂停: 4.7
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #103 // 更新键绑定 -> 牧师神术和法师法术: 4.7
+~HIDDENGAMEPLAYOPTIONS/HIDDENGAMEPLAYOPTIONS.TP2~ #8 #200 // 增强的作弊菜单: 4.7
+~ICEWIND_EET/ICEWIND_EET.TP2~ #4 #0 // IceWind_End
+~BGIWDEASY/SETUP-BGIWDEASY.TP2~ #0 #0 // 可提前开始冰风谷1游戏（去除NPC在乌葛斯胡渣旅馆出现的章节需求）: v1.4
+~BGIWDEASY/SETUP-BGIWDEASY.TP2~ #0 #2 // 可携带物品进入和离开冰风谷1游戏（不包括次元袋和大部分任务物品） -> 允许所有人携带装备进入和离开冰风谷1: v1.4
+~BGIWDEASY/SETUP-BGIWDEASY.TP2~ #0 #3 // 可提前开始冰风谷2游戏（去除NPC在铜冠旅店出现的章节需求）: v1.4
+~BGIWDEASY/SETUP-BGIWDEASY.TP2~ #0 #5 // 可携带物品进入和离开冰风谷2游戏（不包括次元袋和大部分任务物品） -> 允许所有人携带装备进入和离开冰风谷2: v1.4
+~BGIWDEASY/SETUP-BGIWDEASY.TP2~ #0 #6 // 允许在冰风谷1最终战之前和盲眼矮人铁匠提尔农交谈（前提是他给玩家锻造过冰制武器），获得唤醒艾霍能之剑的机会: v1.4
+~BGIWDEASY/SETUP-BGIWDEASY.TP2~ #0 #7 // 解决冰风谷1和冬之心最终战结束可能无法继续游戏的问题: v1.4
+~BGIWDEASY/SETUP-BGIWDEASY.TP2~ #0 #8 // 修正可以和魔法饰品共同使用的盔甲列表（全身铠甲、掘地虫铠甲等）: v1.4
+~BGIWDEASY/SETUP-BGIWDEASY.TP2~ #0 #9 // 从冰风谷归来时，自动把主角携带的守护之戒、防护斗篷等替换为博德之门的版本: v1.4
+~BGIWDEASY/SETUP-BGIWDEASY.TP2~ #0 #10 // 魔宠在冰风谷可正常存在: v1.4
+~BGIWDEASY/SETUP-BGIWDEASY.TP2~ #0 #11 // 提示处理冰风谷1开场出门后控制界面消失的问题: v1.4
+~BGIWDEASY/SETUP-BGIWDEASY.TP2~ #0 #12 // 放置NPC在冰风谷1帮助玩家: v1.4
+~BGIWDEASY/SETUP-BGIWDEASY.TP2~ #0 #13 // 进入安姆阴影时如果带有来自冰风谷1的传奇物品，可以在地牢东边的书橱里找到它们 -> 仅限有故事的物品（先编辑bring1.2da再安装可自定义物品）: v1.4
+~BGIWDEASY/SETUP-BGIWDEASY.TP2~ #0 #15 // 修正冰风谷2最后一章红袍法师维斯·奈吉任务奖励（给人物刺青）无效的问题: v1.4
+~BGIWDEASY/SETUP-BGIWDEASY.TP2~ #0 #16 // 解决冰风谷1最终战前无法进入巨冰塔的问题: v1.4
+~SHOHY'S_WEAPON_STYLE_REBALANCE/SETUP-SHOHY'S_WEAPON_STYLE_REBALANCE.TP2~ #1 #0 // 武器流派平衡: v0.8
+~SHOHY'S_WEAPON_STYLE_REBALANCE/SETUP-SHOHY'S_WEAPON_STYLE_REBALANCE.TP2~ #1 #1 // 四种武器流派可投入更多星数（并未实际提升星数上限，但2星和3星时会自动减一星换来额外奖励。需要先安装武器流派平衡）: v0.8
+~ISAAC'S_MISSILE_STORM/SETUP-ISAAC'S_MISSILE_STORM.TP2~ #1 #0 // 艾萨克飞弹风暴博德之门版: v0.6
+~EET_END/EET_END.TP2~ #7 #0 // EET end（如无特殊情况，应当在安装整合中最后安装） -> 标准安装
+~PPE/SETUP-PPE.TP2~ #0 #0 // Portraits Portraits Everywhere (PPE) - core component: 1.02
+~PPE/SETUP-PPE.TP2~ #0 #150 // Category Portraits (Recommended) -> Random: 1.02
+~PPE/SETUP-PPE.TP2~ #0 #10 // Isandir's CHARNAME Portraits: 1.02
+~PPE/SETUP-PPE.TP2~ #0 #20 // Replace Low Quality TOB & SOA Portraits: 1.02
+~BP-BGT-WORLDMAP/SETUP-BP-BGT-WORLDMAP.TP2~ #0 #0 // Worldmap for Baldur's Gate - including colored Baldur's Gate map icons: v13.1.1
+~LIGHTINGPACK/LIGHTINGPACK.TP2~ #0 #0 // Shader script files for lighting control -> Neutral settings for contrast, brightness and gamma: v3.1
+~LIGHTINGPACK/LIGHTINGPACK.TP2~ #0 #102 // Modify Color Temperature -> Apply preset "Daylight (neutral)" (6,500 Kelvin): v3.1
+~X_AUTOBS/SETUP-X_AUTOBS.TP2~ #0 #0 // X�Զ�ս���ű�: v6.1

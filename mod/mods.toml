@@ -101,7 +101,7 @@ components = """
 name = "DSotSC"
 description = "暗黑剑湾EET"
 down = "https://github.com/SpellholdStudios/DSotSC.git"
-version = "865d03ba7b78da3fba2c55c71792877818e8f688"
+version = "bdd45e80619c3ddecc435fa11d9d135431f9289e"
 tra.CN = 6
 components = """
 @0=Dark Side of the Sword Coast
@@ -115,7 +115,7 @@ components = """
 name = "NTotSC"
 description = "北部剑湾"
 down = "https://github.com/SpellholdStudios/NTotSC.git"
-version = "67348b047cb364956c5fcf4c104cd3c1a281d709"
+version = "ecc5a04400225ad72c8b3f58d64c6cd65d8090a9"
 tra.CN = 7
 
 [Vaulteet]
@@ -135,7 +135,7 @@ tra.CN = 7
 [bg1npc]
 name = "BG1NPC"
 description = "BG1NPC项目"
-down = "https://github.com/Gibberlings3/BG_Quests_And_Encounters.git"
+down = "https://github.com/Gibberlings3/BG1NPC.git"
 version = "b1daa2186c866ebb6b0b2bce1b7a79702de27e37"
 tra.CN = 7
 
@@ -149,7 +149,7 @@ tra.CN = 3
 [Ascension]
 name = "Ascension"
 description = "巅峰之战"
-down = "https://github.com/yoshimo0417/Ascension.git"
+down = "https://github.com/InfinityMods/Ascension.git" #fork
 version = "37f7f742fe0123a12baaf8615f19eb05ce1245ff"
 tra.CN = 4
 
@@ -318,8 +318,8 @@ tra.CN = 3
 [Blackhearts]
 name = "Black-Hearts"
 description = "黑心"
-down = "https://github.com/11jo/Black-Hearts.git" #fork
-version = "c46b708a9f45a15a1068d7f2be63cfee54fe9df2"
+down = "https://github.com/11jo/Black-Hearts.git"
+version = "a2e8917a0cd2da36e286fb88aafd80a764cea360"
 tra.CN = 1
 
 [Innershade]
@@ -642,7 +642,7 @@ tra.CN = 6
 name = "A7-GolemConstruction"
 description = "A mod for BG:EE and BG2:EE that allows spellcasters to build their own golems"
 down = "https://github.com/Argent77/A7-GolemConstruction.git"
-version = "9a9e2e36eeab1717c05745d32239c37afe844409"
+version = "d8b0bebc240c959219d7ca85552dac46338523ee"
 tra.CN = 6
 
 [A7-MagicStore]
@@ -727,7 +727,7 @@ tra.CN = 7
 [cdtweaks]
 name = "Tweaks-Anthology"
 down = "https://github.com/Gibberlings3/Tweaks-Anthology.git"
-version = "8898fb29c4d28f93d4555ef453a419c65afc9f1f"
+version = "0ad88a794ff2286ad0f0107a7ac737b7160e62b2"
 tra.CN = 9
 
 [CtB]
@@ -747,8 +747,8 @@ tra.CN = 8
 [stratagems]
 name = "SwordCoastStratagems"
 description = "Sword Coast Stratagems"
-down = "https://github.com/Gibberlings3/SwordCoastStratagems.git"
-version = "fb8078747146fe6eca33714b1750f16c941a0f87"
+down = "https://github.com/Gibberlings3/SwordCoastStratagems.git" #merge
+version = "355e208a5472f56272db27dd6b7a272dd7690f06"
 tra.CN = 8
 
 [song_and_silence]
@@ -995,7 +995,7 @@ version = "04d0ec24a96a365b0971b0bb17e3e6f0836d66ad"
 name = "BP-BGT-Worldmap"
 description = "This mod replaces the ingame worldmap with a large, new worldmap. "
 down = "https://github.com/SpellholdStudios/BP-BGT-Worldmap.git"
-version = "02ee1aad42d257af7b1c02b6ed241c528581f380"
+version = "620fbba069bbbf67748707e7810e56b7c28a93df"
 
 [Enhanced-Powergaming-Scripts]
 name = "Enhanced-Powergaming-Scripts"
@@ -1022,3 +1022,38 @@ description = "灵境游侠"
 save = "FairyLandRangerV1.2.zip"
 version = "1.2"
 tra.CN = 0
+
+[BonehillEET]
+name = "BoneHill"
+description = "A visual enhancement mod for BG:EE, BG2:EE and IWD:EE"
+down = "https://github.com/RoxanneSHS/BoneHill.git"
+version = "e56e2cebeee727202e979020976f3c69840b5a04"
+tra.CN = 6
+
+[TDDz]
+name = "TDDz"
+description = "The Darkest Day mod for Baldur's Gate II"
+down = "https://github.com/RoxanneSHS/TDDz.git"
+version = "3262df428ff494ced4a05fe3e35b49dce598e9b1"
+tra.CN = 7
+
+[drizztsaga]
+name = "Drizzt-Saga"
+description = "The mod brings Drizzt and company into the game with their own major quest, also side quests & new areas, items (some to be forged) and new creatures."
+down = "https://github.com/Black-Wyrm-Lair/Drizzt-Saga.git" #fork
+version = "06d29510e9c40de0a81c7fd75dd7b36101f3b647"
+tra.CN = 6
+
+[soa]
+name = "The-Stone-of-Askavar"
+description = "The Stone of Askavar is a WeiDU-based mod for Totsc, Tutu, BGT and BGEE. This mod involves a main quest and several subquests. There are new items and areas as well as lots of new creatures to fight."
+down = "https://github.com/red-carnelian/The-Stone-of-Askavar.git"
+version = "365aa7eb1b4104669442308ae5c852dcea58e114"
+tra.CN = 6
+
+[gorgon]
+name = "gorgon"
+description = "A mod for BG:EE that adds a thieves guild into the town of Beregost."
+down = "https://github.com/TotalMilk90/gorgon.git" #fork
+version = "3b8c6d2a818d4b16a58183c4d396b645afe4855b"
+tra.CN = 1
