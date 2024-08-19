@@ -1,0 +1,615 @@
+古旧合集版EET大世界MODs组件参考（20240802更新）
+
+所谓古旧合集版，是集合了众多在BGT时代就已经有点名头的MODs，主要是大型综合剧情、小型任务剧情和战术遭遇战类的，因本人并没有体验过几个专门的新建NPC剧情（含调情）和新宗派方面的MODs，所以没有添加这2类。一般来说，增强敌人及调整规则类的MODs，比如剑湾策略SCS（STRATAGEMS）、CDTWEAKS和ATWEAKS、游荡者平衡（RR）等，在很多分享的版本中基本上都是会安装的，就不一一介绍，对调整较大的物品修订（ITEM REVISIONS）和法术修订（SPELL REVISIONS）这2个MODs需要单独考虑是否安装或者另外安装一个版本。我发现物品修订（ITEM REVISIONS）存在隐身后施法或用法杖攻击目标时并不会破除隐身状态的BUG，所以不再采用它。我的版本中包含有法术修订SPELL REVISIONS，推荐经验丰富的老玩家尝试。
+
+BG1阶段的古旧剧情有：黑暗地平线（DARKHORIZONSBGEE）、崔斯特传奇（DRIZZTSAGA）、黑暗剑湾 (DSotSC)、北部剑湾（NTOTSC）、埋骨之丘的秘密（BONEHILLEET）、暗灰帮（TGC1E）、地窟（VAULTEET）、 阿斯卡瓦之石（SoA）、KARATUR(来自卡拉图搁浅的船)、BG1AERIE（爱黎在BG1）等
+
+BG2阶段的古旧剧情有：检查身体（CTB）、最黑暗的一天（TDDz）、梭巴的阴影（SOS）、恐怖区域（ROT）、找麻烦（FISHINGFORTROUBLE）、
+拉伦的归途（布鲁斯介绍的工作AJOCMOD）、异次元球模组（PLANARSPHEREMOD）等
+
+BG2阶段的古旧战术类有：战术EE新版（TACTICS-REMIX）、阿桢噶德(Azengaard)战术遭遇战等
+
+官方EE V2.6.6中存在资源文件的错误，本次引入了一个非官方的EEFIXPACK对官方BG1EE和BG2EE的资源进行了大量修正，修正之后的资源文件可能不适用某些专门针对官方版文件进行修改的组件，比如ASCENSION #50、ATWEAKS #185、ATWEAKS #186就会安装失败，我选择舍弃这几个组件。
+
+2024年7月31日，参考了群友CLOUD新引入的EEEX和BUBB_SPELL_MENU_EXTENDED这2个非常便利的显示LUA外挂，建议在最后安装。
+
+1.BGEE部份
+选用BGEESod2.6.6.0版，可以只保留英文和中文语言包。注意，以下第一字符为“~”的表示是一个MOD的组件。
+~DLCMERGER #1 // Merge DLC into game -> Merge "Siege of Dragonspear" DLC: 1.5（本MOD无需汉化）
+打上TROW论坛的汉化补丁
+~EEFIXPACK #0 // Core Fixes: Beta 1
+~EEFIXPACK #2 // Game Text Update: Beta 1
+~DARKHORIZONSBGEE #0 // 黑暗地平线: 2.16
+~DRIZZTSAGA #0 //崔斯特传奇 v3.04
+~DRIZZTSAGA #3 //崔斯特推迟到完成杜拉格塔之后再出现 v3.04
+~ 阿斯卡瓦之石 #0 // 阿斯卡瓦之石 -> 默认版本：地区以探索方式连接
+~KARATUR #0 // T'Was a Slow Boat from Kara-Tur（本MOD尚无人汉化）
+~BG1AERIE #5000 // Aerie for BG:EE: 2.5（爱黎在BGEE，本MOD尚无人汉化）
+~BG1UB #0 // 恢复冰岛第二层: v16.4
+~BG1UB #11 // 史卡和沙散塔的女儿: v16.4
+~BG1UB #12 // 牧师奎宁格: v16.4
+~BG1UB #13 // 陈希洛和食人魔法师: v16.4
+~BG1UB #14 // 艾迪，商业联盟的申请者: v16.4
+~BG1UB #16 // 生物纠正: v16.4
+~BG1UB #17 // 生物恢复: v16.4
+~BG1UB #18 // 生物名称恢复: v16.4
+~BG1UB #19 // 少量对话恢复: v16.4
+~BG1UB #21 // 商店、酒馆和旅店的修正和恢复: v16.4
+~BG1UB #22 // 物品纠正与恢复: v16.4
+~BG1UB #29 // 银盾公爵出现在港口主人建筑里: v16.4
+~BG1UB #33 // 玛尔·卡莲，巫尔卡司特的幽灵: v16.4
+——————————————————————————————————————————————————————————————————————————————————————————————————————————
+2.BG2EE部分
+选用BG2EE2.6.6.0版，可以只保留英文和中文语言包，可以打上TROW论坛的汉化补丁
+~EEFIXPACK #0 // Core Fixes: Beta 1
+~EEFIXPACK #2 // Game Text Update: Beta 1
+EET #0 // EET核心组件（资源导入）: V13.4
+~BG1NPC #0 // BG1 NPC 计划：必要组件: v32
+~BG1NPC #10 // BG1 NPC 计划：交谈、任务及插话: v32
+~BG1NPC #24 // BG1 NPC 计划：阿詹提斯罗曼史核心内容（青少年内容） -> 速度：恋爱对话最小间隔为真实时间1小时30分钟（延长版）: v32
+~BG1NPC #34 // BG1 NPC 计划：布朗温罗曼史核心内容（青少年内容） -> 速度：恋爱对话最小间隔为真实时间1小时30分钟（延长版）: v32
+~BG1NPC #44 // BG1 NPC 计划：科朗罗曼史核心内容（成人内容） -> 速度：恋爱对话最小间隔为真实时间1小时30分钟（延长版）: v32
+~BG1NPC #54 // BG1 NPC 计划：戴娜黑罗曼史核心内容（青少年内容） -> 速度：恋爱对话最小间隔为真实时间1小时30分钟（延长版）: v32
+~BG1NPC #64 // BG1 NPC 计划：莎儿-蒂尔关系核心内容（成人内容） -> 速度：恋爱对话最小间隔为真实时间1小时30分钟（延长版）: v32
+~BG1NPC #74 // BG1 NPC 计划：撒恩罗曼史核心内容（青少年内容） -> 速度：恋爱对话最小间隔为真实时间1小时30分钟（延长版）: v32
+~BG1NPC #240 // BG1 NPC 计划：齐冯的武器熟练度 -> 给矛加两点: v32
+~BG1NPC #200 // BG1 NPC 计划：玩家发起的对话: v32
+~BGQE #0 // 贝尔苟斯特的果冻怪: 27
+~BGQE #1 // 贝尔苟斯特的家庭: 27
+~BGQE #2 // 临时保姆与嘉年华的遭遇: 27
+~BGQE #3 // 那西凯的怪物: 27
+~BGQE #4 // 堕落的圣武士: 27
+~BGQE #5 // 不朽的爱情: 27
+~BGQE #6 // 陷入苦恋的半兽人: 27
+~BGQE #7 // 意想不到的帮助: 27
+~BGQE #8 // 许多只小爪子: 27
+~BGQE #9 // 贝尔苟斯特神殿附近的醉鬼: 27
+~BGQE #10 // 努波的温柔乡: 27
+~BGQE #11 // 布雷吉的剑: 27
+~BGQE #12 // 合法的海图来源: 27
+~BGQE #13 // 女神大殿与贱后神殿的扩展: 27
+~BGQE #14 // 一位担忧的农夫: 27
+~BGQE #15 // 理由正当的尸体: 27
+~BGQE #16 // 不用杀死水妖精就可以完成柯达的任务: 27
+~BP_IN_BG #100 // 在BGEE/EET中添加访问“死斗黑坑”: 1.0
+~ROT #0 // 恐怖区域，5.0bata EE : v5.0
+~ROT #3 // 替代版Maribur区域: v5.0
+~TOA #1 // 阿内格异闻录（Weidu）: v3.1
+~TOA #20 // 区域平衡性修正: v3.1
+~TOA #30 // 对话&脚本平衡性修正: v3.1
+~TOA #40 // 商店平衡性修正: v3.1
+~TOA #50 // 物品平衡性修正: v3.1
+~DSOTSC #0 // 黑暗剑湾 (DSotSC): v4.2
+~DSOTSC #3 // 野外更多的普通遭遇战: v4.2
+~DSOTSC #4 // 在野外分散放置黑暗剑湾的物品: v4.2
+~NTOTSC #0 // 北部剑湾: 5.0.0
+~NTOTSC #1 // 根据游戏难度减少怪物数量: 5.0.0
+~NTOTSC #2 // 侏儒克勒: 5.0.0
+~NTOTSC #3 // 林德林的幸运箭: 5.0.0
+~NTOTSC #4 // 尼姆费莫林的猎犬: 5.0.0
+~NTOTSC #5 // 皮拉尔和盖德哈尔: 5.0.0
+~NTOTSC #6 // 司瓦拉斯特的痛苦: 5.0.0
+~NTOTSC #7 // 威尔 奥哈拉 NPC: 5.0.0
+~NTOTSC #8 // 威尔·奥哈拉安装英语语音: 5.0.0
+~NTOTSC #9 // 战斗遭遇: 5.0.0
+~NTOTSC #10 // 强化本MOD里的次级恶魔: 5.0.0
+~NTOTSC #11 // 强化锐齿森林的希勃尔: 5.0.0
+~NTOTSC #12 // 强化本MOD里的幽灵: 5.0.0
+~NTOTSC #14 // 调整兽人萨满的斗篷 -> 使其斗篷不会掉落: 5.0.0
+~TGC1E #0 // 暗灰帮：烛光 -> 标准版本: v1.9
+~VAULTEET #0 // 地窟: v8.1
+~VAULTEET #1 // 物品可以升级: v8.1
+~BONEHILLEET #0 // 埋骨丘的秘密EET: v33
+~TDDZ #0 // 最黑暗的一天 - 核心: v1.7
+~TDDZ #1 // TDD - 巨魔浅滩：呼救: v1.7
+~TDDZ #2 // TDD - 伊斯普尔塔：北地危机: v1.7
+~TDDZ #3 // TDD - 普斯凯：幽灵归来: v1.7
+~TDDZ #4 // TDD - 里亚塔维恩：未尽的阴谋: v1.7
+~TDDZ #5 // TDD - 最黑暗的一天：突发: v1.7
+~TDDZ #6 // TDD - 罗比拉得NPC: v1.7
+~TDDZ #7 // 在精灵城市Suldanessalar外面开始突发剧情: v1.7
+~SOS #0 // 笼罩梭巴的阴影: 2.1.1
+~SOS #4 // 备选梭巴区域（by Cuttooth）: 2.1.1
+~SOS #1 // 在贫民窟与盖兰会面后瑟乐丝抵达渥金大道: 2.1.1
+~SIRINESCALL #0 // 海妖女的呼唤: v16.3
+~AC_QUEST #0 // 一份报酬丰厚的工作: 5.2
+~AC_QUEST #1 // 地精的盛宴: 5.2
+~AC_QUEST #3 // “蹦蹦” -> 兼容性替代方案：乌格和“蹦蹦”在外部。: 5.2
+~AC_QUEST #4 // 失踪的儿子: 5.2
+~AC_QUEST #5 // 狼与人 -> 任务使用位于高篱堡附近的小屋。: 5.2
+~AC_QUEST #7 // 伟大的卡尔里尼: 5.2
+~AC_QUEST #8 // 为狂猿找一个家: 5.2
+~AC_QUEST #9 // 狂热女粉丝: 5.2
+~AC_QUEST #11 // 阿巴索的蛇人 -> 调整版本：任务可以在BG1中完成。: 5.2
+~AC_QUEST #12 // 盲眼邪教中的半身人: 5.2
+~THALAN #0 // 泰蓝提尔物品升级: v4.5.1
+~DH_TWEAKS #0 // Dark Horizons Balancing for EE: v1.3(黑暗地平线平衡，本MOD尚无人汉化）)
+~CTB #0 // 检查身体: 3.0
+~CTB #1 // 烛堡回忆: 3.0
+~CTB #2 // 烛堡回忆 快速略过 (for CtB v2.2 or later): 3.0
+~CTB #3 // 其它强化: 3.0
+~ASCENSION #0 // 重写巴尔王座的最终章: 2.0.28
+~ASCENSION #10 // 巴萨札可以被救赎: 2.0.28
+~ASCENSION #20 // 增强沙洛佛克与玩家的互动: 2.0.28
+~ASCENSION #30 // 增强爱蒙在巴尔王座中与玩家的互动: 2.0.28
+~ASCENSION #40 // 还原巴尔之子的能力: 2.0.28
+/这个组件不适用于EE FIXPACK/~ASCENSION #50 // 增强杀戮者的变形: 2.0.28
+~ASCENSION #60 // 扩展原版 Bioware NPC 的结局 -> David Gaider 的原版 Bioware NPC 结局: 2.0.28
+~ASCENSION #1000 // 更强的阿巴济戈: 2.0.28
+~ASCENSION #1100 // 更强的巴萨札: 2.0.28
+~ASCENSION #1200 // 更强的狄摩高根: 2.0.28
+~ASCENSION #1300 // 更强的葛罗姆尼尔: 2.0.28
+~ASCENSION #1400 // 更强的伊菈赛菈: 2.0.28
+~ASCENSION #1500 // 更强的雅加苏拉: 2.0.28
+~C#SB_SILBER #0 // 艾达隆（银龙）之血: 15
+~TOD #0 // 欺骗之塔: v4.0.8
+~TOD #1 // 强化星界碎片守卫: v4.0.8
+~TOD #2 // 遭遇乌斯崔恩: v4.0.8
+~DC #0 // 地城爬行者: v13.1
+~A7-TESTYOURMETTLE #0 // 考验你的勇气！: 1.5
+~A7-TESTYOURMETTLE #12 // 降低杀怪经验 -> 降低75%（推荐）: 1.5
+~A7-TESTYOURMETTLE #20 // 使“空间扭曲”可在商店购买: 1.5
+~PLANARSPHEREMOD #0 // 异次元球模组: v2.9
+~PLANARSPHEREMOD #623 // 次元球商店: v2.9
+~PLANARSPHEREMOD #624 // 渥金大道的商店: v2.9
+~PLANARSPHEREMOD #625 // 返回次元球 v2: v2.9
+~ASSASSINATIONS #0 // 刺杀合约: v19
+~BACKBRYNNLAW #0 // 重返布林罗岛: v9
+~SELLSWORDS #0 // 佣兵生涯: v7
+~TOTDG #0 // 无限颜色系列：深渊庭院的传说 -> 是的，但不要修改存档文件: 12.91
+~INNERSHADE #0 // 无限颜色系列：遮蔽村庄 -> 是的，但不要修改存档文件: 11.11
+~WHITEQUEEN #0 // 无限颜色系列：洁白女王 -> 是的，但不要修改存档文件: 7.2
+~SOUTHERNEDGE #0 // 市郊区：阿斯卡特拉的新地区 -> 是的，但不要修改存档文件: 5.1
+~OOZE #0 // 软泥会客厅：阿斯卡特拉贫民区的新地区: 2.94
+~TANGLEDISLE #0 // 缠绕橡树岛：阿斯卡特拉的新地区 -> 是的，但不要修改存档文件: v4.3
+~ISNF #0 // 无限颜色系列：矢志不渝的爱: 6.2
+~EILISTRAEE #0 // 伊莉丝翠之歌 -> 是的，但不要修改存档文件: 7.4
+~FISHINGFORTROUBLE #0 // 核心组件：找麻烦: v3.2.8
+~FISHINGFORTROUBLE #1 // 可选组件：主要人物肖像: v3.2.8
+~AJOCMOD #0 // 拉伦的归途（布鲁斯介绍的工作）: v1.8
+~AZENGAARD #0 // 阿桢噶德(Azengaard)战术遭遇战: v7.1
+~AZENGAARD #1 // 强化崔米镇墓穴: v7.1
+~IMNESVALE #0 // Imnesvale Invasion: v3.1(本MOD尚无人汉化）)
+~COM_ENCOUNTERS #0 // 蜜斯特拉选民遭遇战（需要巴尔王座）: v1.22
+~COM_ENCOUNTERS #1 // 你想安装改进的德鲁伊遭遇战吗？: v1.22
+~COM_ENCOUNTERS #2 // 你想安装改进的夏格贝格遭遇战吗？: v1.22
+~IMPASYLUM #0 // Improved Asylum Mod: v201
+~IMPASYLUM #1 // Spellhold Lich: v201
+~BST #0 // The BS Company presents Balduran's Seatower: vEAOB.9
+~LENSHUNT #0 // The Broken Lanthorn: V0.4
+~COWLEDMENACE #1000 // Main Component: 1.0.1
+~COWLEDMENACE #2100 // Appropriate Items for High-Level Spellcasters: 1.0.1
+~COWLEDMENACE #3000 // Mages cast Gate far from themselves: 1.0.1
+~COWLEDMENACE #3010 // Use pre-EE Spell Deflection Globe (EE only) -> Only for Spell Trap: 1.0.1
+~ITEMUPGRADE #0 // 安姆阴影物品强化 -> 原始版本（以名单形式列出所有新增物品强化）: v52
+~ITEMUPGRADE #1 // 巴尔王座物品强化 -> 原始版本（以名单形式列出所有新增物品强化）: v52
+~LUCY #0 // 翼龙露西: v5.0
+~SLANDOR #0 // 牛头人和利拉寇尔: 2.1
+~SHARDSOFICE #1 // 我最好的朋友其中一些是史莱姆: v7
+~SHARDSOFICE #2 // 你可以回复召唤母牛魔法，但是为什么呢？: v7
+~EMAD #0 // A Z-rated Adventure - an IM4 Non-Entry: v11
+~EMAD #1 // The Promise of a Troll: v11
+~EMAD #2 // A Bhaalspawn's Best Friend: v11
+~EMAD #3 // Under Her Spell: v11
+~EMAD #5 // Character Medley: v11
+~G3ANNIVERSARY #0 // The Gibberlings Three Anniversary Mod: v13
+~THOGHMA #0 // A Quest in the service of Oghma: v1.8
+~SAGAMAN #0 // Ulrien of Cormyr - SagaMaster
+~ARESTORATIONP #0 // 区域补全: v10.0
+~ARESTORATIONP #1 // 生物及对话补全: v10.0
+~ARESTORATIONP #2 // 声音补全: v10.0
+~ARESTORATIONP #3 // 物品补全: v10.0
+~ARESTORATIONP #4 // 许愿术条目补全: v10.0
+~ARESTORATIONP #5 // 经验值细节补全: v10.0
+~ARESTORATIONP #6 // 巫妖德瑞尔: v10.0
+~ARESTORATIONP #8 // 细节补全: v10.0
+~ARESTORATIONP #11 // 杀戮者梦境补全: v10.0
+~ARESTORATIONP #12 // 杀戮者变身调整: v10.0
+~ARESTORATIONP #13 // 渥金商场动画补全: v10.0
+~UB #0 // 被诱拐的小布: v29
+~UB #1 // 恢复苏娜·塞妮与瓦里格的关系: v29
+~UB #2 // 卡拉和他许下的愿望: v29
+~UB #3 // “猫和老鼠”（芭荻在禁魔监狱中追杀你）: v29
+~UB #4 // 高杰·希尔达克与扩充的伊利希银任务: v29
+~UB #5 // 派娜与灭蛛剑: v29
+~UB #6 // 复原弯颈鹤旅店: v29
+~UB #7 // 恢复遭遇战: v29
+~UB #8 // 阿提密斯·恩崔立出现在芭荻巢穴: v29
+~UB #9 // 修正“萨尔的造物”: v29
+~UB #10 // 恢复地狱中艾瑞尼卡斯之战的喽罗: v29
+~UB #12 // 物品恢复: v29
+~UB #15 // NPC头像恢复: v29
+~UB #17 // 正确的人物名称和特性: v29
+~UB #18 // 少量对话恢复: v29
+~UB #20 // 扩展ToB的物品描述: v29
+~UB #21 // ToB附加修正: v29
+~UB #25 // 艾克顿·巴西斯谋杀案 作者：Kulyok: v29
+~ALTERNATIVES #0 // G3: Alternatives（提供两种新的出海路线) v15
+~FADINGPROMISES #0 // 褪色的承诺: v9
+~D0QUESTPACK #1 // Creature & Area Improvements -> All Creature & Area Improvements: v3.5
+~D0QUESTPACK #4 // Miscellaneous Enhancements -> With Additional Random Encounters: v3.5
+~D0QUESTPACK #6 // Alternative Harper/Xzar Plot: v3.5
+~D0QUESTPACK #7 // Extended Reynald Sequence: v3.5
+~D0QUESTPACK #8 // Intrigue In The Copper Coronet: v3.5
+~D0QUESTPACK #9 // Rahul Kanakia's Potion Quest: v3.5
+~D0QUESTPACK #10 // Revised Hell Trials: v3.5
+~D0QUESTPACK #13 // Saving Sanik In Brynnlaw: v3.5
+~D0QUESTPACK #14 // Burglary Of The Bookkeeper: v3.5
+~D0QUESTPACK #15 // New Fate For The Dryads' Acorns: v3.5
+~D0QUESTPACK #16 // The Tragedy Of Besamen: v3.5
+~D0QUESTPACK #17 // Further Slaver Involvement: v3.5
+~D0QUESTPACK #18 // Sending The Solamnic Knights Home: v3.5
+~D0QUESTPACK #19 // Nazariel The Lich: v3.5
+~D0QUESTPACK #20 // Reward Negotiation: v3.5
+~D0QUESTPACK #21 // Infernal Thievery: v3.5
+~TURNABOUT #0 // Ascension: Turnabout: v1.8
+~IRONMODDERS #0 // Shadow War by SimDing0: v1.3
+~IRONMODDERS #1 // The Oldest Trick in the Book by berelinde: v1.3
+~IRONMODDERS #2 // Mia's Daughter by Kulyok: v1.3
+~IRONMODDERS #3 // Tears of an  Angel by SimDing0: v1.3
+~IRONMODDERS #4 // Pay for Your Sins by Andyr: v1.3
+~IRONMODDERS #5 // Market Prices by Windwalker: v1.3
+~IRONMODDERS #6 // A Z-rated Adventure by Cliffette: v1.3
+~IRONMODDERS #7 // A Kiss Before Dying by llamababe: v1.3
+~IRONMODDERS #8 // Questor by Leutian: v1.3
+~IRONMODDERS #9 // Alhandar by Katalyn: v1.3
+~IRONMODDERS #10 // Bhaalspawns Never Say Sorry by llamababe: v1.3
+~IRONMODDERS #11 // Careless Words Cost Lives by ghreyfain: v1.3
+~IRONMODDERS #12 // Lady La'Chatterly by llamababe: v1.3
+~IRONMODDERS #13 // Blaze of Glory by jcompton: v1.3
+~IRONMODDERS #14 // Hero for all the Wrong Reasons by neriana: v1.3
+~IRONMODDERS #15 // What I could have had...by SConrad: v1.3
+~IRONMODDERS #16 // The Last Mug of Ale in Amn by ghreyfain: v1.3
+~IRONMODDERS #17 // Diplomacy and Druids by neriana: v1.3
+~IRONMODDERS #18 // Incorrigible by Icelus: v1.3
+~/建议高手安装，一般玩家不要安装/SPELL_REV #0 // 法术修订: v4.19
+~/建议高手安装，一般玩家不要安装/SPELL_REV #10 // 新的使徒与神界侍者动画: v4.19
+~/建议高手安装，一般玩家不要安装/SPELL_REV #20 // 镜影术修正 (不再免疫范围攻击法术): v4.19
+~/建议高手安装，一般玩家不要安装/SPELL_REV #30 // 解除魔法修正 (更符合法术描述，纠正物品消失的错误): v4.19
+~/建议高手安装，一般玩家不要安装/SPELL_REV #55 // Spell Deflection blocks AoE spells: v4.19
+~/建议高手安装，一般玩家不要安装/SPELL_REV #60 // 更新可加入队友的法术书 (只修改神术法术书，去掉不合理的神术并加入新的): v4.19
+~CDTWEAKS #2280 // 改变牧师法术升级表 -> 未削弱的设置（Blucher）: v16
+~CDTWEAKS #2290 // 改变德鲁伊法术和等级升级表 -> 不改变等级升级表，只使用未削弱的德鲁伊法术设置（Blucher）: v16
+~CDTWEAKS #2339 // 取消召唤普通生物的个数限制（Ardanis/GeN1e）: v16
+/有风险，我没有安装/~STRATAGEMS #1500 // 包括冰风谷增强版中的法师法术: 35.17
+/有风险，我没有安装/~STRATAGEMS #1510 // 包括冰风谷增强版中的牧师神术: 35.17
+/有风险，我没有安装/~STRATAGEMS #1520 // 包括冰风谷：增强版的吟游诗人战歌: 35.17
+~IWD1_EET #0 // 用<CHARNAME> 替换 <GABBER> 等等.
+~IWD1_EET #1 // 把冰风谷：寒冬之心引入到博德之门增强版三部曲
+~IWD2_EET #0 // 把冰风谷II引入到博德之门增强版三部曲
+~NWNFORBG #0 // 无冬之夜 For 博德之门: 0.97
+~NWNFORBG #10 // NWN For BG - Worldmap select (EE-games only) -> Place NWN locations on BP-BGT Worldmap: 0.97
+~A7-TOTLM-BG2EE #0 // 用于《博德之门》的《谜语大师的试炼》: 4.3
+~A7-TOTLM-BG2EE #20 // 再平衡武器和装备: 4.3
+~A7-TOTLM-BG2EE #31 // 减少怪物和任务的经验 -> 减少50%: 4.3
+~A7-TOTLM-BG2EE #40 // 允许在开始冒险前与霍巴进行交易: 4.3
+~DEEPGNOMES #0 // Deepgnomes of the Sword Coast for EET: v0.4
+~HAMMERS #0 // Thrown Hammers: v6.1.2
+~HAMMERS #15 // Thrown Spiritual Hammers: v6.1.2
+~HAMMERS #25 // Normal throwing hammers: v6.1.2
+~HAMMERS #35 // +1 throwing weapons: v6.1.2
+~HAMMERS #50 // Additional magic items: v6.1.2
+~RR #1 // 盗贼职业修订: v4.92
+~RR #2 // 盗贼高阶技能修订: v4.92
+~RR #3 // 调整种族对盗贼技能的影响: v4.92
+~RR #4 // 吟游诗人职业修订: v4.92
+~RR #5 // 吟游诗人高阶技能修订: v4.92
+~RR #6 // 吟游诗人法术升级列表修订: v4.92
+~RR #7 // 额外的盗贼和吟游诗人专用装备: v4.92
+~RR #8 // 允许克伦威尔和塞斯潘纳升级本 MOD 在游戏中添加的物品: v4.92
+~CDTWEAKS #40 // 将维康尼亚的皮肤改为深蓝色: v16
+~CDTWEAKS #50 // 更改人物形象脚本: v16
+~CDTWEAKS #60 // 武器动画调整: v16
+~CDTWEAKS #70 // 冰风谷施法动画（Andyr）: v16
+~CDTWEAKS #100 // 平民的衣服变为土褐色: v16
+~CDTWEAKS #110 // 图标的改善: v16
+~CDTWEAKS #130 // 对话时自动暂停游戏: v16
+~CDTWEAKS #140 // 修正布布的叫声: v16
+~CDTWEAKS #150 // Remove "+x" From Unique Item Names: v16
+~CDTWEAKS #170 // 独特的图标 -> Only replace icons that aren't already unique: v16
+~CDTWEAKS #182 // 独特的容器 -> 独特的图标与名称: v16
+~CDTWEAKS #190 // 使用人物配色取代物品配色 -> 作用于所有盾牌和头盔: v16
+~CDTWEAKS #200 // Remove Annoying Visual Effects from Equipped Items -> 移除物品的朦胧特效，例如--位移斗篷: v16
+~CDTWEAKS #1010 // 更多的插话: v16
+~CDTWEAKS #1020 // 更改NPC受伤对话的触发条件: v16
+~CDTWEAKS #1030 // 在第六章之前显示野外地区: v16
+~CDTWEAKS #1036 // 在完成强盗营地任务前打开斗篷森林地区 -> 除了铁矿外斗篷森林的全部地区: v16
+~CDTWEAKS #1050 // 黑暗精灵的物品逐渐毁坏: v16
+~CDTWEAKS #1060 // 可毁坏的铁制非魔法盾牌、头盔和装甲: v16
+~CDTWEAKS #1070 // 改进多人游戏的队友离队时的对话: v16
+~CDTWEAKS #1075 // 将游戏NPC送往旅馆 [DavidW/Zed Nocear]: v16
+~CDTWEAKS #1080 // 增加次元袋: v16
+~CDTWEAKS #1120 // 商店出售更大捆的物品: v16
+~CDTWEAKS #1180 // 女性爱德温: v16
+~CDTWEAKS #1220 // 允许克伦威尔升级观察者堡垒的物品: v16
+~CDTWEAKS #1226 // 调整克伦威尔铸造物品的时间 -> 8小时: v16
+~CDTWEAKS #1230 // 允许塞斯潘纳升级克伦威尔的配方: v16
+~CDTWEAKS #1251 // 绉诲姩NPC鍒版洿鏂逛究鐨勪綅缃細灏嗛樋缃楁媺绉诲姩鍒版邯璋烽晣: v16
+~CDTWEAKS #1252 // 移动NPC到更方便的位置：将亚多士移动到海岸大道: v16
+~CDTWEAKS #1253 // 移动NPC到更方便的位置：将奎里移动到纳西凯嘉年华: v16
+~CDTWEAKS #1255 // 移动NPC到更方便的位置：将提亚斯移动到贝尔苟斯特: v16
+~CDTWEAKS #1256 // 移动NPC到更方便的位置：将维康尼亚移动到贝尔苟斯特以南: v16
+~CDTWEAKS #1270 // 斗篷森林矿坑章节结尾触发改变为非剑湾传奇的方式（plainab） （BETA）: v16
+~CDTWEAKS #1340 // 任意职业均能获得法师据点: v16
+~CDTWEAKS #1341 // 任意职业均能获得战士据点: v16
+~CDTWEAKS #1342 // 任意职业均能获得牧师据点: v16
+~CDTWEAKS #1343 // 任意职业均能获得盗贼据点: v16
+~CDTWEAKS #1344 // 任意职业均能获得吟游诗人据点: v16
+~CDTWEAKS #1345 // 任意职业均能获得圣武士据点: v16
+~CDTWEAKS #1346 // 任意职业均能获得德鲁伊据点: v16
+~CDTWEAKS #1347 // 任意职业均能获得游侠据点: v16
+~CDTWEAKS #2010 // 防护火焰和寒冷的图标显示成两个不同的图标（Angel）: v16
+~CDTWEAKS #2040 // 通用棍棒（任何人可用）: v16
+~CDTWEAKS #2060 // 武器模式通用: v16
+~CDTWEAKS #2152 // 装备多个魔法保护物品 -> 允许魔法护甲和1个魔法保护物品同时装备（Angel）: v16
+~CDTWEAKS #2160 // 更改武器熟练系统 -> 平衡武器精通: v16
+~CDTWEAKS #2170 // 使用卷轴（或其它物品）施法时按人物自身等级计算: v16
+~CDTWEAKS #2210 // 改变大宗师加成 -> 真五星熟练度（Baldurdash）: v16
+~CDTWEAKS #2330 // 取消魔法陷阱的延迟（Ardanis/GeN1e）: v16
+~CDTWEAKS #2340 // 取消召唤异界神侍的个数限制（Ardanis/GeN1e）: v16
+~CDTWEAKS #2360 // 移除单一职业种族限制: v16
+~CDTWEAKS #2371 // 改变转职限制 -> 允许非人类转职: v16
+~CDTWEAKS #2380 // 移除宗派的种族限制: v16
+~CDTWEAKS #2390 // Alter Paladin Spell Progression Table -> 圣武士使用冰风之谷-寒冬之心的法术升级表（grogerson）: v16
+~CDTWEAKS #2400 // Alter Ranger Spell Progression Table -> 游侠使用冰风之谷-寒冬之心的法术升级表（grogerson）: v16
+~CDTWEAKS #2410 // 德鲁伊使用DnD3版的阵营限制: v16
+~CDTWEAKS #2440 // 任意职业都可从武器专精获得每轮攻击次数奖励: v16
+~CDTWEAKS #2520 // 允许法师装备小圆盾，盗贼装备小型盾（Angel）: v16
+~CDTWEAKS #2530 // 闪电不会被反弹（Angel）: v16
+~CDTWEAKS #2540 // 缩短德阿尼斯堡据点任务之间的时间间隔: v16
+~CDTWEAKS #2560 // Allow Monks to Wear Helmets: v16
+~CDTWEAKS #2620 // Make Certain Creatures Immune to Backstab/Sneak Attack [Luke]: v16
+~CDTWEAKS #2999 // 等级1时获得HP最大值: v16
+~CDTWEAKS #3000 // 升级时获得更多的HP -> 最大值: v16
+~CDTWEAKS #3031 // 简单的法术学习 -> 100%学会法术且无数量限制: v16
+~CDTWEAKS #3050 // 施展复原术后不会疲劳: v16
+~CDTWEAKS #3060 // 让“你必须在进入这里前集合你的队伍”这句话住口（Weimer）: v16
+~CDTWEAKS #3083 // 提高弹药堆叠数量 -> 每组120: v16
+~CDTWEAKS #3093 // 提高宝石和珠宝堆叠数量 -> 每组120: v16
+~CDTWEAKS #3101 // 提高药剂堆叠数量 -> 每组40: v16
+~CDTWEAKS #3111 // 提高卷轴堆叠数量 -> 每组40: v16
+~CDTWEAKS #3121 // 快乐补丁（队伍中的NPC不会打架或抱怨声望） -> NPC会对声望不满，但不会离开队伍（Salk）: v16
+~CDTWEAKS #3123 // NPC不会打架: v16
+~CDTWEAKS #3125 // 中立阵营的人物在声望中等时会有高兴的议论: v16
+~CDTWEAKS #3160 // 保留崔斯特的装备，马尔可．哈贝尔不会出现: v16
+~CDTWEAKS #3170 // 在幽暗地域中不会变成黑暗精灵的形象: v16
+~CDTWEAKS #3191 // 禁止休息时产生非敌意生物: v16
+~CDTWEAKS #3200 // 可贩卖的物品（Icelus）: v16
+~CDTWEAKS #3205 // 商店购买所有类型的物品: v16
+~CDTWEAKS #3280 // 全部职业拥有四个武器栏: v16
+~CDTWEAKS #3300 // 显示主角死亡镜头: v16
+~CDTWEAKS #3310 // 开始新游戏时将团队AI设置为默认关闭: v16
+~CDTWEAKS #3320 // 禁用商店收购价打折: v16
+~CDTWEAKS #3330 // 队友不易成为无法复活状态: v16
+~CDTWEAKS #4000 // 调整可加入邪恶NPC的反应掷骰: v16
+~CDTWEAKS #4025 // 允许成对的队友分开（例如贾希拉和卡立德，戴娜黑和明斯克，萨尔和蒙塔罗等）: v16
+~CDTWEAKS #4031 // 属性一致的艾德温 -> 使用BG2属性: v16
+~CDTWEAKS #4041 // 属性一致的贾希拉 -> 使用BG2属性: v16
+~CDTWEAKS #4050 // 贾希拉改变为中立善良阵营: v16
+~CDTWEAKS #4061 // 属性一致的明斯克 -> 使用BG2属性: v16
+~CDTWEAKS #4071 // 属性一致的维康妮亚 -> 使用BG2属性: v16
+~CDTWEAKS #4100 // 寇根变为中立邪恶阵营: v16
+~CDTWEAKS #4110 // 凯根的体质变为19: v16
+~CDTWEAKS #4120 // 柯朗的敏捷变为19: v16
+~CDTWEAKS #4140 // 队员不会自动设置“高级人工智能”脚本（BGEE/BG2EE）: v16
+~CDTWEAKS #4150 // 把小布移动到明斯克的背包中: v16
+~CDTWEAKS #4180 // Removable NPC Items: v16
+~TACTICS-REMIX #2 // "Kuroisan", the Acid Kensai: v0.6.1-beta
+~TACTICS-REMIX #1 // The Ritual: v0.6.1-beta
+~TACTICS-REMIX #3 // "Red Badge" Poison-Based Encounter: v0.6.1-beta
+~TACTICS-REMIX #4 // Gebhard Blucher's Lich in the Docks: v0.6.1-beta
+~TACTICS-REMIX #5 // Kensai Ryu's Gnome Fighter/Illusionist in the Docks: v0.6.1-beta
+~STRATAGEMS #2900 // 移动或修改过强的魔法物品: 35.17
+~STRATAGEMS #3010 // 将+1的箭支改换为普通的精良版本: 35.17
+~STRATAGEMS #3041 // 减少商店中破魔箭的数量 -> 商店出售的破魔箭最大数量只有5支: 35.17
+~STRATAGEMS #3505 // 扩展随机卷轴的覆盖范围: 35.17
+~STRATAGEMS #3540 // 降低审判者解除魔法的能力 -> 审判者的解除魔法成功率以自身等级的1.5倍计算（不再是2倍）: 35.17
+~STRATAGEMS #4000 // 速度更合适的熊: 35.17
+~STRATAGEMS #4020 // 行为更真实的狼与野狗: 35.17
+~STRATAGEMS #4030 // 强化变形术: 35.17
+~STRATAGEMS #4115 // 盗贼将以五倍的水平分配技能点（只是方便性的调整）: 35.17
+~STRATAGEMS #4150 // 使蒙面法师可以侦测阿斯卡特拉大部分室内区域的施法状况: 35.17
+~STRATAGEMS #4164 // 提高阿斯卡特拉施法许可证的价格 -> 许可证花费50000枚金币: 35.17
+~STRATAGEMS #4174 // 增加盖兰·贝尔的要价 -> 盖兰要价120000枚金币: 35.17
+~STRATAGEMS #4210 // 使观察者堡垒内的迷宫随机化: 35.17
+~STRATAGEMS #4215 // 移除特定区域中不应存在的协助类物品: 35.17
+~STRATAGEMS #4216 // 移除特定区域中不应存在的弹药 -> 只移除随机容器中的非魔法弹药: 35.17
+~STRATAGEMS #4230 // 冒险者集市与铜冠酒店的“秘密商人”延迟出现: 35.17
+~STRATAGEMS #5000 // 安逸队伍 AI: 35.17
+~STRATAGEMS #5080 // 增强BG的章节过场: 35.17
+~STRATAGEMS #5900 // 初始 AI 组件（其他战术或 AI 组件的必备前置组件）: 35.17
+~STRATAGEMS #6000 // 更聪明的普通 AI: 35.17
+~STRATAGEMS #6010 // 更好的呼救系统: 35.17
+~STRATAGEMS #6030 // 更聪明的法师: 35.17
+~STRATAGEMS #6040 // 更聪明的牧师: 35.17
+~STRATAGEMS #6100 // 给 NPC 配备药剂: 35.17
+~STRATAGEMS #6200 // 强化蜘蛛: 35.17
+~STRATAGEMS #6300 // 更聪明的海妖女和树妖精: 35.17
+~STRATAGEMS #6310 // 稍微聪明的食腐虫: 35.17
+~STRATAGEMS #6320 // 更聪明的石化蜥蜴: 35.17
+~STRATAGEMS #6500 // 强化魔像: 35.17
+~STRATAGEMS #6510 // 强化恶魔和神使: 35.17
+~STRATAGEMS #6520 // 更聪明的巨灵: 35.17
+~STRATAGEMS #6540 // 更聪明的龙类: 35.17
+~STRATAGEMS #6550 // 更聪明的眼魔: 35.17
+~STRATAGEMS #6560 // 更聪明的灵吸怪: 35.17
+~STRATAGEMS #6570 // 更聪明的吉斯洋基人: 35.17
+~STRATAGEMS #6580 // 强化吸血鬼: 35.17
+~STRATAGEMS #6590 // 更聪明的巴尔王座最终战: 35.17
+~STRATAGEMS #6800 // 更聪明的伊菈赛菈: 35.17
+~STRATAGEMS #6810 // 更聪明的葛罗姆尼尔: 35.17
+~STRATAGEMS #6820 // 更聪明的雅加苏拉: 35.17
+~STRATAGEMS #6830 // 更聪明的阿巴济戈: 35.17
+~STRATAGEMS #6840 // Ascension 版本的艾瑞尼卡斯和仙黛使用 SCS 中的能力和 AI: 35.17
+~STRATAGEMS #6850 // Ascension 版本的恶魔使用 SCS 中的能力和 AI: 35.17
+~STRATAGEMS #7000 // 强化变形怪: 35.17
+~STRATAGEMS #7010 // 强化黑爪兵团和铁王座守卫: 35.17
+~STRATAGEMS #7020 // 强化刺杀小队出现的部署: 35.17
+~STRATAGEMS #7030 // 强化狗头人: 35.17
+~STRATAGEMS #7040 // 重新分配赏金猎人的位置: 35.17
+~STRATAGEMS #7050 // 强化巫尔卡斯特: 35.17
+~STRATAGEMS #7060 // 强化博德安之岛: 35.17
+~STRATAGEMS #7070 // 强化杜拉个之塔: 35.17
+~STRATAGEMS #7080 // 强化恶魔信徒: 35.17
+~STRATAGEMS #7090 // 强化斗篷森林德鲁伊: 35.17
+~STRATAGEMS #7100 // 强化巴西勒斯: 35.17
+~STRATAGEMS #7110 // 强化德拉萨斯小队: 35.17
+~STRATAGEMS #7130 // 强化红袍法师: 35.17
+~STRATAGEMS #7140 // 强化古代城市小队: 35.17
+~STRATAGEMS #7150 // 增强卡莎/喀尔可的交互: 35.17
+~STRATAGEMS #7200 // 更难的第二章最终战: 35.17
+~STRATAGEMS #7210 // 更难的第三章最终战: 35.17
+~STRATAGEMS #7220 // 更难的第四章最终战: 35.17
+~STRATAGEMS #7230 // 更难的第五章最终战: 35.17
+~STRATAGEMS #7250 // 更难的最终战: 35.17
+~STRATAGEMS #7900 // 强化小型遭遇战: 35.17
+~STRATAGEMS #8000 // 稍微提高序章地牢的难度: 35.17
+~STRATAGEMS #8010 // 强化暗影之王: 35.17
+~STRATAGEMS #8020 // 半巫妖施法调整: 35.17
+~STRATAGEMS #8040 // 难度关联等级的怪物也关联游戏难度选项: 35.17
+~STRATAGEMS #8050 // 强化随机遭遇战: 35.17
+~STRATAGEMS #8060 // 强化德阿尼斯堡（混合 Tactics）: 35.17
+~STRATAGEMS #8070 // 强化盲目之眼: 35.17
+~STRATAGEMS #8080 // 强化芭荻: 35.17
+~STRATAGEMS #8085 // 让 Ascension 版本中的芭荻使用 SCS “强化芭荻”组件中的能力: 35.17
+~STRATAGEMS #8090 // 在禁魔监狱中移除队伍装备: 35.17
+~STRATAGEMS #8100 // 提高禁魔监狱中艾瑞尼卡斯战役的难度: 35.17
+~STRATAGEMS #8110 // 强化鲨化鱼人: 35.17
+~STRATAGEMS #8120 // 强化眼魔巢穴: 35.17
+~STRATAGEMS #8130 // 再平衡巨魔的再生能力: 35.17
+~STRATAGEMS #8140 // 强化黑暗精灵: 35.17
+~STRATAGEMS #8150 // 强化观察者堡垒: 35.17
+~STRATAGEMS #8160 // 强化火巨人神殿: 35.17
+~STRATAGEMS #8170 // 强化仙黛的巢穴: 35.17
+~STRATAGEMS #8180 // 强化阿巴济戈的巢穴: 35.17
+~STRATAGEMS #8190 // 强化小型遭遇战: 35.17
+~TACTICS-REMIX #8 // Improved Sahuagin City: v0.6.1-beta
+~TACTICS-REMIX #10 // Improved Irenicus: v0.6.1-beta
+~TACTICS-REMIX #11 // Improved Guarded Compound in the Temple District: v0.6.1-beta
+~TACTICS-REMIX #12 // Improved Twisted Rune: v0.6.1-beta
+~TACTICS-REMIX #14 // Gebhard Blucher's Improved Demon Knights: v0.6.1-beta
+~TACTICS-REMIX #15 // Kensai Ryu's Tougher Kangaxx and Guardians: v0.6.1-beta
+~TACTICS-REMIX #6 // Kensai Ryu's Improved Crypt King: v0.6.1-beta
+~TACTICS-REMIX #16 // Smarter Dragons: v0.6.1-beta
+~TACTICS-REMIX #17 // Kensai Ryu's Improved Copper Coronet: v0.6.1-beta
+~TACTICS-REMIX #19 // Mike Barnes' Improved Small Teeth Pass: v0.6.1-beta
+~TACTICS-REMIX #35 // Morpheus562's Improved Planar Prison Bounty Hunters: v0.6.1-beta
+~TACTICS-REMIX #23 // Tougher Fire Giants: v0.6.1-beta
+~TACTICS-REMIX #32 // Morpheus562's Tougher Githyanki: v0.6.1-beta
+~TACTICS-REMIX #33 // Morpheus562's Tougher Yuan-ti: v0.6.1-beta
+~RR #10 // 偷窃的有关调整 -> 不修改盗贼技能药水，但防止其效果叠加: v4.92
+~RR #11 // 希瑞克选民遭遇战: v4.92
+~RR #12 // 增强影贼公会: v4.92
+~RR #999 // BG2风格的RR图标: v4.92
+~ATWEAKS #100 // 恢复半兽人角色天生的夜视能力: v4.53_TotoR
+~ATWEAKS #101 // 使骷髅和非实体形态的亡灵生物不受灵吸怪的噬脑术攻击的影响: v4.53_TotoR
+~ATWEAKS #110 // 让魔法箭矢获得与它们附魔等级一样的伤害加成: v4.53_TotoR
+~ATWEAKS #115 // 允许法师把记忆中的法术抄写到卷轴上 -> 可以随处抄写卷轴: v4.53_TotoR
+~ATWEAKS #120 // 恢复圣骑士天生的疾病免疫能力: v4.53_TotoR
+~ATWEAKS #125 // 游侠的动物通灵能力伴随等级提升: v4.53_TotoR
+~ATWEAKS #130 // 额外的矮人种族特性: v4.53_TotoR
+~ATWEAKS #140 // 额外的侏儒种族特性: v4.53_TotoR
+~ATWEAKS #160 // PnP 亡灵: v4.53_TotoR
+~ATWEAKS #180 // PnP 魔蝠: v4.53_TotoR
+/这个组件不适用于EE FIXPACK/~ATWEAKS #185 // PnP 精类生物: v4.53_TotoR
+/这个组件不适用于EE FIXPACK/~ATWEAKS #186 // 修订召唤林地生物术: v4.53_TotoR
+~ATWEAKS #200 // 让破解术能够破坏由物品获得的石肤术效果: v4.53_TotoR
+~ATWEAKS #201 // 无法打断战士系职业施展的技能: v4.53_TotoR
+~ATWEAKS #202 // 修订巴尔之力 -> 强化巴尔之力，并规范其施法时间: v4.53_TotoR
+~ATWEAKS #203 // 无法打断德鲁伊的变身: v4.53_TotoR
+~ATWEAKS #210 // 让解除/移除魔法能够秒杀霓吸雾和哈克沙（PnP规则）: v4.53_TotoR
+~ATWEAKS #216 // 已经隐身的吟游诗人在吟唱时会显形 -> 只有小丑在吟唱时会显形: v4.53_TotoR
+~ATWEAKS #270 // 更公正的任务报酬: v4.53_TotoR
+~ATWEAKS #220 // 简易盗贼脚本: v4.53_TotoR
+~ATWEAKS #230 // 简易诗人脚本: v4.53_TotoR
+~ATWEAKS #239 // 简易牧师/圣武士脚本: v4.53_TotoR
+~ATWEAKS #301 // 改变寇萨拉家传之甲的外观: v4.53_TotoR
+~ATWEAKS #302 // 改变维克纳之袍的外观: v4.53_TotoR
+~ATWEAKS #310 // 独特的生物外观着色: v4.53_TotoR
+~ATWEAKS #315 // 独特的生物声音集: v4.53_TotoR
+~ATWEAKS #500 // 稍微增加容器的容量 -> 将容量值设为 999（推荐）: v4.53_TotoR
+~ATWEAKS #510 // 多样化的神殿服务: v4.53_TotoR
+~ATWEAKS #999 // 让 aTweaks 使用博德之门2风格的图标: v4.53_TotoR
+~KLATU #1070 // CtB: Remove Venereal Disease: 1.7.3
+~KLATU #1080 // CtB: Fixed Harp of Myth Drannor: 1.7.3
+~KLATU #1090 // RoT: Remove cutscenes from Chateau Irenicus: 1.7.3
+~THEPICTURESTANDARD #1000 // Main -> Vanilla: 0.71
+~THEPICTURESTANDARD #2000 // Followers -> Vanilla: 0.71
+~THEPICTURESTANDARD #3000 // BG1NPC -> Vanilla: 0.71
+~THEPICTURESTANDARD #4000 // Dark Horizons -> Vanilla: 0.71
+~THEPICTURESTANDARD #5000 // Drizzt Saga -> Vanilla: 0.71
+~THEPICTURESTANDARD #6000 // Dark Side of the Sword Coast -> Vanilla: 0.71
+~THEPICTURESTANDARD #7000 // Eilistraee's Song -> Vanilla: 0.71
+~THEPICTURESTANDARD #8000 // Innershade -> Vanilla: 0.71
+~THEPICTURESTANDARD #9000 // I Shall Never Forget -> Vanilla: 0.71
+~THEPICTURESTANDARD #10000 // Rogue Rebalancing -> Vanilla: 0.71
+~THEPICTURESTANDARD #11000 // Sellswords -> Vanilla: 0.71
+~THEPICTURESTANDARD #12000 // Tales Of The Deep Gardens -> Vanilla: 0.71
+~THEPICTURESTANDARD #19000 // The White Queen -> Vanilla: 0.71
+~THEPICTURESTANDARD #20000 // The Darkest Day -> Vanilla: 0.71
+~THEPICTURESTANDARD #21000 // Tower of Deception: 0.71
+~THEPICTURESTANDARD #22000 // Siege of Dragonspear -> Vanilla: 0.71
+~EET_TWEAKS #2002 // Total XP CAP -> Disabled: 1.12
+~EET_TWEAKS #2040 // XP for Traps, Spells and Lockpicking -> BG1 values (default): 1.12
+~EET_TWEAKS #2052 // XP for killing creatures -> Decrease to 50%: 1.12
+~EET_TWEAKS #2062 // XP for quests -> Decrease to 50%: 1.12
+~EET_TWEAKS #3000 // Disable hostile reaction after charm: 1.12
+~THERUNE #0 // Oberan's Secret: V0.4
+~THERUNE #1 // Dragonspear Rune: V0.4
+~THERUNE #2 // Athkatla Rune: V0.4
+~PPE #0 // Portraits Portraits Everywhere (PPE) - core component: 1.02
+~PPE #10 // Isandir's CHARNAME Portraits: 1.02
+~PPE #20 // Replace Low Quality TOB & SOA Portraits: 1.02
+~PPE #25 // Edwin/Edwina: 1.02
+~PPE #30 // Ust Natha Drow NPCs: 1.02
+~PPE #100 // Category Portraits (Recommended) -> Sequenced: 1.02
+~ICEWIND_EET #0 // IceWind_End
+~BP-BGT-WORLDMAP #0 // 博德之门全景地图（包括地区图标）: v13.1.1
+~BGIWDEASY #0 // 可提前开始冰风谷1游戏（去除NPC在乌葛斯胡渣旅馆出现的章节需求）: v1.4
+~BGIWDEASY #3 // 可提前开始冰风谷2游戏（去除NPC在铜冠旅店出现的章节需求）: v1.4
+~BGIWDEASY #6 // 允许在冰风谷1最终战之前和盲眼矮人铁匠提尔农交谈（前提是他给玩家锻造过冰制武器），获得唤醒艾霍能之剑的机会: v1.4
+~BGIWDEASY #7 // 解决冰风谷1和冬之心最终战结束可能无法继续游戏的问题: v1.4
+~BGIWDEASY #10 // 魔宠在冰风谷可正常存在: v1.4
+~BGIWDEASY #11 // 提示处理冰风谷1开场出门后控制界面消失的问题: v1.4
+~BGIWDEASY #12 // 放置NPC在冰风谷1帮助玩家: v1.4
+~BGIWDEASY #15 // 修正冰风谷2最后一章红袍法师维斯·奈吉任务奖励（给人物刺青）无效的问题: v1.4
+~BGIWDEASY #16 // 解决冰风谷1最终战前无法进入巨冰塔的问题: v1.4
+~BGIWDEASY #18 // 修正冰风谷一些地图中生物消失导致剧情无法继续的问题（测试）: v1.4
+~EET_END #0 // EET end (last mod in install order) -> Standard installation
+~HIDDENGAMEPLAYOPTIONS #10 // 增加选项-开启作弊模式: 4.7
+~HIDDENGAMEPLAYOPTIONS #11 // 增加选项-开启界面编辑模式: 4.7
+~HIDDENGAMEPLAYOPTIONS #12 // 增加选项-显示字符串序号: 4.7
+~HIDDENGAMEPLAYOPTIONS #13 // 增加选项-在工具栏显示快捷键: 4.7
+~HIDDENGAMEPLAYOPTIONS #14 // 增加选项-Tab键显示更多互动图标: 4.7
+~HIDDENGAMEPLAYOPTIONS #16 // 增加选项-游侠/牧师受限的德鲁伊神术: 4.7
+~HIDDENGAMEPLAYOPTIONS #17 // 增加选项-3E版本背刺: 4.7
+~HIDDENGAMEPLAYOPTIONS #18 // 增加选项-致命一击时屏幕摇晃: 4.7
+~HIDDENGAMEPLAYOPTIONS #19 // 增加选项-显示额外战斗信息: 4.7
+~HIDDENGAMEPLAYOPTIONS #20 // 增加选项-暂停时显示游戏数据和时间: 4.7
+~HIDDENGAMEPLAYOPTIONS #22 // 增加选项-反转鼠标滚轮缩放: 4.7
+~HIDDENGAMEPLAYOPTIONS #23 // 增加选项-在打开地图时暂停游戏: 4.7
+~HIDDENGAMEPLAYOPTIONS #24 // 增加选项-开启战争迷雾: 4.7
+~HIDDENGAMEPLAYOPTIONS #25 // 增加选项-禁止显示影片: 4.7
+~HIDDENGAMEPLAYOPTIONS #27 // 增加选项-噩梦难度提供额外经验值: 4.7
+~HIDDENGAMEPLAYOPTIONS #28 // 增加选项-开启角色长期站立的无聊语音: 4.7
+~HIDDENGAMEPLAYOPTIONS #29 // 增加选项-调节帧率: 4.7
+~HIDDENGAMEPLAYOPTIONS #30 // 增加选项-动作反馈: 4.7
+~HIDDENGAMEPLAYOPTIONS #32 // 增加选项-施法范围可视化: 4.7
+~HIDDENGAMEPLAYOPTIONS #33 // 增加选项-增强寻路: 4.7
+~HIDDENGAMEPLAYOPTIONS #34 // 增加选项-陷阱的高亮显示终止: 4.7
+~HIDDENGAMEPLAYOPTIONS #35 // 增加选项-显示可学习法术: 4.7
+~HIDDENGAMEPLAYOPTIONS #36 // 增加选项-显示探索地图: 4.7
+~HIDDENGAMEPLAYOPTIONS #37 // 增加选项-显示动态探索地图: 4.7
+~HIDDENGAMEPLAYOPTIONS #39 // 增加选项-强制对话暂停: 4.7
+~HIDDENGAMEPLAYOPTIONS #103 // 更新键绑定 -> 牧师神术和法师法术: 4.7
+~HIDDENGAMEPLAYOPTIONS #200 // 增强的作弊菜单: 4.7
+~EEEX/EEEX.TP2~ #0 #0 // EEex: v0.10.2.1-alpha
+~EEEX/EEEX.TP2~ #0 #2 // Enable effect menu module - LShift-on-hover to view spells affecting creature: v0.10.2.1-alpha
+~EEEX/EEEX.TP2~ #0 #3 // Enable empty container module - Highlight empty containers in gray instead of cyan: v0.10.2.1-alpha
+~EEEX/EEEX.TP2~ #0 #4 // Enable timer module - Visual indicators for modal actions, contingencies, and spell/item cooldowns: v0.10.2.1-alpha
+~EEEX/EEEX.TP2~ #0 #5 // Timer module - Show modal actions (red bar): v0.10.2.1-alpha
+~EEEX/EEEX.TP2~ #0 #6 // Timer module - Show contingencies (green bar): v0.10.2.1-alpha
+~EEEX/EEEX.TP2~ #0 #7 // Timer module - Show spell/item cooldowns (cyan bar): v0.10.2.1-alpha
+~EEEX/EEEX.TP2~ #0 #8 // Enable time step module - Advance 1 game tick on keypress: v0.10.2.1-alpha
+~EEEX/EEEX.TP2~ #0 #9 // Enable hotkey module - Edit override/B3Hotkey.lua to create advanced spell hotkeys: v0.10.2.1-alpha
+~BUBB_SPELL_MENU_EXTENDED/BUBB_SPELL_MENU_EXTENDED.TP2~ #0 #0 // Bubb's Spell Menu Extended: v5.0.3

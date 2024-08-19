@@ -1,0 +1,8 @@
+* 2024/08/19: 
+  1. 修复了很多乱码的问题
+  2. 更新bgiwdeasy、improvemonk等mod
+  3. 增加了TOMEANDBLOOD，术士可以兼职
+  4. 增加TACTICS-REMIX，巅峰之战很多增强
+  5. 增加了IWD_EET_INTEGRATION，冰风谷可以独立战役
+  6. 安装完冰风谷2后，修复投射文件
+  7. 修复冰风谷加速的问题，移植自0605版本

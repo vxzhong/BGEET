@@ -23,9 +23,17 @@
 
 log/WeiDU0517.log, log/WeiDU0605.txt是[刘酒](https://github.com/Lzw104522773)整合的版本的log。
 
-## 脚本整合版
+## 我的整合版
 
 直接下载通过本脚本整合好的博德之门EET版本，包含大量中文mod，不支持定制：[百度网盘](https://pan.baidu.com/s/1g1sckBuwaS7rKaK_n8DRGg?pwd=2pkj)
+* 2024/08/19，安装log参加：log/WeiDU0819.log
+  1. 修复了很多乱码的问题
+  2. 更新bgiwdeasy、improvemonk等mod
+  3. 增加了TOMEANDBLOOD，术士可以兼职
+  4. 增加TACTICS-REMIX，巅峰之战很多增强
+  5. 增加了IWD_EET_INTEGRATION，冰风谷可以独立战役
+  6. 安装完冰风谷2后，修复投射文件
+  7. 修复冰风谷加速的问题，移植自0605版本
 * 2024/08/11: 少量更新和调整，增加崔斯特传奇、埋骨之丘、戈尔贡之眼等，安装mod的log参见：log/WeiDU0811.log
 
 ## 感谢

@@ -412,8 +412,8 @@ tra.CN = 2
 name = "InLoveUndeath"
 description = "爱与不朽"
 down = "https://downloads.weaselmods.net/download/in-love-undeath/?wpdmdl=661"
-save = "InLoveUndeath v1.7.1.zip"
-version = "1.7.1"
+save = "InLoveUndeath v1.8.zip"
+version = "1.8"
 tra.CN = 1
 
 [JuniperAndTheStoneLeech]
@@ -834,7 +834,7 @@ name = "ContemplativeFavoredSoul"
 description = "虔心天佑者"
 # down = https://pan.baidu.com/s/17Lp-AtAw1-GSw8aOznOFmw?pwd=ns5c
 save = "ContemplativeFavoredSoulV0.7.zip"
-version = "0.7"
+version = "0.9"
 tra.CN = 0
 
 [Voyagers]
@@ -857,8 +857,8 @@ tra.CN = 0
 name = "improvedmonk"
 description = "僧侣增强"
 # down = https://pan.baidu.com/s/1YdghQvEd3Vt5-hu0ffXaGQ?pwd=wvu7
-save = "improvedmonk v1.3.zip"
-version = "1.3"
+save = "improvedmonk v1.5.zip"
+version = "1.5"
 tra.CN = 1
 
 [d2ama]
@@ -968,8 +968,8 @@ tra.CN = 4
 name = "bgiwdeasy"
 description = "除去冰风谷限制补丁"
 # down = https://pan.baidu.com/s/1MV60JNbT85ovHKVSA2nOUg?pwd=882e
-save = "bgiwdeasy v1.4.zip"
-version = "1.4"
+save = "bgiwdeasy v1.6.zip"
+version = "1.6"
 
 ["Shohy's_Weapon_Style_Rebalance"]
 name = "Weapon_Style_Rebalance"
@@ -982,7 +982,14 @@ tra.CN = 1
 name = "Isaac-s_Missile_Storm"
 description = "艾萨克飞弹风暴"
 down = "https://github.com/shohysie/Isaac-s_Missile_Storm.git"
-version = "af7b94ad519ee095372472146fe8a630611dabc5"
+version = "5738d4e8812692b03e4613ba87b6f1ce674d74a2"
+tra.CN = 1
+
+["BardSong_BGEE_IWD"]
+name = "Bardsong_Switching"
+description = "仿冰风谷战歌切换"
+down = "https://github.com/shohysie/Bardsong_Switching.git"
+version = "763eeb0373c35450b8226f3bdb365d207efd3819"
 tra.CN = 1
 
 [PPE]
@@ -1055,5 +1062,79 @@ tra.CN = 6
 name = "gorgon"
 description = "A mod for BG:EE that adds a thieves guild into the town of Beregost."
 down = "https://github.com/TotalMilk90/gorgon.git" #fork
-version = "3b8c6d2a818d4b16a58183c4d396b645afe4855b"
+version = "f70208d4369b0d9a8248dcce8d56e800ea628d11"
 tra.CN = 1
+
+[imoen_forever]
+name = "Imoen4Ever"
+description = "Experience the BG Saga with Imoen - and the beginning of SoA without pressure!"
+down = "https://github.com/Lzw104522773/Imoen4Ever.git" #fork
+version = "4a158c2c2a8063213be43a060954e56a64408bf9"
+tra.CN = 4
+
+[Loretakers]
+name = "Loretakers"
+description = "Loretakers is a quest mod for BG1EE (EET not tested yet)."
+down = "https://www.baldurs-gate.de/index.php?resources/loretakers.68/download"
+save = "Loretakers_V_1.3.rar"
+version = "1.3"
+tra.CN = 2
+
+[crucible]
+name = "Crucible"
+description = "Crucible features a continuation of the story once the player closes their pocket plane in ToB"
+down = "https://www.morpheus-mart.com/crucible"
+save = "Crucible v2.4.zip"
+version = "2.4"
+tra.CN = 3
+
+[aurenaseph]
+name = "AurenAseph"
+description = "Auren Aseph is a young and eager fighter from Beregost. She was born to a middle class merchant and his wife, and grew up a headstrong girl. She will join your party, offer you her friendship, and will romance Nalia if she is in your party."
+down = "https://www.gibberlings3.net/mods/npcs/auren/" # https://trow.cc/board/showtopic=50201
+save = "aurenaseph-v12.zip"
+version = "12"
+tra.CN = 1
+
+[valygarfriendship]
+name = "ValygarFriendship"
+description = "This mod adds a series of dialogues with Valygar."
+down = "https://github.com/SpellholdStudios/ValygarFriendship.git" #fork
+version = "8618fdf28ab54e0a18851fdca204c26ae7dda1ed"
+tra.CN = 2
+
+[forgotten-armament]
+name = "Forgotten-Armament"
+description = "Forgotten Armament aims to bring many low to mid-tier magical weapons, armors, and items into the games of Baldur's Gate: Enhanced Edition, Baldur's Gate II: Enhanced Edition, and the Enhanced Edition Trilogy (EET)."
+down = "https://www.morpheus-mart.com/forgotten-armament"
+save = "Forgotten-Armament v4.4.zip"
+version = "4.4"
+tra.CN = 1
+
+[IWD_EET_integration]
+name = "IWD_EET_Integration"
+description = "SubtleDoctor's IWD EET Integration"
+down = "https://github.com/subtledoctor/IWD_EET_Integration.git"
+version = "bc3ffdd05fdb667ce1b4d3370489ae4eac133b87"
+tra.CN = 5
+
+[TomeAndBlood]
+name = "TomeAndBlood"
+description = "Tome And Blood: Expanded Options for the Arcane Classes."
+down = "https://github.com/UnearthedArcana/TomeAndBlood.git"
+version = "adb215c10965ad3040f8844af995aa36d81e25e8"
+tra.CN = 2
+
+[eefixpack]
+name = "EE_Fixpack"
+description = "The Enhanced Edition Fixpack is an unofficial collection of fixes for the Enhanced Editions of Baldur's Gate, Baldur's Gate II, Icewind Dale, and Planescape: Torment."
+down = "https://github.com/Gibberlings3/EE_Fixpack.git" #fork / merge
+version = "41f8d29e7e595d5c68294a1fc82bce383a8eaf94"
+tra.CN = 2
+
+[DH_Tweaks]
+name = "DarkHorizonsTweaks"
+description = "Making Dark Horizons mod more balanced in BGEE and EET"
+down = "https://github.com/RoxanneSHS/DarkHorizonsTweaks.git"
+version = "beed662f184bb37a57f6fbce85981912b19b514f"
+tra.CN = 3

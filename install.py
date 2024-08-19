@@ -4,7 +4,6 @@ import shutil
 import sys
 
 import tomllib
-
 from env import (
     bgt_path,
     current_directory,
@@ -66,24 +65,24 @@ def parse_install_order(toml_config, installed, order_file):
                 print(f"模组 {mod_name}:{component} 已安装，跳过")
                 continue
 
-            if installed_key == "stratagems_1500":
+            if installed_key == "stratagems_1500" or installed_key == "iwdification_30":
                 shutil.copy(
                     os.path.join(install_dir, "override", "bgee.lua"),
                     os.path.join(install_dir, "override", "bgee.lua.1500"),
                 )
-                if installed.get("stratagems_1510"):
+                if installed.get("stratagems_1510") or installed.get("iwdification_40"):
                     # 恢复 1500 之前的bgee.lua，因为 1510或者1500的rebuild_spells只能调用一次
                     shutil.copy(
                         os.path.join(install_dir, "override", "bgee.lua.1510"),
                         os.path.join(install_dir, "override", "bgee.lua"),
                     )
 
-            if installed_key == "stratagems_1510":
+            if installed_key == "stratagems_1510" or installed_key == "iwdification_40":
                 shutil.copy(
                     os.path.join(install_dir, "override", "bgee.lua"),
                     os.path.join(install_dir, "override", "bgee.lua.1510"),
                 )
-                if installed.get("stratagems_1500"):
+                if installed.get("stratagems_1500") or installed.get("iwdification_30"):
                     shutil.copy(
                         os.path.join(install_dir, "override", "bgee.lua.1500"),
                         os.path.join(install_dir, "override", "bgee.lua"),
@@ -125,6 +124,11 @@ def parse_install_order(toml_config, installed, order_file):
 
                 if install_mod(install_dir, mod_name, component, language, input_text):
                     installed[installed_key] = True
+                    if installed_key == "iwd2_eet_0":
+                        shutil.copy(
+                            os.path.join(current_directory, "patch", "missile.ids"),
+                            os.path.join(install_dir, "override", "missile.ids"),
+                        )
 
 
 def uninstall_mods_order(
@@ -133,7 +137,12 @@ def uninstall_mods_order(
     # mod_names = ["EET_end"]  # "EET_gui"
     mod_names = []
     if mod_name:
-        mod_names.append(mod_name)
+        if type(mod_name) is list:
+            for name in mod_name:
+                mod_names.append(name)
+        else:
+            mod_names.append(mod_name)
+        print(mod_names)
     if all:
         mod_names = list(toml_config.keys())
         mod_names.reverse()
@@ -143,8 +152,7 @@ def uninstall_mods_order(
         if mod_component:
             mods = mod_component.split(" ")
             for mod_component in mods:
-                if len(mod_component) > 0:
-                    installed.pop(f"{mod_name}_{mod_component}", None)
+                installed.pop(f"{mod_name}_{mod_component}")
         else:
             for i in list(installed.keys()):
                 if i.startswith(mod_name):
@@ -175,19 +183,33 @@ if first:
                 os.path.join(install_dir, "override", "bgee.lua.bak"),
             )
 
+
+def use_patch():
+    # copy fonts
+    shutil.copy(
+        os.path.join(current_directory, "tools", "SIMSUN.ttf"),
+        os.path.join(install_dir, "override"),
+    )
+
+    # patch ZOMBIEW.CRE, 修复僵尸农场不能完成任务的问题 => 手动
+    # shutil.copy(
+    #     os.path.join(current_directory, "patch", "ZOMBIEW.CRE"),
+    #     os.path.join(install_dir, "override", "ZOMBIEW.CRE"),
+    # )
+
+
 try:
     if len(sys.argv) > 1:
+        print(sys.argv)
         if sys.argv[1] == "p":
-            # patch ZOMBIEW.CRE, 修复僵尸农场不能完成任务的问题
-            shutil.copy(
-                os.path.join(current_directory, "patch", "ZOMBIEW.CRE"),
-                os.path.join(install_dir, "override", "ZOMBIEW.CRE"),
-            )
+            use_patch()
         elif sys.argv[1] == "ua":
             uninstall_mods_order(toml_config, installed, all=True)
         elif sys.argv[1] == "u":
-            uninstall_mods_order(toml_config, installed, all=False)
+            # 卸载某个模组
+            uninstall_mods_order(toml_config, installed, mod_name=sys.argv[2:], all=False)
         else:
+            # 卸载某个模组的某个组件
             mod_component = None
             if len(sys.argv) > 2:
                 mod_component = " ".join(sys.argv[2:])
@@ -200,6 +222,7 @@ try:
             )
     else:
         parse_install_order(toml_config, installed, install_order_file_path)
+        # use_patch()
 finally:
     with open(installed_json_path, "w+") as f:
         json.dump(installed, f)

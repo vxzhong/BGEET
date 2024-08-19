@@ -100,7 +100,7 @@ def install_mod(install_dir, mod_name, component, language, input=None):
         print(f"模组 '{mod_name}:{component}' 安装成功")
         return True
     else:
-        if "INSTALLED WITH WARNINGS" in msg:
+        if "INSTALLED WITH WARNINGS" or "已安装但存在警告" in msg:
             print(f"模组 '{mod_name}:{component}' 安装成功（部分警告）")
             return True
         if "SUCCESSFULLY INSTALLED" in msg:
