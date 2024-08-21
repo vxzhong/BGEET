@@ -1,3 +1,10 @@
+* 2024/08/21，安装log：log/WeiDU0821.log：
+  1. 修复手杖的问题
+  2. 世界地图改为中文
+  3. TomeAndBlood只有术士兼职，兼职术士的法术计数在穿上和脱下盔甲的时候会翻倍，我自己修复了，可能有问题，不建议兼职术士
+  4. 增加mod：REFLECTIONS，命运的倒影，https://github.com/subtledoctor/Reflections-of-Destiny
+  5. 增加mod：MORPHEUS562-S-KITPACK，各种职业，https://www.morpheus-mart.com/morpheus562s-kitpack
+  6. 增加mod：ENHANCED-POWERGAMING-SCRIPTS，增强脚本，https://www.morpheus-mart.com/enhanced-powergaming-scripts
 * 2024/08/19: 
   1. 修复了很多乱码的问题
   2. 更新bgiwdeasy、improvemonk等mod

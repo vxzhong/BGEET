@@ -62,7 +62,7 @@ version = "27cdf9078422c7b20430d9bb873919baae57caea"
 name = "A7-HiddenGameplayOptions"
 description = "A mod that makes a number of useful options directly accessible within Enhanced Edition games."
 down = "https://github.com/Argent77/A7-HiddenGameplayOptions.git"
-version = "1244bfe76ebded4420e1ba71d2312f5764594122"
+version = "58692549ae85e4e63b4d1045f899f345a0a90f6a"
 tra.CN = 8
 
 [TGC1e]
@@ -233,7 +233,7 @@ tra.CN = 8
 name = "A7-TestYourMettle"
 description = "测试你的勇气"
 down = "https://github.com/Argent77/A7-TestYourMettle.git"
-version = "416df76e090f642ffd9db222e5d16abb57d9babe"
+version = "9c0e2f1adbba70a2bdbefcb300d7af739e2ae0b6"
 tra.CN = 4
 
 [Assassinations]
@@ -319,7 +319,7 @@ tra.CN = 3
 name = "Black-Hearts"
 description = "黑心"
 down = "https://github.com/11jo/Black-Hearts.git"
-version = "a2e8917a0cd2da36e286fb88aafd80a764cea360"
+version = "177eb088e70e1696032534e48f55ec1cffd33f84"
 tra.CN = 1
 
 [Innershade]
@@ -656,7 +656,7 @@ tra.CN = 5
 name = "DjinniCompanion"
 description = "A mod that introduces a djinni as your faithful companion."
 down = "https://github.com/Argent77/DjinniCompanion.git"
-version = "37ecf7c2718c9209360c62e04e7f541536f1f4bc"
+version = "afd978cc583248cccce31a7c20b2b6fb333950bd"
 tra.CN = 3
 
 ["Weasels!"]
@@ -741,7 +741,7 @@ tra.CN = 6
 name = "A7-TotLM-BG2EE"
 description = "谜语大师试炼For BG2EE"
 down = "https://github.com/Argent77/A7-TotLM-BG2EE.git"
-version = "9bcb146a1320e2463a4f49ce30b14649151a705e"
+version = "e0d2b18f4d4b551687203990a559ac94cba9483b"
 tra.CN = 8
 
 [stratagems]
@@ -1003,8 +1003,9 @@ name = "BP-BGT-Worldmap"
 description = "This mod replaces the ingame worldmap with a large, new worldmap. "
 down = "https://github.com/SpellholdStudios/BP-BGT-Worldmap.git"
 version = "620fbba069bbbf67748707e7810e56b7c28a93df"
+tra.CN = 7
 
-[Enhanced-Powergaming-Scripts]
+[enhanced-powergaming-scripts]
 name = "Enhanced-Powergaming-Scripts"
 # down = https://www.morpheus-mart.com/enhanced-powergaming-scripts
 save = "Enhanced-Powergaming-Scripts.zip"
@@ -1138,3 +1139,18 @@ description = "Making Dark Horizons mod more balanced in BGEE and EET"
 down = "https://github.com/RoxanneSHS/DarkHorizonsTweaks.git"
 version = "beed662f184bb37a57f6fbce85981912b19b514f"
 tra.CN = 3
+
+[morpheus562-s-kitpack]
+name = "Morpheus562-s-Kitpack"
+description = "These kits are inspired from various areas to include 5e subclasses and NWN2 Prestige Classes. "
+down = "https://www.morpheus-mart.com/morpheus562s-kitpack"
+save = "Morpheus562-s-Kitpack v5.4.zip"
+version = "5.4"
+tra.CN = 2
+
+[Reflections]
+name = "Reflections-of-Destiny"
+description = "Reflections of Destiny - a Siege of Dragonspear content remix mod"
+down = "https://github.com/subtledoctor/Reflections-of-Destiny.git"
+version = "8262c19040962454f74a654e715807b7bd6a748d"
+tra.CN = 1

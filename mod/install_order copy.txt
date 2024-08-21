@@ -42,29 +42,37 @@ STD;EEUITweaks;1080;20;1100;
 STD;EEUITweaks;1070;20;1100;
 STD;EEUITweaks;1100;20;1100;
 STD;EEUITweaks;2000;20;1100;
-STD;EEUITweaks;2044;20;1100;
-STD;EEUITweaks;2900;20;1100;
-STD;EEUITweaks;3000;20;1100;
-STD;EEUITweaks;3010;20;1100;
-STD;EEUITweaks;3024;20;1100;
-STD;EEUITweaks;3051;20;1100;
+#lefreut's Better Level Up Indicators
+STD;EEUITweaks;2044;20;0001;
+#lefreut's Improved Record Screen
+STD;EEUITweaks;2900;20;0001;
+#Leveling Progress Bars Tweaks
+STD;EEUITweaks;3000;20;0000;
+#Leveling Progress Bars Options
+STD;EEUITweaks;3010;20;0000;
+#Journal Fixes and Tweaks
+STD;EEUITweaks;3024;20;0001;
+#lefreut's Improved Inventory Screen
+STD;EEUITweaks;3051;20;0001;
 STD;TGC1e;0;03;0011;
 STD;c#endlessbg1;0;07;0111;
 STD;c#endlessbg1;1;07;0111;
 STD;c#endlessbg1;2;07;0111;
 STD;c#endlessbg1;3;07;0111;
 STD;c#endlessbg1;4;07;0111;
-STD;c#endlessbg1;5;07;0111;
+#不兼容Reflections 爱蒙和詹纳斯大公
+STD;c#endlessbg1;5;07;0000;
 STD;c#endlessbg1;6;07;0111;
-STD;c#endlessbg1;7;07;0111;
+#不兼容Reflections 最终战斗后的焰拳
+STD;c#endlessbg1;7;07;0000;
 STD;c#endlessbg1;8;07;0111;
 STD;c#endlessbg1;10;07;0111;
 STD;c#endlessbg1;11;07;0111;
 STD;c#endlessbg1;12;07;0111;
 STD;c#endlessbg1;13;07;0111;
 STD;c#endlessbg1;14;07;0000;
-STD;c#endlessbg1;15;07;0000;
-STD;c#endlessbg1;16;07;0000;
+STD;c#endlessbg1;15;07;0001;
+STD;c#endlessbg1;16;07;0001;
 STD;DSotSC;0;03;0111;
 STD;DSotSC;3;03;0001;
 STD;DSotSC;4;03;0001;
@@ -113,6 +121,10 @@ STD;bgqe;13;03;0001;
 STD;bgqe;14;03;0001;
 STD;bgqe;15;03;0001;
 STD;bgqe;16;03;0001;
+STD;Reflections;100;00;0001;
+STD;Reflections;200;00;0001;
+STD;Reflections;300;00;0001;
+STD;Reflections;400;00;0001;
 STD;bg1npc;0;05;1111;
 STD;bg1npc;10;05;1111;
 STD;bg1npc;22;05;1111;
@@ -152,7 +164,8 @@ STD;Ascension;2100;21;0000;
 STD;Ascension;2200;14;0111;
 STD;Ascension;2300;21;1111;
 STD;Ascension;2400;16;0111;
-STD;wheels;0;11;0001;
+#好像很多bug，移除
+STD;wheels;0;11;0000;
 STD;SirinesCall;0;03;1111;
 STD;SirinesCall;1;03;1111;
 STD;bggo;0;21;0001;
@@ -415,7 +428,7 @@ STD;stratagems;1520;16;0001;
 STD;iwd1_eet;0;10;0001;
 STD;iwd1_eet;1;10;0001;
 STD;iwd2_eet;0;10;0001;
-#fix missile.ids and projectl.ids
+#fix missile.ids
 STD;NWNForBG;0;10;0001;
 STD;NWNForBG;10;10;0001;
 STD;NWNForBG;20;10;0001;
@@ -423,7 +436,7 @@ STD;A7-TotLM-BG2EE;0;09;0111;
 STD;A7-TotLM-BG2EE;20;09;0111;
 STD;A7-TotLM-BG2EE;31;09;0111;
 #允许在开始冒险前与霍巴进行交易
-STD;A7-TotLM-BG2EE;40;09;0000;
+STD;A7-TotLM-BG2EE;40;09;0001;
 STD;cdtweaks;70;16;0111;
 STD;cdtweaks;2250;16;1111;
 STD;cdtweaks;2260;16;1000;
@@ -438,6 +451,25 @@ STD;cdtweaks;2400;16;0001;
 #更改经验上限 -> 去掉经验上限
 STD;cdtweaks;2090;16;0001;
 STD;cdtweaks;2300;16;0001;
+STD;morpheus562-s-kitpack;100;19;0001;
+STD;morpheus562-s-kitpack;110;19;0001;
+STD;morpheus562-s-kitpack;120;19;0001;
+STD;morpheus562-s-kitpack;130;19;0001;
+STD;morpheus562-s-kitpack;140;19;0001;
+STD;morpheus562-s-kitpack;150;19;0001;
+STD;morpheus562-s-kitpack;160;19;0001;
+STD;morpheus562-s-kitpack;170;19;0001;
+STD;morpheus562-s-kitpack;200;19;0001;
+STD;morpheus562-s-kitpack;210;19;0001;
+STD;morpheus562-s-kitpack;300;19;0001;
+STD;morpheus562-s-kitpack;310;19;0001;
+STD;morpheus562-s-kitpack;320;19;0001;
+STD;morpheus562-s-kitpack;330;19;0001;
+STD;morpheus562-s-kitpack;340;19;0001;
+STD;morpheus562-s-kitpack;600;19;0001;
+STD;morpheus562-s-kitpack;900;19;0001;
+STD;morpheus562-s-kitpack;1100;19;0001;
+STD;morpheus562-s-kitpack;1110;19;0001;
 STD;song_and_silence;0;16;0001;
 STD;song_and_silence;1;17;0001;
 STD;song_and_silence;2;19;0001;
@@ -452,11 +484,6 @@ STD;song_and_silence;7;19;0001;
 STD;song_and_silence;8;19;0001;
 # 安装利刃射手盗贼宗派
 STD;song_and_silence;9;19;0001;
-STD;tactics-remix;1;15;0011;
-STD;tactics-remix;2;15;0011;
-STD;tactics-remix;3;15;0011;
-STD;tactics-remix;4;15;0011;
-STD;tactics-remix;5;15;0011;
 STD;A7#ImprovedArcher;0;19;0001;
 STD;A7#ImprovedArcher;10;19;0001;
 STD;A7#ImprovedArcher;20;19;0001;
@@ -471,40 +498,27 @@ STD;RR;5;19;1111;
 #吟游诗人法术升级列表修订
 STD;RR;6;16;0000;
 STD;wsr;100;19;1111;
-#STD;TomeAndBlood;20;19;0001;
-#STD;TomeAndBlood;31;19;0001;
-#STD;TomeAndBlood;33;19;0001;
-#STD;TomeAndBlood;35;19;0001;
-#STD;TomeAndBlood;53;19;0001;
+#修订龙脉术士
+STD;TomeAndBlood;20;19;0000;
+#术士：天佑者
+STD;TomeAndBlood;31;19;0000;
+#术士：森林术士
+STD;TomeAndBlood;33;19;0000;
+#术士：亡灵术士
+STD;TomeAndBlood;35;19;0000;
+#修订超魔法 -> 超魔法天赋，通过卷轴或创建人物时学习
+STD;TomeAndBlood;53;19;0000;
 #术士法术切换 -> 每三个等级更换一次法术
-#STD;TomeAndBlood;72;19;0001;
+STD;TomeAndBlood;72;19;0001;
 #兼职术士
-#STD;TomeAndBlood;80;19;0000;
+STD;TomeAndBlood;80;19;0001;
 #兼职专精
-#STD;TomeAndBlood;95;19;0000;
-STD;FairyLandExplorer;0;19;1111;
-STD;ArcaneCaster;0;19;1111;
-STD;SoulLight;0;19;1111;
-STD;NatureWizard;0;19;1111;
-STD;FariryLandSor;0;19;1111;
-STD;XiuDao;0;19;1111;
-STD;ContemplativeFavoredSoul;0;19;1111;
-STD;Voyagers;0;19;1111;
-STD;PhantomAssassin;0;19;1111;
-STD;FairyLandRanger;0;19;1111;
-STD;improvedmonk;1;19;1111;
-STD;d2ama;0;19;1111;
-STD;d2asn;0;19;1111;
-STD;d2asn;1;19;1111;
-STD;d2bar;0;19;1111;
-STD;d2bar;1;19;1111;
-STD;d2dru;0;19;1111;
-STD;d2nec;0;19;1111;
-STD;d2pal;0;19;1111;
-STD;d2sor;0;19;1111;
-STD;d2item;0;19;1111;
-#允许暗黑2野蛮人单手使用双手剑
-STD;d2bar;2;19;0001;
+STD;TomeAndBlood;95;19;0000;
+STD;tactics-remix;1;15;0011;
+STD;tactics-remix;2;15;0011;
+STD;tactics-remix;3;15;0011;
+STD;tactics-remix;4;15;0011;
+STD;tactics-remix;5;15;0011;
 STD;cdtweaks;10;21;0001;
 STD;cdtweaks;40;00;0001;
 STD;cdtweaks;60;16;1111;
@@ -523,9 +537,9 @@ STD;cdtweaks;181;17;1111;
 #使用人物配色取代物品配色
 STD;cdtweaks;191;16;0001;
 #移除装备中令人厌烦的视觉效果 -> 移除物品的朦胧特效，例如--位移斗篷
-STD;cdtweaks;200;21;0000;
+STD;cdtweaks;200;21;0001;
 #移除装备中令人厌烦的视觉效果 -> 所有
-STD;cdtweaks;3151;21;0001;
+STD;cdtweaks;3151;21;0000;
 STD;cdtweaks;2010;16;1111;
 #辅助功能的白色法术图标轮廓
 STD;cdtweaks;240;16;0001;
@@ -627,7 +641,8 @@ STD;cdtweaks;3020;17;0000;
 #简单的法术学习 -> 100%学会法术且无数量限制
 STD;cdtweaks;3031;16;0001;
 STD;cdtweaks;3040;16;1111;
-STD;cdtweaks;3050;16;1111;
+#施展复原术后不会疲劳
+STD;cdtweaks;3050;16;0000;
 STD;cdtweaks;3060;16;1111;
 STD;cdtweaks;3070;16;1111;
 STD;cdtweaks;3083;16;1111;
@@ -660,8 +675,8 @@ STD;cdtweaks;3294;00;0001;
 STD;cdtweaks;3300;16;0001;
 STD;cdtweaks;3320;16;0001;
 STD;cdtweaks;3330;16;0001;
-#提高队伍在战斗以外的移动速度和/后施法法速度 [argent77] -> 移动速度提高100%:
-STD;cdtweaks;3341;16;0001;
+#提高队伍在战斗以外的移动速度和/后施法法速度 [argent77] -> 移动速度提高100%, 3342 150%
+STD;cdtweaks;3342;16;0001;
 STD;cdtweaks;3354;00;0001;
 STD;cdtweaks;3380;16;0001;
 STD;cdtweaks;3390;16;0001;
@@ -797,26 +812,27 @@ STD;stratagems;5000;16;0001;
 #增强BG的章节过场
 STD;stratagems;5080;16;0001;
 STD;subrace;100;16;0111;
-#STD;tactics-remix;6;15;0011;
-#STD;tactics-remix;8;15;0011;
-#STD;tactics-remix;10;15;0011;
-#STD;tactics-remix;11;15;0011;
-#STD;tactics-remix;12;15;0011;
-#STD;tactics-remix;14;15;0011;
-#STD;tactics-remix;15;15;0011;
-#STD;tactics-remix;17;15;0011;
-#STD;tactics-remix;19;15;0011;
-#STD;tactics-remix;23;15;0011;
-#STD;tactics-remix;25;16;0011;
-#STD;tactics-remix;26;16;0011;
-#STD;tactics-remix;27;16;0011;
-#STD;tactics-remix;28;16;0011;
-#STD;tactics-remix;29;16;0011;
-#STD;tactics-remix;30;16;0011;
-#STD;tactics-remix;32;16;0011;
-#STD;tactics-remix;33;16;0011;
-#STD;tactics-remix;35;16;0011;
-#STD;tactics-remix;39;16;0011;
+STD;tactics-remix;6;15;0011;
+STD;tactics-remix;8;15;0011;
+STD;tactics-remix;10;15;0011;
+STD;tactics-remix;11;15;0011;
+STD;tactics-remix;12;15;0011;
+STD;tactics-remix;14;15;0011;
+STD;tactics-remix;15;15;0011;
+#Smarter Dragons
+STD;tactics-remix;16;15;0000;
+STD;tactics-remix;17;15;0011;
+STD;tactics-remix;19;15;0011;
+STD;tactics-remix;23;15;0011;
+#Improve All Enemies Hit Points -> Enemies Have x2 Hit Points
+STD;tactics-remix;25;16;0000;
+#Morpheus562's Improved Drizzt (BGEE)
+STD;tactics-remix;29;16;0000;
+STD;tactics-remix;32;16;0011;
+STD;tactics-remix;33;16;0011;
+STD;tactics-remix;35;16;0011;
+#Morpheus562's Improved Drizzt (BG2EE)
+STD;tactics-remix;39;16;0000;
 STD;wsr;200;19;1111;
 #法师杀手道具限制修订 -> 适中的改动
 STD;wsr;302;19;0001;
@@ -911,7 +927,7 @@ STD;EET_Tweaks;2051;16;0000;
 STD;EET_Tweaks;2061;16;0000;
 #导入队伍物品到SoA
 STD;EET_Tweaks;4040;16;0111;
-STD;HiddenGameplayOptions;10;20;0001;
+TD;HiddenGameplayOptions;10;20;0001;
 STD;HiddenGameplayOptions;11;20;0001;
 STD;HiddenGameplayOptions;12;20;0001;
 STD;HiddenGameplayOptions;13;20;1111;
@@ -944,14 +960,14 @@ STD;HiddenGameplayOptions;39;20;1111;
 STD;HiddenGameplayOptions;103;20;1111;
 STD;HiddenGameplayOptions;200;20;1111;
 STD;icewind_eet;0;1;1111;
-#STD;IWD_EET_integration;100;00;0001;
-#STD;IWD_EET_integration;110;00;0001;
-#STD;IWD_EET_integration;115;00;0001;
-#STD;IWD_EET_integration;130;00;0001;
-#STD;IWD_EET_integration;135;00;0001;
-#STD;IWD_EET_integration;150;00;0001;
-#STD;IWD_EET_integration;155;00;0001;
-#STD;IWD_EET_integration;160;00;0001;
+STD;IWD_EET_integration;100;00;0001;
+STD;IWD_EET_integration;110;00;0001;
+STD;IWD_EET_integration;115;00;0001;
+STD;IWD_EET_integration;130;00;0001;
+STD;IWD_EET_integration;135;00;0001;
+STD;IWD_EET_integration;150;00;0001;
+STD;IWD_EET_integration;155;00;0001;
+STD;IWD_EET_integration;160;00;0001;
 STD;bgiwdeasy;0;1;1111;
 STD;bgiwdeasy;2;1;1111;
 STD;bgiwdeasy;3;1;1111;
@@ -966,9 +982,45 @@ STD;bgiwdeasy;12;1;1111;
 STD;bgiwdeasy;13;1;1111;
 STD;bgiwdeasy;15;1;1111;
 STD;bgiwdeasy;16;1;1111;
-#STD;bgiwdeasy;18;1;1111;
-#STD;bgiwdeasy;19;1;1111;
-#STD;bgiwdeasy;20;1;1111;
+STD;bgiwdeasy;18;1;1111;
+STD;bgiwdeasy;19;1;1111;
+STD;bgiwdeasy;20;1;1111;
+STD;BardSong_BGEE_IWD;0;0;0001;
+STD;BardSong_BGEE_IWD;1;0;0001;
+STD;BardSong_BGEE_IWD;2;0;0001;
+STD;FairyLandExplorer;0;19;1111;
+STD;ArcaneCaster;0;19;1111;
+STD;SoulLight;0;19;1111;
+STD;NatureWizard;0;19;1111;
+STD;FariryLandSor;0;19;1111;
+STD;XiuDao;0;19;1111;
+STD;ContemplativeFavoredSoul;0;19;1111;
+STD;Voyagers;0;19;1111;
+STD;PhantomAssassin;0;19;1111;
+STD;FairyLandRanger;0;19;1111;
+# 强化无僧侣宗派
+STD;improvedmonk;0;19;0001;
+# 强化所有僧侣宗派（包括已安装的宗派MOD）
+STD;improvedmonk;1;19;0000;
+# 作为新宗派（卡林杉武僧）
+STD;improvedmonk;2;19;0000;
+# 允许武僧使用双手轻武器（手杖和长枪），支持所有宗派，缺点是攻击动画不合拍，有bug
+STD;improvedmonk;3;19;0001;
+STD;d2ama;0;19;1111;
+STD;d2asn;0;19;1111;
+STD;d2asn;1;19;1111;
+STD;d2bar;0;19;1111;
+STD;d2bar;1;19;1111;
+STD;d2dru;0;19;1111;
+STD;d2nec;0;19;1111;
+STD;d2nec;1;19;0000;
+#【慎重安装！】允许复生生物跨越场景跟随（可能引起卡顿和非EE版存档变大，安装MOD较多时不建议选择）
+STD;d2nec;3;19;0000;
+STD;d2pal;0;19;1111;
+STD;d2sor;0;19;1111;
+STD;d2item;0;19;1111;
+#允许暗黑2野蛮人单手使用双手剑
+STD;d2bar;2;19;0001;
 STD;Shohy's_Weapon_Style_Rebalance;0;1;1111;
 STD;Shohy's_Weapon_Style_Rebalance;1;1;1111;
 STD;Isaac's_Missile_Storm;0;1;1111;
@@ -978,6 +1030,9 @@ STD;PPE;150;21;0011;
 STD;PPE;10;21;0001;
 STD;PPE;20;21;0001;
 STD;bp-bgt-worldmap;0;21;0111;
+STD;enhanced-powergaming-scripts;14;18;0111;
+STD;enhanced-powergaming-scripts;9;18;0111;
+STD;enhanced-powergaming-scripts;10;18;0111;
 STD;LightingPack;0;21;1111;
 STD;LightingPack;102;21;1111;
 STD;x_autobs;0;18;1111;

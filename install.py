@@ -196,6 +196,7 @@ def use_patch():
     #     os.path.join(current_directory, "patch", "ZOMBIEW.CRE"),
     #     os.path.join(install_dir, "override", "ZOMBIEW.CRE"),
     # )
+    # patch 冰风谷不能加速的问题 => 手动
 
 
 try:
