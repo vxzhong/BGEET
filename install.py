@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import shutil
 import sys
 
@@ -65,6 +66,9 @@ def parse_install_order(toml_config, installed, order_file):
                 print(f"模组 {mod_name}:{component} 已安装，跳过")
                 continue
 
+            if not install:
+                continue
+
             if installed_key == "stratagems_1500" or installed_key == "iwdification_30":
                 shutil.copy(
                     os.path.join(install_dir, "override", "bgee.lua"),
@@ -124,11 +128,13 @@ def parse_install_order(toml_config, installed, order_file):
 
                 if install_mod(install_dir, mod_name, component, language, input_text):
                     installed[installed_key] = True
-                    if installed_key == "iwd2_eet_0":
-                        shutil.copy(
-                            os.path.join(current_directory, "patch", "missile.ids"),
-                            os.path.join(install_dir, "override", "missile.ids"),
-                        )
+                    # if installed_key == "iwd2_eet_0":
+                    #     shutil.copy(
+                    #         os.path.join(current_directory, "patch", "missile.ids"),
+                    #         os.path.join(install_dir, "override", "missile.ids"),
+                    #     )
+                    if installed_key == "stratagems_1520":
+                        fix_missile_after_iwd_spells()
 
 
 def uninstall_mods_order(
@@ -184,6 +190,16 @@ if first:
             )
 
 
+def fix_missile_after_iwd_spells():
+    with open(os.path.join(install_dir, "override", "missile.ids"), "r") as f:
+        # replace "357\s*Bombardier_Beetle_Cloud" to blank
+        text = f.read()
+        text = re.sub("357\s*Bombardier_Beetle_Cloud", "", text).strip()
+
+    with open(os.path.join(install_dir, "override", "missile.ids"), "w") as f:
+        f.write(text)
+
+
 def use_patch():
     # copy fonts
     shutil.copy(
@@ -208,7 +224,9 @@ try:
             uninstall_mods_order(toml_config, installed, all=True)
         elif sys.argv[1] == "u":
             # 卸载某个模组
-            uninstall_mods_order(toml_config, installed, mod_name=sys.argv[2:], all=False)
+            uninstall_mods_order(
+                toml_config, installed, mod_name=sys.argv[2:], all=False
+            )
         else:
             # 卸载某个模组的某个组件
             mod_component = None

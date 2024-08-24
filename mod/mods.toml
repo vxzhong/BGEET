@@ -1,7 +1,7 @@
 [DarkHorizons]
 name = "DarkHorizons"
 down = "https://github.com/The-Gate-Project/DarkHorizons.git"
-version = "4c4caf21ad1620db20db16ba8f438de696c0b177"
+version = "0f1a3890c47b62418f0d677ab7e95b0a42a71602"
 tra.CN = 7
 
 [BP_in_BG]
@@ -69,7 +69,7 @@ tra.CN = 8
 name = "TGC1e"
 description = "灰暗帮第一部"
 down = "https://github.com/K4thos/TGC1e.git"
-version = "8ec6993661367c9869999941f201e85ad2246f4c"
+version = "973e48603d0ae40047696c25c824a7aee3d02375"
 tra.CN = 8
 
 ["c#endlessbg1"]
@@ -136,7 +136,7 @@ tra.CN = 7
 name = "BG1NPC"
 description = "BG1NPC项目"
 down = "https://github.com/Gibberlings3/BG1NPC.git"
-version = "b1daa2186c866ebb6b0b2bce1b7a79702de27e37"
+version = "b7c56c05ba99b2b1584718fd51f9d6f09b4fabd7"
 tra.CN = 7
 
 [AjantisBG1]
@@ -157,7 +157,7 @@ tra.CN = 4
 name = "WheelsOfProphecy"
 description = "命运之轮"
 down = "https://github.com/Gibberlings3/WheelsOfProphecy.git"
-version = "dff073cfbc2e0359a35c1b34dfc53ec045cc7514"
+version = "e01eeed88652c14e86d364f773bf90f8f6036592"
 tra.CN = 2
 
 [SirinesCall]
@@ -184,7 +184,7 @@ tra.CN = 7
 name = "UnfinishedBusiness"
 description = "BG2未完的任务"
 down = "https://github.com/Pocket-Plane-Group/UnfinishedBusiness.git"
-version = "73f4757da9dafab1167a3a1d0e0ac00d567e0653"
+version = "c6187a2676328307a2c48d2525dbbc9a10df63b5"
 tra.CN = 7
 
 [arestorationp]
@@ -198,7 +198,7 @@ tra.CN = 6
 name = "Ascalons_Questpack"
 description = "Ascalon的任务包"
 down = "https://github.com/Gitjas/Ascalons_Questpack.git"
-version = "bb4a798b1f5b220a95fde34fc469372febfe09cf"
+version = "87b14acb58324318fb41414caaba4c4764af8803"
 tra.CN = 6
 
 ["c#sodboabri"]
@@ -261,14 +261,14 @@ tra.CN = 3
 name = "Sellswords"
 description = "佣兵生涯"
 down = "https://github.com/Pocket-Plane-Group/Sellswords.git"
-version = "1f81c053af49476defd31ff7cb28c280a1cfc32e"
+version = "f752bf80b190099c44bcd8de9a86fd3fafc0a010"
 tra.CN = 3
 
 [Reunion]
 name = "Reunion"
 description = "再度重聚"
 down = "https://github.com/Pocket-Plane-Group/Reunion.git"
-version = "cb2299c70e71dc093bbc6e75046a268748dc1eaf"
+version = "6a4efeca308712bf9e15e4a28f75266c89a9db86"
 tra.CN = 2
 
 [RoT]
@@ -319,7 +319,7 @@ tra.CN = 3
 name = "Black-Hearts"
 description = "黑心"
 down = "https://github.com/11jo/Black-Hearts.git"
-version = "177eb088e70e1696032534e48f55ec1cffd33f84"
+version = "cbd1ddeb0315bf096d500269aa98ea262c855e63"
 tra.CN = 1
 
 [Innershade]
@@ -350,7 +350,7 @@ tra.CN = 2
 name = "AlabasterSands"
 description = "阿斯卡特拉新地区：雪花石海滩"
 down = "https://downloads.weaselmods.net/download/alabaster-sands/?wpdmdl=593"
-save = "SouthernEdge v5.1.zip"
+save = "AlabasterSands v1.7.zip"
 version = "1.7"
 tra.CN = 4
 
@@ -358,7 +358,7 @@ tra.CN = 4
 name = "ooze"
 description = "软泥会客厅：阿斯卡特拉贫民区的新地区"
 down = "https://downloads.weaselmods.net/download/oozes-lounge/?wpdmdl=59"
-save = "SouthernEdge v5.1.zip"
+save = "Oozes Lounge v2.94.zip"
 version = "2.94"
 tra.CN = 1
 
@@ -405,7 +405,7 @@ tra.CN = 7
 name = "FishingForTrouble"
 description = "找麻烦"
 down = "https://github.com/InfinityMods/FishingForTrouble.git" #fork https://github.com/TotoR115/FishingForTrouble + mere chinese
-version = "b2aa96e6b8bc2accdba769a22ef8bf2b01e9897e"
+version = "3301f428e7b4c690533f7b32d0e981a84099dd4f"
 tra.CN = 2
 
 [InLoveUndeath]
@@ -507,7 +507,7 @@ tra.CN = 1
 name = "IEP_Extended_Banter"
 description = "扩展的对话"
 down = "https://github.com/SpellholdStudios/IEP_Extended_Banter.git" #fork
-version = "296b3d93cbd22d45283ce855e0cd42546710ac6a"
+version = "dcbb9d7fb85fd543ed02dbe19e135e0b8162537e"
 tra.CN = 4
 
 [Saerileth]
@@ -578,7 +578,7 @@ tra.CN = 3
 name = "Banter_Pack"
 description = "对话包"
 down = "https://github.com/Pocket-Plane-Group/Banter_Pack.git" #fork
-version = "3cd7f6a31f2b6d07aab0f292e3501ff1dca5f8db"
+version = "927002be9e1ba6c61fb453367f7fcbddea4dc2ff"
 tra.CN = 8
 
 [lucy]
@@ -707,21 +707,21 @@ tra.CN = 4
 name = "IWD1_EET"
 description = "冰风谷"
 down = "https://github.com/The-Gate-Project/IWD1_EET.git"
-version = "b01bf4994406ac5c82e14fb848cc4a403eeea8cf"
+version = "8e4cb0e4d68b01d5324b59673a2b6590ce6586e1"
 tra.CN = 5
 
 [iwd2_eet]
 name = "IWD2_EET"
 description = "冰风谷2"
 down = "https://github.com/The-Gate-Project/IWD2_EET.git"
-version = "fc3b36b5c26f5bc70000eaa4bfba06b4ebb59356"
+version = "f770d1fcf9a926f18b2b78b930d38deaf90915d4"
 tra.CN = 4
 
 [NWNForBG]
 name = "NWNForBG"
 description = "无冬之夜"
 down = "https://github.com/abalabokhin/NWNForBG.git"
-version = "3d9af19b065a3d7c05b7e36065e1589cc6b94576"
+version = "0d9473bd256776d0b4e77a534602982f9f04d097"
 tra.CN = 7
 
 [cdtweaks]
@@ -785,8 +785,8 @@ tra.CN = 3
 name = "FairyLandExplorer"
 description = "灵境探索者"
 # down = https://pan.baidu.com/s/17Lp-AtAw1-GSw8aOznOFmw?pwd=ns5c
-save = "FairyLandExplorerV1.2.zip"
-version = "1.2"
+save = "FairyLandExplorerV1.3.zip"
+version = "1.3"
 tra.CN = 0
 
 [ArcaneCaster]
@@ -958,10 +958,10 @@ down = "https://github.com/K4thos/EET_Tweaks.git"
 version = "0c3886a4e201db4fa676e001c1d18d1189e89fd8"
 tra.CN = 4
 
-[icewind_eet]
-name = "Icewind_EET"
-down = "https://github.com/The-Gate-Project/Icewind_EET.git"
-version = "242fb0b1771dbb7b3c5a77a2f2f717c68629c8c5"
+[iwd_eet_end]
+name = "IWD_EET_End"
+down = "https://github.com/The-Gate-Project/IWD_EET_End.git"
+version = "0e80a66441080d7a45152d2d0c1a0ea171300703"
 tra.CN = 4
 
 [bgiwdeasy]
@@ -1027,8 +1027,8 @@ version = "6.1"
 name = "FairyLandRanger"
 description = "灵境游侠"
 # down = https://pan.baidu.com/s/17Lp-AtAw1-GSw8aOznOFmw?pwd=ns5c
-save = "FairyLandRangerV1.2.zip"
-version = "1.2"
+save = "FairyLandRangerV1.3.zip"
+version = "1.3"
 tra.CN = 0
 
 [BonehillEET]
@@ -1063,7 +1063,7 @@ tra.CN = 6
 name = "gorgon"
 description = "A mod for BG:EE that adds a thieves guild into the town of Beregost."
 down = "https://github.com/TotalMilk90/gorgon.git" #fork
-version = "f70208d4369b0d9a8248dcce8d56e800ea628d11"
+version = "2b6312df82621a5e6109bc48e5fdb76f32b6ec82"
 tra.CN = 1
 
 [imoen_forever]
@@ -1154,3 +1154,22 @@ description = "Reflections of Destiny - a Siege of Dragonspear content remix mod
 down = "https://github.com/subtledoctor/Reflections-of-Destiny.git"
 version = "8262c19040962454f74a654e715807b7bd6a748d"
 tra.CN = 1
+
+[ToA]
+name = "ToA"
+description = "Tales of Anegh (Mod for BG2:ToB, BG2:EE and EET)"
+down = "https://github.com/Gitjas/ToA.git"
+version = "e7758b1534cf6d546670c79c9b0acd0502345b33"
+tra.CN = 4
+
+[SubtleD_Spell_Tweaks]
+name = "SubtleD_Spell_Tweaks"
+description = "a buncha random small tweaks for BGEE etc."
+down = "https://github.com/subtledoctor/SubtleD_Spell_Tweaks.git"
+version = "196e4a4ec908a6efbe837098cf9a5de46463d385"
+
+[SubtleD_Stat_Overhauls]
+name = "SubtleD_Stat_Overhauls"
+description = ""
+down = "https://github.com/subtledoctor/SubtleD_Stat_Overhauls.git"
+version = "74bdc2c25b1a682be113b5c44cfe4b7d0ecb85ed"

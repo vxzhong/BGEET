@@ -14,6 +14,7 @@ STD;TDDz;3;09;0001;
 STD;TDDz;4;09;0001;
 STD;TDDz;5;09;0001;
 STD;TDDz;6;09;0001;
+STD;TDDz;7;09;0001;
 STD;BP_in_BG;100;03;0001;
 STD;EEex;0;01;1111;
 STD;EEex;1;01;0000;
@@ -257,6 +258,11 @@ STD;Assassinations;0;10;0111;
 STD;gbthfkp;0;10;1111;
 STD;RoT;0;10;0001;
 STD;RoT;3;10;0001;
+STD;ToA;1;00;0001;
+STD;ToA;20;00;0001;
+STD;ToA;30;00;0001;
+STD;ToA;40;00;0001;
+STD;ToA;50;00;0001;
 STD;SoS;0;10;0001;
 STD;SoS;4;10;0001;
 STD;SoS;1;10;0001;
@@ -408,13 +414,6 @@ STD;wildmage;3;19;0001;
 STD;wildmage;5;16;0001;
 STD;RR;7;17;1111;
 STD;RR;8;17;1111;
-STD;forgotten-armament;20;00;0001;
-#更新现有物品
-STD;forgotten-armament;21;00;0000;
-STD;forgotten-armament;11;00;0001;
-STD;forgotten-armament;27;00;0001;
-#替换速度之靴（猎豹之爪）
-STD;forgotten-armament;8;00;0000;
 STD;iwdification;60;17;0001;
 #敌人装备随机化 -> 添加高质量物品
 #STD;iwdification;140;17;0000;
@@ -428,10 +427,16 @@ STD;stratagems;1520;16;0001;
 STD;iwd1_eet;0;10;0001;
 STD;iwd1_eet;1;10;0001;
 STD;iwd2_eet;0;10;0001;
-#fix missile.ids
 STD;NWNForBG;0;10;0001;
 STD;NWNForBG;10;10;0001;
 STD;NWNForBG;20;10;0001;
+STD;forgotten-armament;20;00;0001;
+#更新现有物品
+STD;forgotten-armament;21;00;0000;
+STD;forgotten-armament;11;00;0001;
+STD;forgotten-armament;27;00;0001;
+#替换速度之靴（猎豹之爪）
+STD;forgotten-armament;8;00;0000;
 STD;A7-TotLM-BG2EE;0;09;0111;
 STD;A7-TotLM-BG2EE;20;09;0111;
 STD;A7-TotLM-BG2EE;31;09;0111;
@@ -455,21 +460,16 @@ STD;morpheus562-s-kitpack;100;19;0001;
 STD;morpheus562-s-kitpack;110;19;0001;
 STD;morpheus562-s-kitpack;120;19;0001;
 STD;morpheus562-s-kitpack;130;19;0001;
-STD;morpheus562-s-kitpack;140;19;0001;
-STD;morpheus562-s-kitpack;150;19;0001;
 STD;morpheus562-s-kitpack;160;19;0001;
-STD;morpheus562-s-kitpack;170;19;0001;
-STD;morpheus562-s-kitpack;200;19;0001;
 STD;morpheus562-s-kitpack;210;19;0001;
 STD;morpheus562-s-kitpack;300;19;0001;
 STD;morpheus562-s-kitpack;310;19;0001;
 STD;morpheus562-s-kitpack;320;19;0001;
-STD;morpheus562-s-kitpack;330;19;0001;
-STD;morpheus562-s-kitpack;340;19;0001;
 STD;morpheus562-s-kitpack;600;19;0001;
-STD;morpheus562-s-kitpack;900;19;0001;
-STD;morpheus562-s-kitpack;1100;19;0001;
-STD;morpheus562-s-kitpack;1110;19;0001;
+# 安装魔导剑士套件
+STD;morpheus562-s-kitpack;900;19;0000;
+STD;morpheus562-s-kitpack;1103;19;0001;
+STD;morpheus562-s-kitpack;1200;19;0001;
 STD;song_and_silence;0;16;0001;
 STD;song_and_silence;1;17;0001;
 STD;song_and_silence;2;19;0001;
@@ -499,7 +499,7 @@ STD;RR;5;19;1111;
 STD;RR;6;16;0000;
 STD;wsr;100;19;1111;
 #修订龙脉术士
-STD;TomeAndBlood;20;19;0000;
+STD;TomeAndBlood;20;19;0001;
 #术士：天佑者
 STD;TomeAndBlood;31;19;0000;
 #术士：森林术士
@@ -509,9 +509,9 @@ STD;TomeAndBlood;35;19;0000;
 #修订超魔法 -> 超魔法天赋，通过卷轴或创建人物时学习
 STD;TomeAndBlood;53;19;0000;
 #术士法术切换 -> 每三个等级更换一次法术
-STD;TomeAndBlood;72;19;0001;
+STD;TomeAndBlood;72;19;0000;
 #兼职术士
-STD;TomeAndBlood;80;19;0001;
+STD;TomeAndBlood;80;19;0000;
 #兼职专精
 STD;TomeAndBlood;95;19;0000;
 STD;tactics-remix;1;15;0011;
@@ -695,6 +695,7 @@ STD;cdtweaks;4120;05;1111;
 STD;stratagems;2000;16;1111;
 STD;stratagems;2500;16;1111;
 STD;stratagems;2510;16;1111;
+# 修订元素和元素召唤
 STD;stratagems;2520;16;1111;
 STD;stratagems;5900;18;1111;
 STD;stratagems;6000;18;1111;
@@ -919,10 +920,11 @@ STD;aTweaks;500;16;0001;
 STD;aTweaks;510;16;1111;
 #让 aTweaks 使用博德之门2风格的图标
 STD;aTweaks;999;16;0000;
+STD;SubtleD_Spell_Tweaks;21;16;0001;
 #总经验值上限 -> 禁用
 STD;EET_Tweaks;2002;16;0000;
-#杀死生物的经验值 -> 降低到75%
-STD;EET_Tweaks;2051;16;0000;
+#杀死生物的经验值 -> 降低到75%，2052 -> 50%
+STD;EET_Tweaks;2051;16;0001;
 #任务的经验值 -> 降低到75%
 STD;EET_Tweaks;2061;16;0000;
 #导入队伍物品到SoA
@@ -959,7 +961,7 @@ STD;HiddenGameplayOptions;38;20;1111;
 STD;HiddenGameplayOptions;39;20;1111;
 STD;HiddenGameplayOptions;103;20;1111;
 STD;HiddenGameplayOptions;200;20;1111;
-STD;icewind_eet;0;1;1111;
+STD;iwd_eet_end;0;1;1111;
 STD;IWD_EET_integration;100;00;0001;
 STD;IWD_EET_integration;110;00;0001;
 STD;IWD_EET_integration;115;00;0001;
@@ -985,9 +987,9 @@ STD;bgiwdeasy;16;1;1111;
 STD;bgiwdeasy;18;1;1111;
 STD;bgiwdeasy;19;1;1111;
 STD;bgiwdeasy;20;1;1111;
-STD;BardSong_BGEE_IWD;0;0;0001;
-STD;BardSong_BGEE_IWD;1;0;0001;
-STD;BardSong_BGEE_IWD;2;0;0001;
+STD;BardSong_BGEE_IWD;0;0;1111;
+STD;BardSong_BGEE_IWD;1;0;1111;
+STD;BardSong_BGEE_IWD;2;0;1111;
 STD;FairyLandExplorer;0;19;1111;
 STD;ArcaneCaster;0;19;1111;
 STD;SoulLight;0;19;1111;
@@ -1030,10 +1032,9 @@ STD;PPE;150;21;0011;
 STD;PPE;10;21;0001;
 STD;PPE;20;21;0001;
 STD;bp-bgt-worldmap;0;21;0111;
-STD;enhanced-powergaming-scripts;14;18;0111;
-STD;enhanced-powergaming-scripts;9;18;0111;
-STD;enhanced-powergaming-scripts;10;18;0111;
 STD;LightingPack;0;21;1111;
 STD;LightingPack;102;21;1111;
 STD;x_autobs;0;18;1111;
+STD;SubtleD_Stat_Overhauls;110;00;0001;
+
 

@@ -26,6 +26,13 @@ log/WeiDU0517.log, log/WeiDU0605.txt是[刘酒](https://github.com/Lzw104522773)
 ## 我的整合版
 
 直接下载通过本脚本整合好的博德之门EET版本，包含大量中文mod，不支持定制：[百度网盘](https://pan.baidu.com/s/1g1sckBuwaS7rKaK_n8DRGg?pwd=2pkj)
+* 2024/08/23，安装log: log/WeiDU0821.log
+  1. 更新大量yoshimo0417的中文翻译，更新Lzw104522773和MephistoSatanDevil的翻译
+  2. 增加mod：ToA，由yoshimo0417翻译，https://github.com/yoshimo0417/ToA26/tree/master/ToA
+  3. 合并冰风谷的最新更新，可能会和bgiwdeasy不兼容导致问题，没有测试
+  4. 移除TomeAndBlood的兼职术士部分，好多问题
+  5. 移除ENHANCED-POWERGAMING-SCRIPTS，人物会不攻击，感谢群友“车干”测试
+  6. 更新STRATAGEMS到35.19
 * 2024/08/21，安装log：log/WeiDU0821.log：
   1. 修复手杖的问题
   2. 世界地图改为中文
