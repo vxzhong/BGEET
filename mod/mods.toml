@@ -171,7 +171,7 @@ tra.CN = 7
 name = "BGGOEET"
 description = "This mod is probably the biggest visual overhaul of the game since it was released. It reinstates the extended night areas that are missing from all main areas except Baldur's Gate. Now, when you open doors at night they show light from inside the building. Buildings actually have windows that are lit up."
 down = "https://github.com/SpellholdStudios/BGGOEET.git"
-version = "2dadfd32ac755c0e84ddc4dd55e9ec1cc3595ab1"
+version = "0b4745d5e4ea897f4ee13d16c39f19552319887c"
 
 [thalan]
 name = "thalan"
@@ -297,8 +297,8 @@ tra.CN = 1
 name = "Tales of the Deep Gardens"
 description = "无限颜色系列：深渊庭院的传说"
 down = "https://downloads.weaselmods.net/download/tales-of-the-deep-gardens/?wpdmdl=68"
-version = "12.91"
-save = "Tales of the Deep Gardens v12.91.zip"
+version = "12.92"
+save = "Tales of the Deep Gardens v12.92.zip"
 tra.CN = 7
 
 [Godcall]
@@ -319,31 +319,31 @@ tra.CN = 3
 name = "Black-Hearts"
 description = "黑心"
 down = "https://github.com/11jo/Black-Hearts.git"
-version = "cbd1ddeb0315bf096d500269aa98ea262c855e63"
+version = "9c9d01038eb7f5c0c28c7a48b2059f882bc969e1"
 tra.CN = 1
 
 [Innershade]
 name = "Innershade"
 description = "无限颜色系列：遮蔽村庄"
 down = "https://downloads.weaselmods.net/download/innershade/?wpdmdl=73"
-save = "Innershade v11.11.zip"
-version = "11.11"
+save = "Innershade v11.12.zip"
+version = "11.12"
 tra.CN = 1
 
 [WhiteQueen]
 name = "WhiteQueen"
 description = "无限颜色系列：洁白女王"
 down = "https://downloads.weaselmods.net/download/the-white-queen/?wpdmdl=75"
-save = "The White Queen v7.2.zip"
-version = "7.2"
+save = "The White Queen v7.3.zip"
+version = "7.3"
 tra.CN = 6
 
 [SouthernEdge]
 name = "SouthernEdge"
 description = "市郊区：阿斯卡特拉的新地区"
 down = "https://downloads.weaselmods.net/download/southern-edge/?wpdmdl=36"
-save = "SouthernEdge v5.1.zip"
-version = "5.1"
+save = "SouthernEdge v5.2.zip"
+version = "5.2"
 tra.CN = 2
 
 [AlabasterSands]
@@ -358,32 +358,32 @@ tra.CN = 4
 name = "ooze"
 description = "软泥会客厅：阿斯卡特拉贫民区的新地区"
 down = "https://downloads.weaselmods.net/download/oozes-lounge/?wpdmdl=59"
-save = "Oozes Lounge v2.94.zip"
-version = "2.94"
+save = "Oozes Lounge v2.95.zip"
+version = "2.95"
 tra.CN = 1
 
 [TangledIsle]
 name = "TangledIsle"
 description = "缠绕橡树岛：阿斯卡特拉的新地区"
 down = "https://downloads.weaselmods.net/download/tangled-oak-isle/?wpdmdl=317"
-save = "TangledIsle v4.3.zip"
-version = "4.3"
+save = "TangledIsle v4.4.zip"
+version = "4.4"
 tra.CN = 2
 
 [isnf]
 name = "I Shall Never Forget"
 description = "无限颜色系列：矢志不渝的爱"
 down = "https://downloads.weaselmods.net/download/i-shall-never-forget/?wpdmdl=77"
-save = "I Shall Never Forget v6.2.zip"
-version = "6.2"
+save = "I Shall Never Forget v6.3.zip"
+version = "6.3"
 tra.CN = 5
 
 [Eilistraee]
 name = "Eilistraees Song"
 description = "伊莉丝翠之歌"
 down = "https://downloads.weaselmods.net/download/eilistraees-song/?wpdmdl=89"
-save = "Eilistraees Song v7.4.zip"
-version = "7.4"
+save = "Eilistraees Song v7.5.zip"
+version = "7.5"
 tra.CN = 6
 
 [tidings]
@@ -748,7 +748,7 @@ tra.CN = 8
 name = "SwordCoastStratagems"
 description = "Sword Coast Stratagems"
 down = "https://github.com/Gibberlings3/SwordCoastStratagems.git" #merge
-version = "355e208a5472f56272db27dd6b7a272dd7690f06"
+version = "ef3a12a992f7e2ab78a4416b373c4f36fb9e9046"
 tra.CN = 8
 
 [song_and_silence]
@@ -989,7 +989,7 @@ tra.CN = 1
 name = "Bardsong_Switching"
 description = "仿冰风谷战歌切换"
 down = "https://github.com/shohysie/Bardsong_Switching.git"
-version = "763eeb0373c35450b8226f3bdb365d207efd3819"
+version = "a85e5e8e1e0513d43a73f7b7bd7b01965dae07eb"
 tra.CN = 1
 
 [PPE]
@@ -1063,7 +1063,7 @@ tra.CN = 6
 name = "gorgon"
 description = "A mod for BG:EE that adds a thieves guild into the town of Beregost."
 down = "https://github.com/TotalMilk90/gorgon.git" #fork
-version = "2b6312df82621a5e6109bc48e5fdb76f32b6ec82"
+version = "e7ed1b88f688704d6c1edc08c6265d345b2d1c19"
 tra.CN = 1
 
 [imoen_forever]

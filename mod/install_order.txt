@@ -606,8 +606,8 @@ STD;cdtweaks;2410;16;0001;
 STD;cdtweaks;2420;16;0001;
 #修改兼职或转职德鲁伊的装备限制 -> 放宽兼职或转职德鲁伊的装备限制
 STD;cdtweaks;2430;16;0000;
-#任意职业都可从武器专精获得每轮攻击次数奖励
-STD;cdtweaks;2440;16;0001;
+#任意职业都可从武器专精获得每轮攻击次数奖励，战士好像反而有问题
+STD;cdtweaks;2440;16;0000;
 #转职角色使用PnP武器特长规则
 STD;cdtweaks;2450;16;0000;
 # 负重超重限制改变
@@ -963,12 +963,18 @@ STD;HiddenGameplayOptions;103;20;1111;
 STD;HiddenGameplayOptions;200;20;1111;
 STD;iwd_eet_end;0;1;1111;
 STD;IWD_EET_integration;100;00;0001;
-STD;IWD_EET_integration;110;00;0001;
-STD;IWD_EET_integration;115;00;0001;
-STD;IWD_EET_integration;130;00;0001;
-STD;IWD_EET_integration;135;00;0001;
-STD;IWD_EET_integration;150;00;0001;
-STD;IWD_EET_integration;155;00;0001;
+#为完整战役调整IWD1经验，从bg1玩的不安装
+STD;IWD_EET_integration;110;00;0000;
+#为完整战役调整IWD1生物数据
+STD;IWD_EET_integration;115;00;0000;
+#为完整战役调整IWD2经验
+STD;IWD_EET_integration;130;00;0000;
+#为完整战役调整IWD2生物数据
+STD;IWD_EET_integration;135;00;0000;
+#可以BG2中进行寒冬之心
+STD;IWD_EET_integration;150;00;0000;
+#从寒冬之心中移除过于强大的物品
+STD;IWD_EET_integration;155;00;0000;
 STD;IWD_EET_integration;160;00;0001;
 STD;bgiwdeasy;0;1;1111;
 STD;bgiwdeasy;2;1;1111;
@@ -1036,5 +1042,6 @@ STD;LightingPack;0;21;1111;
 STD;LightingPack;102;21;1111;
 STD;x_autobs;0;18;1111;
 STD;SubtleD_Stat_Overhauls;110;00;0001;
+#WeiDU.exe --log nul --change-log xplist.2da >change-log/change-log.txt --out change-log
 
 

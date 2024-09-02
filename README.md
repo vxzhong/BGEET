@@ -26,7 +26,12 @@ log/WeiDU0517.log, log/WeiDU0605.txt是[刘酒](https://github.com/Lzw104522773)
 ## 我的整合版
 
 直接下载通过本脚本整合好的博德之门EET版本，包含大量中文mod，不支持定制：[百度网盘](https://pan.baidu.com/s/1g1sckBuwaS7rKaK_n8DRGg?pwd=2pkj)
-* 2024/08/23，安装log: log/WeiDU0821.log
+* 2024/08/31: 更新0823.2版本，不需要重开，完全兼容0823版本。安装log: log/WeiDU0823.2.log
+  1. 更新一些翻译
+  2. 根据群里的讨论，移除cdtweaks 2440，对战士有影响
+  3. 移除IWD_EET_INTEGRATION里为独立战役准备的怪物和经验调整，一般都是从bg1里玩的，但保留独立战役
+  4. 学着写脚本：将暗黑地平线怪物经验降低80%
+* 2024/08/23，安装log: log/WeiDU0823.log
   1. 更新大量yoshimo0417的中文翻译，更新Lzw104522773和MephistoSatanDevil的翻译
   2. 增加mod：ToA，由yoshimo0417翻译，https://github.com/yoshimo0417/ToA26/tree/master/ToA
   3. 合并冰风谷的最新更新，可能会和bgiwdeasy不兼容导致问题，没有测试

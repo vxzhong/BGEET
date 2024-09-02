@@ -1,18 +1,23 @@
-* 2024/08/23，
+* 2024/08/31: 更新0823.2版本，不需要重开，完全兼容0823版本
+  1. 更新一些翻译
+  2. 根据群里的讨论，移除cdtweaks 2440，对战士有影响
+  3. 移除IWD_EET_INTEGRATION里为独立战役准备的怪物和经验调整，一般都是从bg1里玩的
+  4. 暗黑地平线怪物经验降低80%
+* 2024/08/23
   1. 更新大量yoshimo0417的中文翻译，更新Lzw104522773和MephistoSatanDevil的翻译
   2. 增加mod：ToA，由yoshimo0417翻译，https://github.com/yoshimo0417/ToA26/tree/master/ToA
   3. 合并冰风谷的最新更新，可能会和bgiwdeasy不兼容导致问题，没有测试
   4. 移除TomeAndBlood的兼职术士部分，好多问题
   5. 移除ENHANCED-POWERGAMING-SCRIPTS，人物会不攻击，感谢群友“车干”测试
   6. 更新STRATAGEMS到35.19
-* 2024/08/21，安装log：log/WeiDU0821.log：
+* 2024/08/21
   1. 修复手杖的问题
   2. 世界地图改为中文
   3. TomeAndBlood只有术士兼职，兼职术士的法术计数在穿上和脱下盔甲的时候会翻倍，我自己修复了，可能有问题，不建议兼职术士
   4. 增加mod：REFLECTIONS，命运的倒影，https://github.com/subtledoctor/Reflections-of-Destiny
   5. 增加mod：MORPHEUS562-S-KITPACK，各种职业，https://www.morpheus-mart.com/morpheus562s-kitpack
   6. 增加mod：ENHANCED-POWERGAMING-SCRIPTS，增强脚本，https://www.morpheus-mart.com/enhanced-powergaming-scripts
-* 2024/08/19: 
+* 2024/08/19
   1. 修复了很多乱码的问题
   2. 更新bgiwdeasy、improvemonk等mod
   3. 增加了TOMEANDBLOOD，术士可以兼职
