@@ -1,0 +1,3 @@
+请使用zzsave将存档升级到新的版本（做好备份）（测试）
+必须要有旧的dialog.tlk文件，即lang\zh_CN\dialog.tlk
+使用说明，看zzsave下的README

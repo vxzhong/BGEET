@@ -275,7 +275,7 @@ tra.CN = 2
 name = "Region_of_Terror"
 description = "恐怖地带"
 down = "https://github.com/SpellholdStudios/Region_of_Terror.git"
-version = "ef31118376f02dc1f45e128c63419d8ccb821d07"
+version = "c26173611b8e6cba1fb4189318e7e2603e9f3c72"
 tra.CN = 4
 
 [SoS]
@@ -734,7 +734,7 @@ tra.CN = 9
 name = "Check_the_Bodies"
 description = "检查身体"
 down = "https://github.com/SpellholdStudios/Check_the_Bodies.git"
-version = "a0115f278f808b9756e69385a326f7765ef3f8a1"
+version = "3a72d690f7f51ea813164b4514cd861f0d82eff0"
 tra.CN = 6
 
 [A7-TotLM-BG2EE]
@@ -833,7 +833,7 @@ tra.CN = 0
 name = "ContemplativeFavoredSoul"
 description = "虔心天佑者"
 # down = https://pan.baidu.com/s/17Lp-AtAw1-GSw8aOznOFmw?pwd=ns5c
-save = "ContemplativeFavoredSoulV0.7.zip"
+save = "ContemplativeFavoredSoulV0.9.zip"
 version = "0.9"
 tra.CN = 0
 
@@ -1062,8 +1062,8 @@ tra.CN = 6
 [gorgon]
 name = "gorgon"
 description = "A mod for BG:EE that adds a thieves guild into the town of Beregost."
-down = "https://github.com/TotalMilk90/gorgon.git" #fork
-version = "e7ed1b88f688704d6c1edc08c6265d345b2d1c19"
+down = "https://github.com/TotalMilk90/gorgon.git"
+version = "e45cb4e81ee0242579ac95dbf66e02451a69da25"
 tra.CN = 1
 
 [imoen_forever]
@@ -1173,3 +1173,10 @@ name = "SubtleD_Stat_Overhauls"
 description = ""
 down = "https://github.com/subtledoctor/SubtleD_Stat_Overhauls.git"
 version = "74bdc2c25b1a682be113b5c44cfe4b7d0ecb85ed"
+
+[planarspheremod]
+name = "PlanarSphere"
+description = ""
+down = "https://github.com/The-Gate-Project/PlanarSphere.git"
+version = "59a500a6a704b2aefd34fdd13addc152eac85f36"
+tra.CN = 2

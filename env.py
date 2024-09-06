@@ -24,5 +24,5 @@ bgt_path = os.path.join(
 install_dir = os.path.join(
     current_directory,
     # f"Baldur's Gate Enhanced Edition Tetralogy {datetime.datetime.now().strftime('%Y%m%d')}",
-    "Baldur's Gate Enhanced Edition Tetralogy 20240823",
+    "Baldur's Gate Enhanced Edition Tetralogy 20240906",
 )

@@ -254,6 +254,10 @@ STD;tod;2;10;0011;
 STD;A7-TestYourMettle;0;10;0111;
 STD;A7-TestYourMettle;12;10;0111;
 STD;A7-TestYourMettle;20;16;0111;
+STD;planarspheremod;0;00;0001;
+STD;planarspheremod;623;00;0001;
+STD;planarspheremod;624;00;0001;
+STD;planarspheremod;625;00;0001;
 STD;Assassinations;0;10;0111;
 STD;gbthfkp;0;10;1111;
 STD;RoT;0;10;0001;
@@ -824,16 +828,20 @@ STD;tactics-remix;15;15;0011;
 STD;tactics-remix;16;15;0000;
 STD;tactics-remix;17;15;0011;
 STD;tactics-remix;19;15;0011;
-STD;tactics-remix;23;15;0011;
-#Improve All Enemies Hit Points -> Enemies Have x2 Hit Points
-STD;tactics-remix;25;16;0000;
+STD;tactics-remix;35;16;0011;
 #Morpheus562's Improved Drizzt (BGEE)
 STD;tactics-remix;29;16;0000;
-STD;tactics-remix;32;16;0011;
-STD;tactics-remix;33;16;0011;
-STD;tactics-remix;35;16;0011;
 #Morpheus562's Improved Drizzt (BG2EE)
 STD;tactics-remix;39;16;0000;
+STD;tactics-remix;41;16;0001;
+STD;tactics-remix;43;16;0001;
+STD;tactics-remix;44;16;0001;
+STD;tactics-remix;45;16;0001;
+STD;tactics-remix;23;15;0011;
+STD;tactics-remix;32;16;0011;
+STD;tactics-remix;33;16;0011;
+#Improve All Enemies Hit Points -> Enemies Have x2 Hit Points
+STD;tactics-remix;25;16;0000;
 STD;wsr;200;19;1111;
 #法师杀手道具限制修订 -> 适中的改动
 STD;wsr;302;19;0001;
@@ -1041,7 +1049,7 @@ STD;bp-bgt-worldmap;0;21;0111;
 STD;LightingPack;0;21;1111;
 STD;LightingPack;102;21;1111;
 STD;x_autobs;0;18;1111;
-STD;SubtleD_Stat_Overhauls;110;00;0001;
+STD;SubtleD_Stat_Overhauls;110;00;0000;
 #WeiDU.exe --log nul --change-log xplist.2da >change-log/change-log.txt --out change-log
 
 

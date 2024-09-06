@@ -1,11 +1,15 @@
-* 2024/08/31: 更新0823.2版本，不需要重开，完全兼容0823版本
+* 2024/09/06:
+  1. 更新gorgon、检查身体、恐怖地带中文翻译
+  2. 增加异次元球mod，https://github.com/The-Gate-Project/PlanarSphere，汉化来自trow：https://trow.cc/board/showtopic=15767&st=0
+  3. 请使用zzsave来升级存档，仅供测试，做好备份。如果存档升级有问题，请使用旧版本，不要升级。
+* 2024/08/31: 更新0823.2版本
   1. 更新一些翻译
   2. 根据群里的讨论，移除cdtweaks 2440，对战士有影响
   3. 移除IWD_EET_INTEGRATION里为独立战役准备的怪物和经验调整，一般都是从bg1里玩的
   4. 暗黑地平线怪物经验降低80%
 * 2024/08/23
   1. 更新大量yoshimo0417的中文翻译，更新Lzw104522773和MephistoSatanDevil的翻译
-  2. 增加mod：ToA，由yoshimo0417翻译，https://github.com/yoshimo0417/ToA26/tree/master/ToA
+  2. 增加mod：ToA，由yoshimo0417翻译，https://github.com/yoshimo0417/ToA26
   3. 合并冰风谷的最新更新，可能会和bgiwdeasy不兼容导致问题，没有测试
   4. 移除TomeAndBlood的兼职术士部分，好多问题
   5. 移除ENHANCED-POWERGAMING-SCRIPTS，人物会不攻击，感谢群友“车干”测试

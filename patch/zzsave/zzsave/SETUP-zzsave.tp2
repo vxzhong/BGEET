@@ -1,0 +1,50 @@
+BACKUP ~zzsave/backup~
+AUTHOR ~vxzhong@qq.com~
+VERSION ~v0.1~
+
+AUTO_EVAL_STRINGS
+
+README ~%MOD_FOLDER%/README.md~
+AUTO_TRA ~%MOD_FOLDER%/tra/%s~
+
+LANGUAGE  ~Simplified Chinese~	~schinese~  ~%MOD_FOLDER%/tra/schinese/setup.tra~
+
+BEGIN @1
+OUTER_SET str_min = 271375
+
+ACTION_IF ~%WEIDU_OS%~ STR_EQ ~win32~ BEGIN
+	OUTER_SPRINT os_slash ~\~
+	OUTER_SPRINT exe ~.exe~
+	OUTER_SPRINT bin ~~
+	OUTER_SPRINT del ~del /f~
+END ELSE BEGIN //osx, unix
+	OUTER_SPRINT os_slash ~/~
+	OUTER_SPRINT exe ~~
+	OUTER_SPRINT bin ~./~
+	OUTER_SPRINT del ~rm -f~
+END
+OUTER_SPRINT weidu ~%bin%setup-zzsave%exe%~
+PRINT ~weidu = %weidu%~
+OUTER_SPRINT shell_cmd ~%del% "%MOD_FOLDER%%os_slash%saves.tra"~
+AT_NOW ret_val ~%shell_cmd%~ EXACT
+OUTER_SPRINT shell_cmd ~%weidu% --noautoupdate --no-auto-tp2 --tlkin %MOD_FOLDER%%os_slash%dialog.tlk --traify-tlk --min %str_min% --out "%MOD_FOLDER%%os_slash%saves.tra"~
+AT_NOW ret_val ~%shell_cmd%~ EXACT
+ACTION_IF (ret_val != 0) BEGIN
+	WARN ~Shell command failed to execute: %shell_cmd%~
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~add_spell.ids~ BEGIN
+	COPY_EXISTING - ~add_spell.ids~ ~.../add_spell.ids~
+END
+
+OUTER_SET str_max = 2999999
+<<<<<<<< .../saves.txt
+str_min = %str_min%
+str_max = %str_max%
+>>>>>>>>
+COPY + ~.../saves.txt~ ~%MOD_FOLDER%/saves.txt~ EVALUATE_BUFFER
+	PATCH_IF FILE_EXISTS ~.../add_spell.ids~ BEGIN
+		APPEND_FILE ~.../add_spell.ids~
+	END
+
+INCLUDE ~%MOD_FOLDER%/lib/saves.tph~
