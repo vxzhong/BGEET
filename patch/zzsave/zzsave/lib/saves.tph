@@ -590,8 +590,9 @@ ACTION_IF (DIRECTORY_EXISTS ~%MOD_FOLDER%/save~) BEGIN
 				/////                                                  \\\\\
 				///// Journal entries                                  \\\\\
 				/////                                                  \\\\\
+				PATCH_PRINT ~Editing *Journal entries %journal_count%* ...~
 				FOR (i=0; i<"%journal_count%"; ++i) BEGIN
-					READ_LONG ("%journal_offset%"+0xc*i+0xb) "source_tlk"
+					READ_BYTE ("%journal_offset%"+0xc*i+0xb) "source_tlk"
 					PATCH_IF (source_tlk = 0xff) BEGIN
 						SET offset = ("%journal_offset%"+0xc*i)
 						LPM SAVE_SAY
@@ -607,7 +608,7 @@ ACTION_IF (DIRECTORY_EXISTS ~%MOD_FOLDER%/save~) BEGIN
 					///// ARE                                              \\\\\
 					/////                                                  \\\\\
 					PATCH_IF ((~%SAV_FILE%~ STRING_CONTAINS_REGEXP ~\.ARE$~)=0) BEGIN
-						//PATCH_PRINT ~Editing *%SAV_FILE%* ...~
+						PATCH_PRINT ~Editing *%SAV_FILE%* ...~
 						//Lolfixer
 						LPM EET_ARE_fixer
 						//Actors
@@ -683,7 +684,7 @@ ACTION_IF (DIRECTORY_EXISTS ~%MOD_FOLDER%/save~) BEGIN
 					///// STO                                              \\\\\
 					/////                                                  \\\\\
 					ELSE PATCH_IF ((~%SAV_FILE%~ STRING_CONTAINS_REGEXP ~\.STO$~)=0) BEGIN
-						//PATCH_PRINT ~Editing *%SAV_FILE%* ...~
+						PATCH_PRINT ~Editing *%SAV_FILE%* ...~
 						LPM EET_STO_fixer
 						SET offset = 0xc //Name
 						LPM SAVE_SAY
@@ -698,7 +699,7 @@ ACTION_IF (DIRECTORY_EXISTS ~%MOD_FOLDER%/save~) BEGIN
 					///// WMP                                              \\\\\
 					/////                                                  \\\\\
 					ELSE PATCH_IF ((~%SAV_FILE%~ STRING_CONTAINS_REGEXP ~\.WMP$~)=0) BEGIN
-						//PATCH_PRINT ~Editing *%SAV_FILE%* ...~
+						PATCH_PRINT ~Editing *%SAV_FILE%* ...~
 						READ_LONG 0xc "mapentry_off"
 						READ_LONG ("%mapentry_off%"+0x20) "areaentry_num"
 						READ_LONG ("%mapentry_off%"+0x24) "areaentry_off"
