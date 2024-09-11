@@ -328,7 +328,7 @@ description = "无限颜色系列：遮蔽村庄"
 down = "https://downloads.weaselmods.net/download/innershade/?wpdmdl=73"
 save = "Innershade v11.12.zip"
 version = "11.12"
-tra.CN = 1
+tra.CN = 6
 
 [WhiteQueen]
 name = "WhiteQueen"
@@ -741,14 +741,14 @@ tra.CN = 6
 name = "A7-TotLM-BG2EE"
 description = "谜语大师试炼For BG2EE"
 down = "https://github.com/Argent77/A7-TotLM-BG2EE.git"
-version = "e0d2b18f4d4b551687203990a559ac94cba9483b"
+version = "640a5c1ebabc3b00abbfbfced1ae6123f68c8cc8"
 tra.CN = 8
 
 [stratagems]
 name = "SwordCoastStratagems"
 description = "Sword Coast Stratagems"
 down = "https://github.com/Gibberlings3/SwordCoastStratagems.git" #merge
-version = "ef3a12a992f7e2ab78a4416b373c4f36fb9e9046"
+version = "0220f1fc46415ba6a101d8a6a8e81f7231732761"
 tra.CN = 8
 
 [song_and_silence]
@@ -1180,3 +1180,24 @@ description = ""
 down = "https://github.com/The-Gate-Project/PlanarSphere.git"
 version = "59a500a6a704b2aefd34fdd13addc152eac85f36"
 tra.CN = 2
+
+[C0Warlock]
+name = "Warlock"
+description = ""
+down = "https://github.com/ArtemiusI/Warlock.git"
+version = "59a500a6a704b2aefd34fdd13addc152eac85f36"
+tra.CN = 2
+
+[ShineOnCaelar]
+name = "Caelar"
+description = "Allow an alternate solution with Cealar in SoD. Caelar becomes joinable in ToB."
+down = "https://github.com/RoxanneSHS/Caelar.git"
+version = "a3b7bd95f577ba758c2ef18533820ffa35f87f84"
+tra.CN = 2
+
+[solaufein]
+name = "Solaufein"
+description = "Weimer's classic mod changes Solaufein into a joinable NPC for BG2EE and ToB. Revised EE version."
+down = "https://github.com/RoxanneSHS/Solaufein.git"
+version = "f31d7eca987202af006647cbda8b0aea2ade4db4"
+tra.CN = 3

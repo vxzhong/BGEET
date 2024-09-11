@@ -26,6 +26,12 @@ log/WeiDU0517.log, log/WeiDU0605.txt是[刘酒](https://github.com/Lzw104522773)
 ## 我的整合版
 
 直接下载通过本脚本整合好的博德之门EET版本，包含大量中文mod，不支持定制：[百度网盘](https://pan.baidu.com/s/1g1sckBuwaS7rKaK_n8DRGg?pwd=2pkj)
+* 2024/09/06: 安装log: log/WeiDU0911.log
+  1. 更新STRATAGEMS到35.20
+  2. 去掉SOD2BG2_IU这个mod
+  3. INNERSHADE，改为中文，错误安装为法文了
+  4. 其它小调整
+  5. 请使用zzsave来升级存档，仅供测试，做好备份。如果觉得存档升级有问题，请使用旧版本，不要升级。（patch/zzsave）
 * 2024/09/06: 安装log: log/WeiDU0906.log
   1. 更新gorgon、检查身体、恐怖地带中文翻译
   2. 增加异次元球mod，https://github.com/The-Gate-Project/PlanarSphere，汉化来自trow：https://trow.cc/board/showtopic=15767&st=0
