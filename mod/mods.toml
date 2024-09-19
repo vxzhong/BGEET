@@ -56,7 +56,7 @@ move_dir = 'Bubbs-Spell-Menu-Extended-5.0.3'
 name = "EEUITweaks"
 description = "Distribution point for EEUITweaks"
 down = "https://github.com/r-e-d/EEUITweaks.git"
-version = "27cdf9078422c7b20430d9bb873919baae57caea"
+version = "223873882cd1043a67e997e3888c21bab772439c"
 
 [HiddenGameplayOptions]
 name = "A7-HiddenGameplayOptions"
@@ -319,7 +319,7 @@ tra.CN = 3
 name = "Black-Hearts"
 description = "黑心"
 down = "https://github.com/11jo/Black-Hearts.git"
-version = "9c9d01038eb7f5c0c28c7a48b2059f882bc969e1"
+version = "bae7918798c74bcf89769d20e9ecb5efc531f90c"
 tra.CN = 1
 
 [Innershade]
@@ -678,8 +678,8 @@ tra.CN = 4
 [cowledmenace]
 name = "CowledMenace"
 description = "蒙面法师的威胁"
-down = "https://github.com/Gibberlings3/CowledMenace.git" # fork
-version = "72ccd67bbaaa7f0754c608a1c5ed4a3cbe539f4d"
+down = "https://github.com/Gibberlings3/CowledMenace.git"
+version = "eb35d9e3fb727f5f90594706d68cd155ac2cd620"
 tra.CN = 2
 
 [wildmage]
@@ -1123,7 +1123,7 @@ tra.CN = 5
 name = "TomeAndBlood"
 description = "Tome And Blood: Expanded Options for the Arcane Classes."
 down = "https://github.com/UnearthedArcana/TomeAndBlood.git"
-version = "adb215c10965ad3040f8844af995aa36d81e25e8"
+version = "ad5c6f96c48a4e02ca16c3d47bd5bf2044c8e953"
 tra.CN = 2
 
 [eefixpack]
@@ -1185,7 +1185,7 @@ tra.CN = 2
 name = "Warlock"
 description = ""
 down = "https://github.com/ArtemiusI/Warlock.git"
-version = "59a500a6a704b2aefd34fdd13addc152eac85f36"
+version = "3ba2fee0f2c20bcc50cf046466b2d58dcc5427e4"
 tra.CN = 2
 
 [ShineOnCaelar]
@@ -1201,3 +1201,58 @@ description = "Weimer's classic mod changes Solaufein into a joinable NPC for BG
 down = "https://github.com/RoxanneSHS/Solaufein.git"
 version = "f31d7eca987202af006647cbda8b0aea2ade4db4"
 tra.CN = 3
+
+[npc_ee]
+name = "NPC_EE"
+description = "NPC kit options for Baldur's Gate"
+down = "https://github.com/UnearthedArcana/NPC_EE.git"
+version = "2d1830bb72df10117e267e7b783c686fc35c740e"
+tra.CN = 2
+
+[valen]
+name = "ValenEE"
+description = "Converts Bodhi's vampiric assistant into a joinable NPC"
+down = "https://github.com/RoxanneSHS/ValenEE.git"
+version = "d8c0999e2db8315f9f958b8625d164684a308279"
+tra.CN = 7
+
+[LongerRoad]
+name = "LongerRoadEE"
+description = "The Longer Road mod allows you to restore your main adversary from the SoA portion of the game back to life, and take him into the party to fight on your side."
+down = "https://github.com/InfinityMods/LongerRoadEE.git"
+version = "a37ea53264fa6d63fbdd177ffa0d9eeef045aad4"
+tra.CN = 5
+
+[ppe_reloaded]
+name = "PPE-RELOADED-QUESTPACK"
+
+[tyrisflare]
+name = "TyrisFlare"
+down = "https://github.com/Lzw104522773/TyrisFlare.git"
+version = "66b3a248d92827730d919722484a74798dac52b9"
+tra.CN = 3
+
+[bst]
+name = "BS_Baldurans_Seatower"
+down = "https://github.com/Gibberlings3/BS_Baldurans_Seatower.git"
+version = "66b3a248d92827730d919722484a74798dac52b9"
+tra.CN = 1
+
+[crossmodbg2]
+name = "Crossmod_Banter_Pack_for_Baldurs_Gate_II"
+down = "https://github.com/Gibberlings3/Crossmod_Banter_Pack_for_Baldurs_Gate_II.git"
+version = "d5d605f3fe440b22da3ffed8be751edd8b54ce3e"
+tra.CN = 1
+
+[Coran]
+name = "Coran_for_BGII"
+down = "https://github.com/yoshimo0417/Coran_for_BGII.git"
+version = "544dd3e5963fa33379c00435371d83a5fc7bca5f"
+tra.CN = 2
+
+[Archaic]
+name = "Archaic-Temple"
+
+[Melting]
+name = "Melting-Tavern"
+

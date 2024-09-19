@@ -17,21 +17,28 @@
 1. 先在mod/mods.toml模仿已有的mod定义，支持两种下载方式：wget和git，执行download.py下载
 2. 在mod/install_order.txt里添加组件，执行install.py安装
 
-## 说明
-
-推荐直接去[博德之门贴吧](http://c.tieba.baidu.com/p/9085661589)下载[刘酒](https://github.com/Lzw104522773)的整合版，BUG少、稳定。
-
-log/WeiDU0517.log, log/WeiDU0605.txt是[刘酒](https://github.com/Lzw104522773)整合的版本的log。
-
 ## 我的整合版
 
 直接下载通过本脚本整合好的博德之门EET版本，包含大量中文mod，不支持定制：[百度网盘](https://pan.baidu.com/s/1g1sckBuwaS7rKaK_n8DRGg?pwd=2pkj)
-* 2024/09/06: 安装log: log/WeiDU0911.log
+* 2024/09/18: 安装log: log/WeiDU0918.log
+  1. 更新埋骨之丘，来自[yoshimo](https://github.com/yoshimo0417)
+  2. 增加[LongerRoadEE](https://github.com/InfinityMods/LongerRoadEE), 汉化来自[yoshimo的整合版](https://pan.baidu.com/s/1SUm7pj8mj5NjUXZYenJsFg?pwd=zqkl)
+  3. 增加**古旧神殿（Archaic Temple）**，**熔化旅店（Melting Tavern）**
+  4. 增加[BS_Baldurans_Seatower](https://github.com/Gibberlings3/BS_Baldurans_Seatower)，汉化来自[yoshimo的整合版](https://pan.baidu.com/s/1SUm7pj8mj5NjUXZYenJsFg?pwd=zqkl)
+  5. 增加[valen](https://github.com/yoshimo0417/ValenEE)，NPC
+  6. 增加[tyrisflare](https://github.com/Gibberlings3/TyrisFlare)，NPC
+  7. 增加[Coran](https://github.com/Pocket-Plane-Group/Coran_for_BGII)，NPC
+  8. 移除武器平衡mod，需要可以自己安装
+  9. 头像更新
+  10. 增加[npc_ee](https://github.com/UnearthedArcana/NPC_EE)，给NPC换职业，AI汉化
+  11. 提高亮度
+* 2024/09/11: 安装log: log/WeiDU0911.log
   1. 更新STRATAGEMS到35.20
   2. 去掉SOD2BG2_IU这个mod
   3. INNERSHADE，改为中文，错误安装为法文了
-  4. 其它小调整
-  5. 请使用zzsave来升级存档，仅供测试，做好备份。如果觉得存档升级有问题，请使用旧版本，不要升级。（patch/zzsave）
+  4. 冰风谷1经验增加
+  5. 其它小调整
+  6. 请使用zzsave来升级存档，仅供测试，做好备份。如果觉得存档升级有问题，请使用旧版本，不要升级。（patch/zzsave）
 * 2024/09/06: 安装log: log/WeiDU0906.log
   1. 更新gorgon、检查身体、恐怖地带中文翻译
   2. 增加异次元球mod，https://github.com/The-Gate-Project/PlanarSphere，汉化来自trow：https://trow.cc/board/showtopic=15767&st=0
@@ -67,4 +74,4 @@ log/WeiDU0517.log, log/WeiDU0605.txt是[刘酒](https://github.com/Lzw104522773)
 
 ## 感谢
 
-感谢[刘酒](https://github.com/Lzw104522773)、[MephistoSatanDevil](https://github.com/MephistoSatanDevil)等人的辛苦付出，汉化了如此多的mod，让我们重回费伦大陆。
+感谢[刘酒](https://github.com/Lzw104522773)、[MephistoSatanDevil](https://github.com/MephistoSatanDevil)、[yoshimo](https://github.com/yoshimo0417)等人的辛苦付出，汉化了如此多的mod，让我们重回费伦大陆。

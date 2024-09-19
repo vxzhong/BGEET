@@ -2,7 +2,6 @@ import os
 from urllib.parse import urlparse
 
 import tomllib
-
 from env import downloads_dir, git_path, mods_toml_path, wget_path
 from utils import run_command, unzip
 
@@ -29,7 +28,8 @@ def download_and_extract(mod_name, mod_info):
         ):
             current_sha = get_latest_commit_sha(repo_path)
             if current_sha == version:
-                print(f"Git 仓库 '{mod_name}' 已是最新版本 (SHA: {version})，跳过更新")
+                # print(f"Git 仓库 '{mod_name}' 已是最新版本 (SHA: {version})，跳过更新")
+                print(f"Git 仓库 '{mod_name}' 已是最新版本")
                 return
 
             # 如果目录已存在，执行 git pull
