@@ -234,7 +234,7 @@
 ~TANGLEDISLE/TANGLEDISLE.TP2~ #2 #0 // 缠绕橡树岛：阿斯卡特拉的新地区 -> 是的，但不要修改存档文件: v4.4
 ~ISNF/ISNF.TP2~ #5 #0 // 无限颜色系列：矢志不渝的爱: 6.3
 ~EILISTRAEE/SETUP-EILISTRAEE.TP2~ #6 #0 // 伊莉丝翠之歌 -> 是的，但不要修改存档文件: 7.5
-~TIDINGS/SETUP-TIDINGS.TP2~ #4 #0 //     ӿ  : 2.2
+~TIDINGS/SETUP-TIDINGS.TP2~ #4 #0 // ����ӿ��: 2.2
 ~COM_ENCOUNTERS/SETUP-COM_ENCOUNTERS.TP2~ #7 #0 // 蜜斯特拉选民遭遇战（需要巴尔王座）: v1.22
 ~COM_ENCOUNTERS/SETUP-COM_ENCOUNTERS.TP2~ #7 #1 // 安装改进的德鲁伊遭遇战？: v1.22
 ~COM_ENCOUNTERS/SETUP-COM_ENCOUNTERS.TP2~ #7 #2 // 安装改进的夏格贝格遭遇吗？: v1.22
@@ -455,13 +455,16 @@
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2420 // 放宽兼职或转职牧师的装备限制: v16
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2500 // 负重超重限制改变 [sarevok57]: v16
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2510 // 等级锁定法术卷轴 [Angel]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2520 // 允许法师装备小圆盾，盗贼装备小型盾 [Angel]: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2540 // 缩短德阿尼斯堡据点任务之间的时间间隔: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2560 // 允许武僧戴头盔: v16
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2620 // 使某些生物免疫背刺/偷袭 [Luke]: v16
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2630 // 改进的治疗/造成伤害 [Luke]: v16
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #2999 // 等级1时获得HP最大值: v16
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3000 // 升级时获得更多的HP -> 最大值: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3008 // 生命骰得到的加值可以一直到20级 [Angel]: v16
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3031 // 简单的法术学习 -> 100%学会法术且无数量限制: v16
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3040 // 储物袋的容量无限: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3050 // 施展复原术后不会疲劳: v16
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3060 // 让“你必须集合你的队伍……”这句话住口 [Weimer]: v16
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3070 // 改变声望对价格的影响 -> 低声望时商店折扣修正 [Sabre]: v16
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3083 // 提高弹药堆叠数量 -> 每组120: v16
@@ -481,15 +484,17 @@
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3320 // 禁用商店收购价打折: v16
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3330 // 队友不易成为无法复活状态: v16
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3342 // 提高队伍在战斗以外的移动速度和/后施法法速度 [argent77] -> 移动速度提高150%: v16
-~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3354 // 创建存档时间间隔 [argent77] -> 间隔15分钟（四个存档文件循环使用）: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3357 // 创建存档时间间隔 [argent77] -> 间隔120分钟（四个存档文件循环使用）: v16
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3380 // 旅行时合理的再生: v16
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #3390 // 自动使用游侠的追踪技能: v16
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #4000 // 调整可加入邪恶NPC的反应掷骰: v16
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #4025 // 允许成对的队友分开（例如贾希拉和卡立德，戴娜黑和明斯克，萨尔和蒙塔罗等）: v16
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #4031 // 属性一致的艾德温 -> 使用BG2属性: v16
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #4041 // 属性一致的贾希拉 -> 使用BG2属性: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #4050 // 贾希拉改变为中立善良阵营: v16
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #4061 // 属性一致的明斯克 -> 使用BG2属性: v16
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #4071 // 属性一致的维康妮亚 -> 使用BG2属性: v16
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #4100 // 寇根变为中立邪恶阵营: v16
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #4110 // 凯根的体质变为19: v16
 ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #9 #4120 // 柯朗的敏捷变为19: v16
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #2000 // 安装所有的法术调整（如果你不选择这个，你将有机会按类别进行选择）: 35.20
@@ -570,6 +575,8 @@
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #4030 // 强化变形术: 35.20
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #4052 // 降低声望值的提升速度 -> 声望提升速度是原版的1/3: 35.20
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #4115 // 盗贼将以五倍的水平分配技能点（只是方便性的调整）: 35.20
+~GORGON/SETUP-GORGON.TP2~ #1 #1 // NPC人物头像 -> 给该mod添加的所有人物增加头像: v4.7
+~GORGON/SETUP-GORGON.TP2~ #1 #4 // 增加更多可以偷窃的物品: v4.7
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #4130 // 修改了对死亡效果的处理，如解体、石化和监禁（被解体的队员可以复活；被监禁或石化的角色自动重新加入队伍；如果主角被石化或监禁，游戏不会结束）: 35.20
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #4140 // 修改后的旅馆房间：更贵，更有益: 35.20
 ~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #8 #4150 // 使蒙面法师可以侦测阿斯卡特拉大部分室内区域的施法状况: 35.20
@@ -695,16 +702,16 @@
 ~BARDSONG_BGEE_IWD/SETUP-BARDSONG_BGEE_IWD.TP2~ #1 #0 // 冰风谷风格的战歌切换功能: v4.5
 ~BARDSONG_BGEE_IWD/SETUP-BARDSONG_BGEE_IWD.TP2~ #1 #1 // 大合唱功能: v4.5
 ~BARDSONG_BGEE_IWD/SETUP-BARDSONG_BGEE_IWD.TP2~ #1 #2 // 允许投影进行演奏: v4.5
-~FAIRYLANDEXPLORER/SETUP-FAIRYLANDEXPLORER.TP2~ #0 #0 //  龳̽    : v1.3
-~ARCANECASTER/SETUP-ARCANECASTER.TP2~ #0 #0 //    ܴ ʦ: v1.31
-~SOULLIGHT/SETUP-SOULLIGHT.TP2~ #0 #0 //     ػ   : v3.06
-~NATUREWIZARD/SETUP-NATUREWIZARD.TP2~ #0 #0 //   Ȼ  ʦ: v1.36
-~FARIRYLANDSOR/SETUP-FARIRYLANDSOR.TP2~ #0 #0 //  龳  ʿ: v0.5
-~XIUDAO/SETUP-XIUDAO.TP2~ #0 #0 //  ޵   : v3.21
-~CONTEMPLATIVEFAVOREDSOUL/SETUP-CONTEMPLATIVEFAVOREDSOUL.TP2~ #0 #0 //          : v0.9
-~VOYAGERS/SETUP-VOYAGERS.TP2~ #0 #0 //     ӽ  : v1.10
-~PHANTOMASSASSIN/SETUP-PHANTOMASSASSIN.TP2~ #0 #0 //   Ӱ ̿ : v0.1
-~FAIRYLANDRANGER/SETUP-FAIRYLANDRANGER.TP2~ #0 #0 //  龳    : v1.3
+~FAIRYLANDEXPLORER/SETUP-FAIRYLANDEXPLORER.TP2~ #0 #0 // �龳̽����: v1.3
+~ARCANECASTER/SETUP-ARCANECASTER.TP2~ #0 #0 // ���ܴ�ʦ: v1.31
+~SOULLIGHT/SETUP-SOULLIGHT.TP2~ #0 #0 // ����ػ���: v3.06
+~NATUREWIZARD/SETUP-NATUREWIZARD.TP2~ #0 #0 // ��Ȼ��ʦ: v1.36
+~FARIRYLANDSOR/SETUP-FARIRYLANDSOR.TP2~ #0 #0 // �龳��ʿ: v0.5
+~XIUDAO/SETUP-XIUDAO.TP2~ #0 #0 // �޵���: v3.21
+~CONTEMPLATIVEFAVOREDSOUL/SETUP-CONTEMPLATIVEFAVOREDSOUL.TP2~ #0 #0 // ���������: v0.9
+~VOYAGERS/SETUP-VOYAGERS.TP2~ #0 #0 // ����ӽ��: v1.10
+~PHANTOMASSASSIN/SETUP-PHANTOMASSASSIN.TP2~ #0 #0 // ��Ӱ�̿�: v0.1
+~FAIRYLANDRANGER/SETUP-FAIRYLANDRANGER.TP2~ #0 #0 // �龳����: v1.3
 ~IMPROVEDMONK/SETUP-IMPROVEDMONK.TP2~ #1 #1 // 给武僧添加巴萨札的技能 -> 强化所有僧侣宗派（包括已安装的宗派MOD）: v1.4
 ~IMPROVEDMONK/SETUP-IMPROVEDMONK.TP2~ #1 #3 // 允许武僧使用双手轻武器（手杖和长枪），支持已有宗派，缺点是攻击动画不合拍: v1.4
 ~D2AMA/SETUP-D2AMA.TP2~ #1 #0 // 暗黑破坏神2亚马逊宗派: v0.7
@@ -726,14 +733,15 @@
 ~PPE/SETUP-PPE.TP2~ #0 #10 // Isandir's CHARNAME Portraits: 1.02
 ~PPE/SETUP-PPE.TP2~ #0 #20 // Replace Low Quality TOB & SOA Portraits: 1.02
 ~PPE_RELOADED/PPE_RELOADED.TP2~ #0 #0 // Add missing Portraits to Mod Npcs: 1.0
-~BP-BGT-WORLDMAP/SETUP-BP-BGT-WORLDMAP.TP2~ #7 #0 // 博德之门全景地图（包括地区图标）: v13.1.1
-~LIGHTINGPACK/LIGHTINGPACK.TP2~ #0 #2 // Shader script files for lighting control -> Moderately increased contrast, brightness and gamma (recommended): v3.1
-~LIGHTINGPACK/LIGHTINGPACK.TP2~ #0 #102 // Modify Color Temperature -> Apply preset "Daylight (neutral)" (6,500 Kelvin): v3.1
-~X_AUTOBS/SETUP-X_AUTOBS.TP2~ #0 #0 // X Զ ս   ű : v6.1
 ~NPC_EE/NPC_EE.TP2~ #2 #1010 // 移除Imoen的双职业标记（警告，请参阅说明文件）: 6.5.2
 ~NPC_EE/NPC_EE.TP2~ #2 #1020 // 移除Nalia的双职业标记（警告，请参阅说明文件）: 6.5.2
 ~NPC_EE/NPC_EE.TP2~ #2 #1030 // 移除Anomen的双职业标记（警告，请参阅说明文件）: 6.5.2
 ~NPC_EE/NPC_EE.TP2~ #2 #1200 // 移除所有其他NPC的双职业标记（警告，请参阅说明文件）: 6.5.2
+~NPC_EE/NPC_EE.TP2~ #2 #2000 // NPC职业/属性/套件选择: 6.5.2
+~BP-BGT-WORLDMAP/SETUP-BP-BGT-WORLDMAP.TP2~ #7 #0 // 博德之门全景地图（包括地区图标）: v13.1.1
+~LIGHTINGPACK/LIGHTINGPACK.TP2~ #0 #2 // Shader script files for lighting control -> Moderately increased contrast, brightness and gamma (recommended): v3.1
+~LIGHTINGPACK/LIGHTINGPACK.TP2~ #0 #102 // Modify Color Temperature -> Apply preset "Daylight (neutral)" (6,500 Kelvin): v3.1
+~X_AUTOBS/SETUP-X_AUTOBS.TP2~ #0 #0 // X�Զ�ս���ű�: v6.1
 ~ZZEASY/SETUP-ZZEASY.TP2~ #0 #0 // 打补丁: v0.1
 ~ZZEASY/SETUP-ZZEASY.TP2~ #0 #1 // 将暗黑地平线的经验再下降80%: v0.1
 ~ZZEASY/SETUP-ZZEASY.TP2~ #0 #3 // 调整冰风谷1经验：怪物2倍，任务3倍: v0.1

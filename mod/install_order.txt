@@ -380,6 +380,8 @@ STD;thecalling;40;17;0001;
 STD;slandor;0;11;1111;
 STD;dc;0;10;0001;
 STD;gorgon;0;10;0001;
+STD;gorgon;1;10;0001;
+STD;gorgon;4;10;0001;
 STD;alternatives;0;10;1111;
 STD;fadingpromises;0;10;1111;
 STD;BridgesBlock;0;10;0001;
@@ -629,13 +631,13 @@ STD;cdtweaks;2500;16;0001;
 #等级锁定法术卷轴
 STD;cdtweaks;2510;16;0001;
 #允许法师装备小圆盾，盗贼装备小型盾
-STD;cdtweaks;2520;16;0000;
+STD;cdtweaks;2520;16;0001;
 #闪电不再反弹
 STD;cdtweaks;2530;16;0000;
 #缩短德阿尼斯堡据点任务之间的时间间隔
-STD;cdtweaks;2540;16;0000;
+STD;cdtweaks;2540;16;0001;
 #允许武僧戴头盔
-STD;cdtweaks;2560;16;0000;
+STD;cdtweaks;2560;16;0001;
 #盗贼可以“使用任何物品”或转职和兼职的情况下背刺
 STD;cdtweaks;2590;16;0000;
 #使某些生物免疫背刺/偷袭
@@ -647,7 +649,7 @@ STD;cdtweaks;2999;16;0001;
 #升级时获得更多的HP -> 最大值
 STD;cdtweaks;3000;16;0001;
 #生命骰得到的加值可以一直到20级
-STD;cdtweaks;3008;16;0001;
+STD;cdtweaks;3008;16;0000;
 #NPC的HP最大化 [the bigg] -> 游戏中所有生物均有效
 STD;cdtweaks;3010;16;0000;
 #鉴定所有物品
@@ -656,7 +658,7 @@ STD;cdtweaks;3020;17;0000;
 STD;cdtweaks;3031;16;0001;
 STD;cdtweaks;3040;16;1111;
 #施展复原术后不会疲劳
-STD;cdtweaks;3050;16;0000;
+STD;cdtweaks;3050;16;0001;
 STD;cdtweaks;3060;16;1111;
 STD;cdtweaks;3070;16;1111;
 STD;cdtweaks;3083;16;1111;
@@ -691,7 +693,7 @@ STD;cdtweaks;3320;16;0001;
 STD;cdtweaks;3330;16;0001;
 #提高队伍在战斗以外的移动速度和/后施法法速度 [argent77] -> 移动速度提高100%, 3342 150%
 STD;cdtweaks;3342;16;0001;
-STD;cdtweaks;3354;00;0001;
+STD;cdtweaks;3357;00;0001;
 STD;cdtweaks;3380;16;0001;
 STD;cdtweaks;3390;16;0001;
 STD;cdtweaks;4000;14;1111;
@@ -702,8 +704,10 @@ STD;cdtweaks;4020;14;0000;
 STD;cdtweaks;4025;14;0001;
 STD;cdtweaks;4031;14;1111;
 STD;cdtweaks;4041;14;1111;
+STD;cdtweaks;4050;14;0001;
 STD;cdtweaks;4061;14;1111;
 STD;cdtweaks;4071;14;1111;
+STD;cdtweaks;4100;14;0001;
 STD;cdtweaks;4110;05;1111;
 STD;cdtweaks;4120;05;1111;
 STD;stratagems;2000;16;1111;
@@ -1012,9 +1016,9 @@ STD;bgiwdeasy;16;1;1111;
 STD;bgiwdeasy;18;1;1111;
 STD;bgiwdeasy;19;1;1111;
 STD;bgiwdeasy;20;1;1111;
-STD;BardSong_BGEE_IWD;0;0;1111;
-STD;BardSong_BGEE_IWD;1;0;1111;
-STD;BardSong_BGEE_IWD;2;0;1111;
+STD;BardSong_BGEE_IWD;0;0;0001;
+STD;BardSong_BGEE_IWD;1;0;0001;
+STD;BardSong_BGEE_IWD;2;0;0001;
 STD;FairyLandExplorer;0;19;1111;
 STD;ArcaneCaster;0;19;1111;
 STD;SoulLight;0;19;1111;
