@@ -20,7 +20,7 @@
 ## 我的整合版
 
 直接下载通过本脚本整合好的博德之门EET版本：[百度网盘](https://pan.baidu.com/s/1g1sckBuwaS7rKaK_n8DRGg?pwd=2pkj)
-* 2025/1/25，https://github.com/vxzhong/BGEE/log/WeiDU250125.log:
+* 2025/1/25，https://github.com/vxzhong/BGEET/blob/master/log/WeiDU250125.log:
   1. 更新本体和所有mod到最新版本
   2. 移除暗黑地平线(Dark Horizons)、Reflections of Destiny、Dark Side of the Sword Coast、BoneHill埋骨之丘、Wings等
   3. 增加Autumns_Twilight(秋暮之光): A (huge) mod for Baldur's Gate 2，https://github.com/evancauteren/bg2-autumns-twilight-mod
