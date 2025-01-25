@@ -19,7 +19,13 @@
 
 ## 我的整合版
 
-直接下载通过本脚本整合好的博德之门EET版本，包含大量中文mod，主打一个全都要。不支持定制：[百度网盘](https://pan.baidu.com/s/1g1sckBuwaS7rKaK_n8DRGg?pwd=2pkj)
+直接下载通过本脚本整合好的博德之门EET版本：[百度网盘](https://pan.baidu.com/s/1g1sckBuwaS7rKaK_n8DRGg?pwd=2pkj)
+* 2025/1/25，https://github.com/vxzhong/BGEE/log/WeiDU250125.log:
+  1. 更新本体和所有mod到最新版本
+  2. 移除暗黑地平线(Dark Horizons)、Reflections of Destiny、Dark Side of the Sword Coast、BoneHill埋骨之丘、Wings等
+  3. 增加Autumns_Twilight(秋暮之光): A (huge) mod for Baldur's Gate 2，https://github.com/evancauteren/bg2-autumns-twilight-mod
+  4. EET End最后安装，保留。方便卸载后，安装新的mod
+
 * 2024/09/18: 安装log: log/WeiDU0918.log
   1. 更新埋骨之丘，来自[yoshimo](https://github.com/yoshimo0417)
   2. 增加[LongerRoadEE](https://github.com/InfinityMods/LongerRoadEE), 汉化来自[yoshimo的整合版](https://pan.baidu.com/s/1SUm7pj8mj5NjUXZYenJsFg?pwd=zqkl)

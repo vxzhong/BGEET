@@ -1,3 +1,8 @@
+* 2025/01/25：
+  1. 更新本体和所有mod到最新版本
+  2. 移除暗黑地平线(Dark Horizons)、Reflections of Destiny、Dark Side of the Sword Coast、BoneHill埋骨之丘、Wings等
+  3. 增加Autumns_Twilight(秋暮之光): A (huge) mod for Baldur's Gate 2，https://github.com/evancauteren/bg2-autumns-twilight-mod
+  4. EET End最后安装，保留。方便卸载后，安装新的mod
 * 2024/09/18: 
   1. 更新埋骨之丘，来自yoshimo
   2. 增加LongerRoadEE, 汉化来自yoshimo的整合版

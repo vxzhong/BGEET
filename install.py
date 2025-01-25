@@ -168,6 +168,10 @@ def uninstall_mods_order(
 first = extract_bgt_zip(bgt_path)
 toml_config = parse_mods_toml(mods_toml_path)
 installed_json_path = os.path.join(install_dir, "installed.json")
+shutil.copy(
+    os.path.join(current_directory, "patch", "weidu.conf"),
+    os.path.join(install_dir, "weidu.conf"),
+)
 try:
     with open(installed_json_path) as f:
         installed = json.load(f)
