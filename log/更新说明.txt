@@ -1,3 +1,6 @@
+*2025/05/28:
+  1. 更新本体和所有mod到最新版本
+  2. 其它更新请参看WeiDU.log
 * 2025/01/25：
   1. 更新本体和所有mod到最新版本
   2. 移除暗黑地平线(Dark Horizons)、Reflections of Destiny、Dark Side of the Sword Coast、BoneHill埋骨之丘、Wings等
