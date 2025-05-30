@@ -20,6 +20,8 @@
 ## 我的整合版
 
 直接下载通过本脚本整合好的博德之门EET版本：[百度网盘](https://pan.baidu.com/s/1g1sckBuwaS7rKaK_n8DRGg?pwd=2pkj)
+* 2025/5/30, [WeiDU.log](https://github.com/vxzhong/BGEET/blob/master/log/WeiDU250530.log):
+  1. 重做了一个版本，买东西有BUG
 * 2025/5/28, [WeiDU.log](https://github.com/vxzhong/BGEET/blob/master/log/WeiDU250528.log):
   1. 更新本体和所有mod到最新版本
   2. 其它更新请参看WeiDU.log
