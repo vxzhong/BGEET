@@ -1,7 +1,7 @@
 [DarkHorizons]
 name = "DarkHorizons"
 down = "https://github.com/The-Gate-Project/DarkHorizons.git"
-version = "85e84d2709c22151ab8d1455ca8341fd5d7142a0"
+version = "123878534e7899c3d481f900e8f0db0ceb8add60"
 tra.CN = 7
 
 [BP_in_BG]
@@ -47,10 +47,8 @@ version = "98dd3bf3fe071fbfdf698efeb1dbac12775624e4"
 [bubb_spell_menu_extended]
 name = "Bubbs-Spell-Menu-Extended"
 description = "A spell-selection overhaul for BG:EE, BG2:EE, and IWD:EE"
-down = "https://github.com/Bubb13/Bubbs-Spell-Menu-Extended/archive/refs/tags/v5.1.zip"
-version = "5.1"
-save = "Bubbs-Spell-Menu-Extended-5.1.zip"
-move_dir = 'Bubbs-Spell-Menu-Extended-5.1'
+down = "https://github.com/Bubb13/Bubbs-Spell-Menu-Extended.git"
+version = "4d60c9435db76c9c235a2e519df156a25535a7f1"
 
 [eeuitweaks]
 name = "EEUITweaks"
@@ -62,7 +60,7 @@ version = "223873882cd1043a67e997e3888c21bab772439c"
 name = "A7-HiddenGameplayOptions"
 description = "A mod that makes a number of useful options directly accessible within Enhanced Edition games."
 down = "https://github.com/Argent77/A7-HiddenGameplayOptions.git"
-version = "58692549ae85e4e63b4d1045f899f345a0a90f6a"
+version = "ddcab78f8767096d3588fa06cc9f1c431ffc2906"
 tra.CN = 8
 
 [TGC1e]
@@ -76,7 +74,7 @@ tra.CN = 8
 name = "EndlessBG1"
 description = "无尽的1代（BG1）"
 down = "https://github.com/Gibberlings3/EndlessBG1.git"
-version = "bc95814e7c4f4d549fbbe4cf47a6777a58fc98e1"
+version = "f76d77d452b91fec93c8f4255c741b09ba1f7a5b"
 tra.CN = 8
 components = """
 @0 = 无尽的BG1：主要组件（必需）: 19
@@ -129,7 +127,7 @@ tra.CN = 6
 name = "BG_Quests_And_Encounters"
 description = "BG1小任务和遭遇"
 down = "https://github.com/Gibberlings3/BG_Quests_And_Encounters.git"
-version = "138bb8348755a2a8e02246fef085649093fa4747"
+version = "b9125a8e81daf4dae3eb983ff70e2554ccb63ae0"
 tra.CN = 7
 
 [bg1npc]
@@ -164,14 +162,14 @@ tra.CN = 2
 name = "Lure_Of_Sirines_Call"
 description = "海妖女的呼唤"
 down = "https://github.com/Pocket-Plane-Group/Lure_Of_Sirines_Call.git"
-version = "ea6f5ba395855beaa098d0ff33b646db77f03cf9"
+version = "f4e4ec5d0e2abfbc82823e2fd59e99e1e0ba233a"
 tra.CN = 7
 
 [bggo]
 name = "Baldurs-Gate-Graphical-Overhaul"
 description = "This mod is probably the biggest visual overhaul of the game since it was released. It reinstates the extended night areas that are missing from all main areas except Baldur's Gate. Now, when you open doors at night they show light from inside the building. Buildings actually have windows that are lit up."
 down = "https://github.com/Spellhold-Studios/Baldurs-Gate-Graphical-Overhaul.git"
-version = "7a79f550e882e44dd9e5b4ab76ce089233aaf27f"
+version = "87a02b2dd6b971040bc4c459b832ceae7fda4392"
 
 [thalan]
 name = "thalan"
@@ -184,7 +182,7 @@ tra.CN = 7
 name = "UnfinishedBusiness"
 description = "BG2未完的任务"
 down = "https://github.com/Pocket-Plane-Group/UnfinishedBusiness.git"
-version = "7d31a0c4cb4ff4da1c47041a98280d3e859f9bd1"
+version = "c953efe8c85d2217f1a0510ffdd3258fe4b1b5b6"
 tra.CN = 7
 
 [arestorationp]
@@ -198,7 +196,7 @@ tra.CN = 6
 name = "Ascalons_Questpack"
 description = "Ascalon的任务包"
 down = "https://github.com/Gitjas/Ascalons_Questpack.git"
-version = "3b6848e99c961312a224d5ded05f1d3efa7117d8"
+version = "2a5f3c3d7a2c7db2f44471a771aca40a5da1c273"
 tra.CN = 6
 
 ["c#sodboabri"]
@@ -233,7 +231,7 @@ tra.CN = 8
 name = "A7-TestYourMettle"
 description = "测试你的勇气"
 down = "https://github.com/Argent77/A7-TestYourMettle.git"
-version = "e6dc73c42c1a12c9a24a604a0e90597732213003"
+version = "1a2ce53c2fb5f53560778148f590c47ecf00b9d7"
 tra.CN = 4
 
 [Assassinations]
@@ -311,15 +309,15 @@ tra.CN = 2
 [ExtraExpandedEnhancedEncounters]
 name = "ExtraExpandedEnhancedEncounters"
 description = "额外扩展的增强版遭遇"
-down = "https://github.com/GraionDilach/ExtraExpandedEnhancedEncounters.git" #merge
-version = "7d323d9e34f6cfeecd8f809af7ef2791f13bebd3"
+down = "https://github.com/GraionDilach/ExtraExpandedEnhancedEncounters.git"
+version = "8421f703eb9949be4487e56f28e11f4ef8588e5c"
 tra.CN = 3
 
 [Blackhearts]
 name = "Black-Hearts"
 description = "黑心"
 down = "https://github.com/A-Wizard-Did-It/Black-Hearts.git"
-version = "ff7d1974083361a1816fab34e88747fa4b41b8fb"
+version = "990735f90669a6ae817813f0ebf3ba0c42483b0a"
 tra.CN = 1
 
 [Innershade]
@@ -390,7 +388,7 @@ tra.CN = 6
 name = "Dark-Tidings"
 description = "暗潮涌动"
 down = "https://github.com/AciferBG/Dark-Tidings.git"
-version = "b287e9c1e2cd3dec37ffa6fa82130d7ecb715a45"
+version = "2b3278912857f5f4655f5daca36f44d8b3b260ad"
 tra.CN = 4
 
 [com_encounters]
@@ -443,8 +441,8 @@ tra.CN = 1
 name = "SkieCost"
 description = "史姬：少女灵魂的代价"
 down = "https://downloads.weaselmods.net/download/skie-the-cost-of-one-girls-soul/?wpdmdl=92"
-save = "SkieTheCost v6.2.3.zip"
-version = "6.2.3"
+save = "SkieCost v6.3.zip"
+version = "6.3"
 tra.CN = 2
 
 [BridgesBlock]
@@ -454,7 +452,6 @@ down = "https://downloads.weaselmods.net/download/bridges-block/?wpdmdl=478"
 save = "BridgesBlock-v2.01.zip"
 version = "2.01"
 tra.CN = 7
-
 
 ["Weasels!"]
 name = "Weasels"
@@ -512,7 +509,7 @@ name = "Unusual-Oddities-Shop"
 description = "古怪物品商店"
 down = "https://github.com/Spellhold-Studios/Unusual-Oddities-Shop.git"
 version = "a9a55052e64af7c816f1d32095bdaf4224ff30fb"
-tra.CN = 4
+tra.CN = 6
 
 [heartwood]
 name = "Heart-of-the-Wood"
@@ -525,7 +522,7 @@ tra.CN = 5
 name = "Item_Upgrade"
 description = "BG2物品升级"
 down = "https://github.com/Pocket-Plane-Group/Item_Upgrade.git"
-version = "c0092897063caa1d1824b331e85564840d3856e0"
+version = "bdea8cde478baf5a9c8a5c9e7342f878a0a87572"
 tra.CN = 7
 
 [bolsa]
@@ -700,7 +697,7 @@ tra.CN = 2
 name = "bg2-wildmage"
 description = "Wild Mage additions mod for Baldur's Gate 2"
 down = "https://github.com/BGforgeNet/bg2-wildmage.git"
-version = "616dba40339a859f5e2b0b567f837d7653812c7f"
+version = "edbb24e1177592cb81104562c3b4a813e824df16"
 tra.CN = 7
 
 [RR]
@@ -714,34 +711,34 @@ tra.CN = 8
 name = "iwdification"
 description = "IWDification is a mod to bring some of the elements of Icewind Dale into the Baldur's Gate series of games. "
 down = "https://github.com/Gibberlings3/iwdification.git"
-version = "66dd3b19651d2bec3108c30e629acb730ab6cb35"
+version = "d9a8be8867c57dea6863c4f8cfae108aff3a064f"
 tra.CN = 4
 
 [iwd1_eet]
 name = "IWD1_EET"
 description = "冰风谷"
 down = "https://github.com/The-Gate-Project/IWD1_EET.git"
-version = "96ba13e0552af8e5d7f32fc6b9b5267f94c0f54c"
-tra.CN = 5
+version = "e697f9e9aabb9cfcf5d3d73826fe7a83d418351f"
+tra.CN = 6
 
 [iwd2_eet]
 name = "IWD2_EET"
 description = "冰风谷2"
 down = "https://github.com/The-Gate-Project/IWD2_EET.git"
-version = "da8c89e11c6b293b0cd9dd649e29dbedd22847e9"
-tra.CN = 4
+version = "52e1b94c79b35c239569630e93e0dacdce5dca53"
+tra.CN = 6
 
 [NWNForBG]
 name = "NWNForBG"
 description = "无冬之夜"
 down = "https://github.com/abalabokhin/NWNForBG.git"
-version = "a09a83a53875e849a84f00a246b4ebe7257529b1"
+version = "09a77fad6d868f94593184270352c5f86d2a6ba8"
 tra.CN = 7
 
 [cdtweaks]
 name = "Tweaks-Anthology"
 down = "https://github.com/Gibberlings3/Tweaks-Anthology.git"
-version = "c6965cab3bcadf1de40bb8e95dc22a00b6885f12"
+version = "daad6553a659456b568d119283bdfc6f985883f4"
 tra.CN = 9
 
 [CtB]
@@ -755,7 +752,7 @@ tra.CN = 6
 name = "A7-TotLM-BG2EE"
 description = "谜语大师试炼For BG2EE"
 down = "https://github.com/Argent77/A7-TotLM-BG2EE.git"
-version = "45cf4a25f2435ad586de24ef38c62ac9ee4bd6e8"
+version = "1919d111193e2792a4e9e605e2d8241808c056b6"
 tra.CN = 8
 
 [stratagems]
@@ -776,8 +773,8 @@ tra.CN = 6
 name = "Tactics-Remix"
 description = "战术"
 link = "https://www.morpheus-mart.com/tactics-remix"
-save = "Tactics-Remix.zip"
-version = "0.8-beta"
+save = "Tactics-Remix-3.4.zip"
+version = "3.4"
 tra.CN = 2
 
 ["A7#ImprovedArcher"]
@@ -964,9 +961,9 @@ tra.CN = 3
 [butchery]
 name = "butchery"
 description = "This mod spices up many battles and encounters by transforming them into 'butchery fights', with a few spawns and respawns, bringing BG2 as close as possible to a \"Dungeon crawler\" game."
-down = "https://github.com/GwendolyneFreddy/butchery.git" #fork
-version = "4ef12a3cee4bdafc9f9b4c79317218186ef1754c"
-tra.CN = 3
+down = "https://github.com/The-Gate-Project/butchery.git"
+version = "14e7a9964ffa71d498bca89991f6785e8d7ded04"
+tra.CN = 4
 
 [RelieveWizardSlayer]
 name = "Relieve-Wizard-Slayer"
@@ -990,7 +987,7 @@ tra.CN = 4
 [iwd_eet_end]
 name = "IWD_EET_End"
 down = "https://github.com/The-Gate-Project/IWD_EET_End.git"
-version = "8157e896e6b24db5d402bf5b401933c8f14cdc7e"
+version = "10a182c8d6cbaa9de0c134ac26d77f99b73d35f7"
 tra.CN = 4
 
 [bgiwdeasy]
@@ -1018,7 +1015,7 @@ tra.CN = 1
 name = "Bardsong_Switching"
 description = "仿冰风谷战歌切换"
 down = "https://github.com/shohysie/Bardsong_Switching.git"
-version = "5dcd9c246dd280aa20b86059d9fc29c4863c0879"
+version = "2b151f4c364964113a3ee7a4b83e3bdcb6fb51b0"
 tra.CN = 1
 
 [PPE]
@@ -1037,8 +1034,8 @@ tra.CN = 7
 [enhanced-powergaming-scripts]
 name = "Enhanced-Powergaming-Scripts"
 # down = https://www.morpheus-mart.com/enhanced-powergaming-scripts
-save = "Enhanced-Powergaming-Scripts v13.4.zip"
-version = "13.4"
+save = "enhanced-powergaming-scripts-15.2.zip"
+version = "15.2"
 tra.CN = 5
 
 [LightingPack]
@@ -1098,15 +1095,15 @@ tra.CN = 4
 name = "Loretakers"
 description = "Loretakers is a quest mod for BG1EE (EET not tested yet)."
 down = "https://github.com/AciferBG/Loretakers.git"
-version = "1687f196d4cdd2325e6a21c4ae72ab502a4817f2"
+version = "f94afc49674ed6d24814c6c8996d5424b466d31c"
 tra.CN = 2
 
 [crucible]
 name = "Crucible"
 description = "Crucible features a continuation of the story once the player closes their pocket plane in ToB"
 down = "https://www.morpheus-mart.com/crucible"
-save = "crucible-4.4.zip"
-version = "4.4"
+save = "crucible-4.4.1.zip"
+version = "4.4.1"
 tra.CN = 3
 
 [aurenaseph]
@@ -1128,8 +1125,8 @@ tra.CN = 2
 name = "Forgotten-Armament"
 description = "Forgotten Armament aims to bring many low to mid-tier magical weapons, armors, and items into the games of Baldur's Gate: Enhanced Edition, Baldur's Gate II: Enhanced Edition, and the Enhanced Edition Trilogy (EET)."
 down = "https://www.morpheus-mart.com/forgotten-armament"
-save = "Forgotten-Armament-4.6.zip"
-version = "4.6"
+save = "Forgotten-Armament-4.7.zip"
+version = "4.7"
 tra.CN = 1
 
 [IWD_EET_integration]
@@ -1150,7 +1147,7 @@ tra.CN = 2
 name = "EE_Fixpack"
 description = "The Enhanced Edition Fixpack is an unofficial collection of fixes for the Enhanced Editions of Baldur's Gate, Baldur's Gate II, Icewind Dale, and Planescape: Torment."
 down = "https://github.com/Gibberlings3/EE_Fixpack.git"
-version = "34d2444e1968fb1b06d202b386fc8f6f7149c690"
+version = "482c5540593137e684733282f4db6fa72e528e58"
 tra.CN = 2
 
 # [DH_Tweaks]
@@ -1213,7 +1210,7 @@ tra.CN = 2
 name = "Warlock"
 description = ""
 down = "https://github.com/ArtemiusI/Warlock.git"
-version = "95bc3436001045408a1087f9b3bd77f94b4aebdf"
+version = "e94572e4d341e837361374d5796c3fe659886744"
 tra.CN = 2
 
 [ShineOnCaelar]
@@ -1269,8 +1266,8 @@ tra.CN = 1
 [crossmodbg2]
 name = "Crossmod_Banter_Pack_for_Baldurs_Gate_II"
 down = "https://github.com/Gibberlings3/Crossmod_Banter_Pack_for_Baldurs_Gate_II.git"
-version = "cebc4e2901c35774480f8d61d5ec1afd8945090d"
-tra.CN = 1
+version = "a4a7999cd4fa09509fe498b1051a15411de9b524"
+tra.CN = 4
 
 [Coran]
 name = "Coran_for_BGII"
@@ -1293,7 +1290,7 @@ tra.CN = 1
 [ZS_ShadowdancerOverhaul]
 name = "ZS_ShadowdancerOverhaul"
 down = "https://github.com/szaumoor/ZS_ShadowdancerOverhaul.git"
-version = "9acc4df8a1a5be96a4da579c6b3c3564ce4cfbea"
+version = "37a157498c4ae653234725e1e414b5cbe58516f8"
 tra.CN = 1
 
 [DofD]
@@ -1305,7 +1302,7 @@ tra.CN = 5
 [Autumns_Twilight]
 name = "bg2-autumns-twilight-mod"
 down = "https://github.com/evancauteren/bg2-autumns-twilight-mod.git"
-version = "bd9467915ad8a0ef286c7fbd9477a4d64d9229d6"
+version = "67bf966648036ccc75af9e8eacd15528e2c7ad2c"
 tra.CN = 7
 
 [zzeasy]
@@ -1332,7 +1329,7 @@ tra.CN = 3
 [ThroneoftheMadGod]
 name = "Throne-of-the-Mad-God"
 down = "https://github.com/AciferBG/Throne-of-the-Mad-God.git"
-version = "d26617f2b2c7ca88b7763910b26ed1449c7bbbbb"
+version = "167ba48324605c37b245686966095a59db26deb9"
 tra.CN = 2
 
 [questpack]
@@ -1356,19 +1353,19 @@ tra.CN = 7
 [DetailedDescription]
 name = "DetailedDescription"
 down = "https://github.com/shohysie/DetailedDescription.git"
-version = "c0994cc331498ed0a4ccbddf7f4d6ffe6af39321"
+version = "72a6d5ea2d3d9fab6b00f55bc6ccbe14dc580100"
 
 [XPexchange]
 name = "XPexchange"
 down = "https://github.com/shohysie/XPexchange.git"
-version = "ca2503bcbcf6256be5372aeb3b8de4fce9210af8"
+version = "6b5caf63a8255879496d688ce30ac8401aa63346"
 tra.CN = 1
 
 
 [candlekeep_revisited]
 name = "Candlekeep-Revisited"
-down = "https://github.com/ArtemiusI/Candlekeep-Revisited.git"
-version = "c5639f38857d1386de875716248b2c25a4860b9a"
+down = "https://github.com/ArtemiusI/Candlekeep-Revisited.git" # merge
+version = "35010b78d1f3f283a0c6f2ed5e79b4120b47b0c8"
 tra.CN = 1
 
 [cd_icpp]
@@ -1385,7 +1382,7 @@ tra.CN = 1
 [A7-Achievements]
 name = "A7-Achievements"
 down = "https://github.com/Argent77/A7-Achievements.git"
-version = "5f82e6c1af92909aa73d95be8a7f7584d460c892"
+version = "f128d90dc04d14b1e180f4b4023ffc69328ef743"
 tra.CN = 2
 
 [AutoLoot]
@@ -1403,7 +1400,111 @@ tra.CN = 1
 
 [LCA]
 name = "LoveConquersAll_EE"
-down = "https://github.com/LCA-EET/LCA/releases/download/v1.5.2/LoveConquersAll_EE.zip"
-version = "v1.5.2"
+down = "https://github.com/LCA-EET/LCA/releases/download/v1.5.5a/LoveConquersAll_EE.zip"
+version = "v1.5.5a"
 save = "LoveConquersAll_EE.zip"
 tra.CN = 1
+
+[imoenRomance]
+name = "Imoen-Romance"
+down = "https://github.com/FujiiYakumoYukari/Imoen-Romance.git"
+version = "1d9c300e1537cd5dd216d9fd9cc1c46c6b054a4c"
+tra.CN = 2
+
+[Chloe]
+name = "ChloeEET"
+down = "https://github.com/RoxanneSHS/ChloeEET.git"
+version = "a2e86c52c2ec237353b10fe38a8a7db638d16c5b"
+tra.CN = 6
+
+[infinity_ui]
+name = "InfinityUI"
+down = "https://github.com/Renegade0/InfinityUI.git"
+version = "8a4d9ec2456c4dd116a149dca1c3c2a815857eab"
+tra.CN = 4
+
+[bubb_revert_pathfinding]
+name = "bubb_revert_pathfinding"
+
+[SearchGuild]
+name = "SearchGuild"
+down = "https://github.com/Austin-BG/SearchGuild"
+version = "d010f6d334ada16d80bc7e94893757e9ec6898de"
+tra.CN = 2
+
+["c#brage"]
+name = "Brages_Redemption"
+down = "https://github.com/Gitjas/Brages_Redemption"
+version = "fc689faff121a4787000ad114d81ab0a43894c4e"
+tra.CN = 3
+
+["TDD"]
+name = "The_Darkest_Day"
+down = "https://github.com/weigo87/The_Darkest_Day.git"
+version = "8fe145244a2dc516f237dcbe49bbbfa1688bec6a"
+tra.CN = 7
+
+["hiddenadventure"]
+name = "hiddenadventure"
+down = "https://github.com/Lzw104522773/hiddenadventure.git" #fork
+version = "3f239d4d4996b28dcd20eb9da30c8883340bc5ae"
+tra.CN = 5
+
+["shardsofice"]
+name = "Shards_of_Ice"
+down = "https://github.com/Gibberlings3/Shards_of_Ice.git"
+version = "9e6c9ecd430d2f2da8ea4e81b9c7cbe0c1609832"
+tra.CN = 5
+
+["tnoober"]
+name = "TheSwordofNoober"
+down = "https://github.com/SpellholdStudios/TheSwordofNoober.git"
+version = "4b3e979185393284dc2692f61036464de728123f"
+tra.CN = 3
+
+["swordap"]
+name = "HaerDalis-Swords"
+down = "https://github.com/MephistoSatanDevil/HaerDalis-Swords.git"
+version = "b1d7163b20f879ab866c3c5b4e4167a5fa1f0dfa"
+tra.CN = 6
+
+["cdlore"]
+name = "Lore_From_Learning"
+down = "https://github.com/Gibberlings3/Lore_From_Learning.git"
+version = "ab7f16882887b78d71f36cfa5e406c286713fbb7"
+tra.CN = 3
+
+["vampiretales"]
+name = "VampireTales"
+down = "https://github.com/Lzw104522773/VampireTales.git" #fork
+version = "35f43b8ea247c94d05d3732c6e97750b3c3ca6a9"
+tra.CN = 5
+
+["c#solaufein"]
+name = "Solaufeins_Rescue_NPC"
+down = "https://github.com/hbedmoon/Solaufeins_Rescue_NPC.git" #fork
+version = "5f1fb713ebc8a4b4fd78b7ae2afeac47def4d24e"
+tra.CN = 4
+
+["A7-WaresOfThePlanes"]
+name = "A7-WaresOfThePlanes"
+down = "https://github.com/Argent77/A7-WaresOfThePlanes.git"
+version = "68206f85314520aa1d0ff80f2065203c85e93c71"
+tra.CN = 3
+
+["remastered_spell_icons"]
+name = "RemasteredSpellIcons"
+down = "https://github.com/Renegade0/RemasteredSpellIcons.git"
+version = "14d4568b326ce04e767815a61489a89c51033b76"
+
+["LivingClara"]
+name = "LivingClara"
+down = "https://github.com/trow/LivingClara.git"
+version = "9b320828e73d3966bdf1003dd72016d78d896c7c"
+tra.CN = 2
+
+["tashia"]
+name = "Tashia-NPC"
+down = "https://github.com/eva2000as/Tashia-NPC.git" #fork
+version = "e022274056a712aeca37084f27e6a84f43855fc3"
+tra.CN = 2

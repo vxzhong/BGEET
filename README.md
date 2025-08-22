@@ -20,68 +20,19 @@
 ## 我的整合版
 
 直接下载通过本脚本整合好的博德之门EET版本：[百度网盘](https://pan.baidu.com/s/1g1sckBuwaS7rKaK_n8DRGg?pwd=2pkj)
-* 2025/5/30, [WeiDU.log](https://github.com/vxzhong/BGEET/blob/master/log/WeiDU250530.log):
-  1. 重做了一个版本，买东西有BUG
-* 2025/5/28, [WeiDU.log](https://github.com/vxzhong/BGEET/blob/master/log/WeiDU250528.log):
-  1. 更新本体和所有mod到最新版本
-  2. 其它更新请参看WeiDU.log
-* 2025/1/25，[WeiDU.log](https://github.com/vxzhong/BGEET/blob/master/log/WeiDU250125.log):
-  1. 更新本体和所有mod到最新版本
-  2. 移除暗黑地平线(Dark Horizons)、Reflections of Destiny、Dark Side of the Sword Coast、BoneHill埋骨之丘、Wings等
-  3. 增加Autumns_Twilight(秋暮之光): A (huge) mod for Baldur's Gate 2，https://github.com/evancauteren/bg2-autumns-twilight-mod
-  4. EET End最后安装，保留。方便卸载后，安装新的mod
-* 2024/09/18: 安装log: log/WeiDU0918.log
-  1. 更新埋骨之丘，来自[yoshimo](https://github.com/yoshimo0417)
-  2. 增加[LongerRoadEE](https://github.com/InfinityMods/LongerRoadEE), 汉化来自[yoshimo的整合版](https://pan.baidu.com/s/1SUm7pj8mj5NjUXZYenJsFg?pwd=zqkl)
-  3. 增加**古旧神殿（Archaic Temple）**，**熔化旅店（Melting Tavern）**
-  4. 增加[BS_Baldurans_Seatower](https://github.com/Gibberlings3/BS_Baldurans_Seatower)，汉化来自[yoshimo的整合版](https://pan.baidu.com/s/1SUm7pj8mj5NjUXZYenJsFg?pwd=zqkl)
-  5. 增加[valen](https://github.com/yoshimo0417/ValenEE)，NPC
-  6. 增加[tyrisflare](https://github.com/Gibberlings3/TyrisFlare)，NPC
-  7. 增加[Coran](https://github.com/Pocket-Plane-Group/Coran_for_BGII)，NPC
-  8. 移除武器平衡mod，需要可以自己安装
-  9. 头像更新
-  10. 增加[npc_ee](https://github.com/UnearthedArcana/NPC_EE)，给NPC换职业，AI汉化
-  11. 提高亮度
-* 2024/09/11: 安装log: log/WeiDU0911.log
-  1. 更新STRATAGEMS到35.20
-  2. 去掉SOD2BG2_IU这个mod
-  3. INNERSHADE，改为中文，错误安装为法文了
-  4. 冰风谷1经验增加
-  5. 其它小调整
-  6. 请使用zzsave来升级存档，仅供测试，做好备份。如果觉得存档升级有问题，请使用旧版本，不要升级。（patch/zzsave）
-* 2024/09/06: 安装log: log/WeiDU0906.log
-  1. 更新gorgon、检查身体、恐怖地带中文翻译
-  2. 增加异次元球mod，https://github.com/The-Gate-Project/PlanarSphere，汉化来自trow：https://trow.cc/board/showtopic=15767&st=0
-  3. 请使用zzsave来升级存档，仅供测试，做好备份。如果存档升级有问题，请使用旧版本，不要升级。（patch/zzsave）
-* 2024/08/31: 更新0823.2版本，不需要重开，完全兼容0823版本。安装log: log/WeiDU0823.2.log
-  1. 更新一些翻译
-  2. 根据群里的讨论，移除cdtweaks 2440，对战士有影响
-  3. 移除IWD_EET_INTEGRATION里为独立战役准备的怪物和经验调整，一般都是从bg1里玩的，但保留独立战役
-  4. 学着写脚本：将暗黑地平线怪物经验降低80%
-* 2024/08/23，安装log: log/WeiDU0823.log
-  1. 更新大量yoshimo0417的中文翻译，更新Lzw104522773和MephistoSatanDevil的翻译
-  2. 增加mod：ToA，由yoshimo0417翻译，https://github.com/yoshimo0417/ToA26/tree/master/ToA
-  3. 合并冰风谷的最新更新，可能会和bgiwdeasy不兼容导致问题，没有测试
-  4. 移除TomeAndBlood的兼职术士部分，好多问题
-  5. 移除ENHANCED-POWERGAMING-SCRIPTS，人物会不攻击，感谢群友“车干”测试
-  6. 更新STRATAGEMS到35.19
-* 2024/08/21，安装log：log/WeiDU0821.log：
-  1. 修复手杖的问题
-  2. 世界地图改为中文
-  3. TomeAndBlood只有术士兼职，兼职术士的法术计数在穿上和脱下盔甲的时候会翻倍，我自己修复了，可能有问题，不建议兼职术士
-  4. 增加mod：REFLECTIONS，命运的倒影，https://github.com/subtledoctor/Reflections-of-Destiny
-  5. 增加mod：MORPHEUS562-S-KITPACK，各种职业，https://www.morpheus-mart.com/morpheus562s-kitpack
-  6. 增加mod：ENHANCED-POWERGAMING-SCRIPTS，增强脚本，https://www.morpheus-mart.com/enhanced-powergaming-scripts
-* 2024/08/19，安装log：log/WeiDU0819.log
-  1. 修复了很多乱码的问题
-  2. 更新bgiwdeasy、improvemonk等mod
-  3. 增加了TOMEANDBLOOD，术士可以兼职
-  4. 增加TACTICS-REMIX，巅峰之战很多增强
-  5. 增加了IWD_EET_INTEGRATION，冰风谷可以独立战役
-  6. 安装完冰风谷2后，修复投射文件
-  7. 修复冰风谷加速的问题，移植自0605版本
-* 2024/08/11: 少量更新和调整，增加崔斯特传奇、埋骨之丘、戈尔贡之眼等，安装mod的log参见：log/WeiDU0811.log
+
+注意：
+1. 请备份你自己游戏的dialog.dlg，然后再下载更新到新的版本。
+2. 使用patch下的zzsave，可以将旧存档升级到新的存档，这样就不需要重新开始游戏了。具体请阅读zzsave下的README。网盘下有旧版本的dialog.dlg下载，如果你没有备份你自己的dialog.dlg，建议使用这个。
+3. 文档升级不可能完美，介意的话请重新开始。
+
+* 20250821，更新了新的版本，包括了所有mod的安装文件
 
 ## 感谢
 
-感谢[刘酒](https://github.com/Lzw104522773)、[MephistoSatanDevil](https://github.com/MephistoSatanDevil)、[yoshimo](https://github.com/yoshimo0417)等人的辛苦付出，汉化了如此多的mod，让我们重回费伦大陆。
+1. [刘酒](https://github.com/Lzw104522773)
+2. [MephistoSatanDevil](https://github.com/MephistoSatanDevil)
+3. [yoshimo](https://github.com/yoshimo0417)
+4. 其它所有mod作者
+感谢所有人的辛苦付出。
+

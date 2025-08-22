@@ -1,0 +1,126 @@
+﻿Early Stuff
+1. DLC Merger ( https://forums.beamdog.com/discussion/71305/mod-dlc-merger-merge-steam-gog-sod-dlc-or-custom-dlcs-with-the-main-game )
+2. EEFixpack ( Maybe?)
+3. Spell Menu Extended (https://github.com/Bubb13/Bubbs-Spell-Menu-Extended )
+4. EET_Core ( https://github.com/Gibberlings3/EET )
+5. EEX ( https://github.com/Bubb13/EEex )
+6. Bub’s Pathfindering Revert
+
+
+
+
+Content
+
+
+1. Another Fine Hell (  https://github.com/Gibberlings3/Another_Fine_Hell )
+   1. Before Jatsey’s SoD
+2.  Jatsey’s SoD tweaks( https://www.gibberlings3.net/mods/tweaks/jasteys-sod-tweak-pack/ )
+   1. Needs to be before other mods with SoD content (e.g. black hearts)
+3. Black Hearts ( https://github.com/A-Wizard-Did-It/Black-Hearts )
+4. The Boareskyr Bridge Scene ( https://www.gibberlings3.net/mods/quests/tbbs/ )
+5. !!! ROAD TO DISCOVERY GETS INSTALLED MUCH LATER !!!
+6. BG1 mini quests and encounters ( https://www.gibberlings3.net/mods/quests/bgqe/ )
+7. Ascalon’s Quest Pack ( https://github.com/Gitjas/Ascalons_Questpack )
+8. Shades of the Sword Coast ( https://downloads.weaselmods.net/download/shades-of-the-sword-coast/ ) 
+9. BG1 NPC Project ( https://www.gibberlings3.net/files/file/908-bg1-npc-project/ )
+10. The Vanishing of Skie Shattershield ( https://downloads.weaselmods.net/download/the-vanishing-of-skie-silvershield/ )
+11. Candlekeep Reivisted ( https://artisans-corner.com/candlekeep-revisited-2/ )
+12. BG2 Unfinished Business ( https://github.com/Pocket-Plane-Group/UnfinishedBusiness )
+13. Almateria’s Restoration Project ( https://github.com/Spellhold-Studios/Almaterias-Restoration-Project?tab=readme-ov-file )
+14. Hidden Adventures ( https://github.com/Gitjas/hiddenadventure )
+15. Athkatlan Grounds Series ( https://downloads.weaselmods.net/tag/athkatlan-grounds/ )
+   1. Southern Edge
+   2. The Ooze’s Lounge
+   3. The Tangled Oak Isle
+   4. Bridge’s BLock
+   5. Alabaster Sands
+16. Ascension ( https://github.com/Gibberlings3/Ascension  )
+   1. Story changes only
+17. !!! Crucible goes after SCS !!!
+
+
+Companions
+
+
+1. Lava BG1
+   1. Walahnan ( https://downloads.weaselmods.net/download/walahnan-bg1ee/ ) 
+2. Skitia BG1
+   1. Emily
+   2. Helga
+   3. Recorder
+   4. Vienxay  ( https://skitias-stories.com/mods-view.php?name=Vienxay )
+3. Lava BG2
+   1. Walahnan ( https://downloads.weaselmods.net/download/walahnan-bg2ee/ ) 
+4. The Cost of One Girl’s Soul ( https://downloads.weaselmods.net/download/skie-the-cost-of-one-girls-soul/ )
+5. Skitia BG2 (  https://github.com/Skitia/SkitiaNPCs )
+6. Walahnan BG2 ( https://downloads.weaselmods.net/download/walahnan-bg2ee/ )
+
+
+Dialogue Changes:
+1. Road to Disocvery ( https://www.gibberlings3.net/mods/other/road_to_discovery/ )
+2. BG2 Flirt Pack https://www.pocketplane.net/npc-flirt-packs/ 
+3. BG2 Banter Pack https://www.pocketplane.net/banter-packs/
+4. IEP Banter https://github.com/Gitjas/IEP_Extended_Banter 
+5. Mazzy Friendship https://github.com/SpellholdStudios/MazzyFriendship 
+6. Neera Expansion https://spellholdstudios.github.io/readmes/neera-expansion-readme-english.html 
+7. Neera Banters https://github.com/The-Gate-Project/NeeraBanters/ 
+8. Crossmod Banter Pack ( https://www.gibberlings3.net/mods/npcs/crossmod/ )
+
+
+New Items:
+1. Forgotten Armaments ( https://www.morpheus-mart.com/forgotten-armament )
+   1. Skip item updates (using ZSTweaks ) (No NWN weapons or Armor Overhaul)
+2. Of Heirlooms and Classes https://downloads.weaselmods.net/download/of-heirlooms-and-classes/ 
+3. Under Represented Items ( https://github.com/Pocket-Plane-Group/Under-Respresented_Items )
+
+
+
+
+More Spells:
+1. IWDification ( https://www.gibberlings3.net/mods/spells/iwdification/ )
+   1. At least the spell packs? Have to figure out compatibility of rest
+
+
+
+
+Kit Mods:
+1. Will to Power ( https://github.com/UnearthedArcana/Will_to_Power )
+2. Bardic Wonders
+   1. Wants to be after item mods for bardic casting in studded leather.
+3. The Artisan’s Kitpack
+   1. Give Emily Arcane Archer
+   2. Give Mazzy Divine Champion
+   3. Whatever other kits I feel like clicking should be fine I think
+4. Morepheus562’s Kitpack ( https://www.morpheus-mart.com/morpheus562s-kitpack )
+   1. Goes after item mods
+5. Improved Shamanic Dance ( https://github.com/Argent77/A7-ImprovedShamanicDance )
+
+
+Tweaks:
+1. ZS Tweaks ( https://github.com/szaumoor/ZSTweaks )
+   1. After all item mods for item changes
+   2. After IWDification for spell changes
+   3. Class and kit – skip components that conflict with Artisan’s Kitpack (Mostly monk related)
+   4. No stat/weapon style changes since they are linked (some conflict w/ House Rules, some w/ Skills and abilities)
+2. House Rules (Artisan)
+   1. skip all proficiency related options (skills and abilities)
+   2. Skip cha to turn undead  (skills and abilities)
+3. 5E spell casting pending compatibility? ( https://github.com/UnearthedArcana/5E_spellcasting )
+4. CDTweaks
+   1. Nothing related to specific kits or proficiencies
+
+
+Sword Coast Stratagems
+1. As far as SCS goes, you probably want (these are all component names) IWD Divine spells, spells increased in power (tweaks some spells to make more sense with the SCS changes), smarter mages, smarter priests, smarter general AI and probably not too much else if you're going for a vanilla+ experience.
+2. Dragon upgrades. NOT vampires
+
+
+Late Stuff
+1. Crucible ( https://www.morpheus-mart.com/crucible )
+2. Kjeron’s Trap Overhaul ( https://forums.beamdog.com/discussion/71763/trap-detection-recovery-evasion/ )
+3. Skills and abilities
+   1. Let this handle proficiencies
+   1. Goes after SCS or Tactics Remix
+
+
+EET End

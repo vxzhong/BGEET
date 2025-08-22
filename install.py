@@ -110,12 +110,17 @@ def parse_install_order(toml_config, installed, order_file):
                 setup_exe = os.path.join(install_dir, f"setup-{mod_name}.exe")
                 if not os.path.exists(setup_exe):
                     print(f"复制 {mod_dir} 到 {install_dir}")
-                    shutil.copytree(
-                        mod_dir,
-                        install_dir,
-                        dirs_exist_ok=True,
-                        ignore=shutil.ignore_patterns(".git"),
-                    )
+                    try:
+                        shutil.copytree(
+                            mod_dir,
+                            install_dir,
+                            dirs_exist_ok=True,
+                            ignore=shutil.ignore_patterns(".git"),
+                        )
+                    except Exception as e:
+                        print(f"复制 {mod_dir} 到 {install_dir} 失败: {e}")
+                        continue
+
                 copied[mod_name] = True
 
             language = 0
@@ -158,11 +163,17 @@ def uninstall_mods_order(
         if mod_component:
             mods = mod_component.split(" ")
             for mod_component in mods:
-                installed.pop(f"{mod_name}_{mod_component}")
+                try:
+                    installed.pop(f"{mod_name}_{mod_component}")
+                except KeyError:
+                    pass
         else:
             for i in list(installed.keys()):
                 if i.startswith(mod_name):
-                    installed.pop(i)
+                    try:
+                        installed.pop(i)
+                    except KeyError:
+                        pass
 
 
 first = extract_bgt_zip(bgt_path)
